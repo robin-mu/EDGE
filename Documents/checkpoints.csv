@@ -1,0 +1,2027 @@
+id,name,position,respawn_z,radius_x,radius_y
+817,babylonian,"33,33,6",6,0,1
+817,babylonian,"32,35,11",11,0,0
+817,babylonian,"32,35,17",17,1,0
+817,babylonian,"32,35,20",20,0,0
+817,babylonian,"31,35,23",23,1,1
+817,babylonian,"34,34,26",26,0,0
+817,babylonian,"31,36,26",26,0,0
+817,babylonian,"30,36,29",29,0,0
+816,chunk,"10,3,4",4,0,0
+816,chunk,"8,5,5",5,0,0
+816,chunk,"5,9,3",3,1,0
+816,chunk,"1,10,2",2,0,1
+816,chunk,"0,7,5",5,1,0
+816,chunk,"7,5,8",8,0,0
+816,chunk,"7,1,8",8,0,0
+816,chunk,"12,1,8",8,0,1
+816,chunk,"12,2,1",1,1,0
+816,chunk,"17,1,1",1,0,0
+816,chunk,"18,4,1",1,0,0
+816,chunk,"18,10,1",1,0,0
+816,chunk,"16,19,1",1,1,0
+816,chunk,"4,18,1",1,1,1
+816,chunk,"8,15,3",3,0,1
+816,chunk,"14,15,3",3,0,1
+816,chunk,"16,23,1",1,0,0
+805,compost,"5,20,1",1,2,0
+805,compost,"4,14,1",1,1,0
+805,compost,"3,11,3",3,0,0
+805,compost,"2,17,4",4,0,0
+805,compost,"1,22,4",4,1,0
+805,compost,"1,25,3",3,0,0
+805,compost,"1,35,2",2,0,0
+805,compost,"0,41,1",1,0,0
+805,compost,"6,46,1",1,0,1
+805,compost,"9,35,1",1,0,1
+805,compost,"13,35,1",1,1,1
+805,compost,"13,9,1",1,2,1
+805,compost,"21,7,1",1,1,0
+805,compost,"21,0,4",4,1,0
+805,compost,"26,0,4",4,1,0
+805,compost,"29,4,3",3,0,1
+805,compost,"30,15,1",1,0,1
+805,compost,"30,24,1",1,0,1
+805,compost,"28,29,5",5,0,0
+805,compost,"29,35,1",1,1,1
+805,compost,"23,39,1",1,1,0
+805,compost,"22,39,3",3,0,0
+808,cubism,"9,26,3",3,0,0
+808,cubism,"12,21,2",2,0,0
+808,cubism,"12,18,3",3,0,0
+808,cubism,"12,23,6",6,0,0
+808,cubism,"8,25,5",5,0,0
+808,cubism,"5,24,8",8,0,0
+808,cubism,"8,24,8",8,1,1
+806,density,"11,1,3",3,0,1
+806,density,"6,6,4",4,0,0
+806,density,"1,7,3",3,0,0
+806,density,"1,9,3",3,0,0
+806,density,"1,13,4",4,1,0
+806,density,"5,15,2",4,0,0
+806,density,"1,15,1",1,0,1
+806,density,"10,11,1",1,0,1
+806,density,"13,9,1",1,0,0
+806,density,"17,7,1",1,0,0
+806,density,"17,4,3",3,0,0
+1,ending_extended_allcomplete,"3,1,5",5,0,0
+800,fireworks,"26,3,2",3,0,1
+800,fireworks,"21,6,1",1,0,0
+800,fireworks,"18,3,4",4,0,0
+800,fireworks,"18,7,1",1,0,0
+800,fireworks,"15,10,1",1,0,0
+800,fireworks,"15,15,1",1,0,1
+800,fireworks,"15,25,1",1,0,2
+800,fireworks,"14,9,3",3,1,0
+800,fireworks,"8,23,3",3,1,0
+800,fireworks,"4,26,1",1,1,0
+800,fireworks,"5,32,1",1,0,1
+800,fireworks,"12,32,1",1,1,1
+800,fireworks,"16,42,2",2,0,1
+800,fireworks,"28,42,1",1,0,1
+800,fireworks,"45,37,1",1,1,0
+800,fireworks,"48,30,1",1,0,1
+800,fireworks,"52,36,1",1,0,1
+800,fireworks,"53,30,1",1,1,1
+800,fireworks,"40,33,1",2,0,1
+800,fireworks,"33,29,2",2,0,0
+800,fireworks,"33,19,2",2,0,0
+800,fireworks,"41,20,1",1,1,1
+800,fireworks,"39,17,1",1,0,1
+800,fireworks,"41,12,4",4,1,0
+653800,"EDGE Old Levels
+fireworks (PC)","24,2,3",3,0,0
+653800,"EDGE Old Levels
+fireworks (PC)","19,5,2",2,0,0
+653800,"EDGE Old Levels
+fireworks (PC)","16,2,5",5,0,0
+653800,"EDGE Old Levels
+fireworks (PC)","16,6,2",2,0,0
+653800,"EDGE Old Levels
+fireworks (PC)","13,9,2",2,0,0
+653800,"EDGE Old Levels
+fireworks (PC)","13,14,2",2,0,0
+653800,"EDGE Old Levels
+fireworks (PC)","13,24,2",2,0,1
+653800,"EDGE Old Levels
+fireworks (PC)","6,22,4",4,2,0
+653800,"EDGE Old Levels
+fireworks (PC)","11,11,4",4,1,0
+653800,"EDGE Old Levels
+fireworks (PC)","3,22,5",5,0,0
+653800,"EDGE Old Levels
+fireworks (PC)","2,25,2",2,1,0
+653800,"EDGE Old Levels
+fireworks (PC)","4,31,2",2,0,0
+653800,"EDGE Old Levels
+fireworks (PC)","9,31,2",2,0,0
+653800,"EDGE Old Levels
+fireworks (PC)","14,41,2",2,0,0
+653800,"EDGE Old Levels
+fireworks (PC)","26,41,2",2,0,0
+653800,"EDGE Old Levels
+fireworks (PC)","29,36,2",2,0,0
+653800,"EDGE Old Levels
+fireworks (PC)","29,32,2",2,1,0
+653800,"EDGE Old Levels
+fireworks (PC)","29,28,2",2,1,0
+653800,"EDGE Old Levels
+fireworks (PC)","31,24,2",2,1,0
+653800,"EDGE Old Levels
+fireworks (PC)","28,22,3",3,0,0
+653800,"EDGE Old Levels
+fireworks (PC)","37,20,5",5,1,0
+653800,"EDGE Old Levels
+fireworks (PC)","44,20,3",3,0,0
+653800,"EDGE Old Levels
+fireworks (PC)","47,29,1",1,1,0
+653800,"EDGE Old Levels
+fireworks (PC)","47,37,1",1,1,0
+818,404,"42,23,1",1,0,1
+818,404,"38,27,1",1,0,0
+818,404,"34,24,1",1,1,0
+818,404,"34,22,1",1,1,0
+818,404,"30,23,3",3,0,1
+818,404,"28,17,3",3,1,0
+818,404,"7,10,3",3,1,2
+818,404,"7,16,3",4,1,0
+818,404,"7,26,3",4,1,0
+818,404,"17,32,4",4,0,0
+818,404,"22,41,3",3,0,1
+818,404,"24,41,3",4,0,1
+818,404,"31,37,2",2,0,1
+818,404,"38,38,2",2,0,0
+818,404,"37,40,1",1,0,1
+802,gears,"19,68,1",1,0,0
+802,gears,"13,68,1",1,0,1
+802,gears,"10,65,1",1,1,0
+802,gears,"11,61,3",3,0,0
+802,gears,"18,58,1",1,0,0
+802,gears,"24,58,1",1,0,1
+802,gears,"27,55,1",1,0,1
+802,gears,"27,42,4",5,0,0
+802,gears,"12,42,4",4,0,1
+802,gears,"19,38,3",3,0,0
+802,gears,"17,33,3",3,0,0
+802,gears,"8,29,3",3,0,1
+802,gears,"8,30,3",3,0,1
+802,gears,"7,12,1",1,1,0
+802,gears,"11,9,1",1,0,1
+802,gears,"18,8,1",1,1,0
+802,gears,"18,5,1",1,0,1
+802,gears,"25,7,1",1,1,0
+802,gears,"25,18,2",2,1,0
+802,gears,"21,22,1",1,0,1
+802,gears,"3,22,2",2,0,1
+802,gears,"1,13,1",1,1,0
+812,goliath,"3,17,4",4,1,0
+812,goliath,"6,12,3",3,0,1
+812,goliath,"13,12,1",1,0,1
+812,goliath,"20,12,1",1,0,1
+812,goliath,"24,16,1",1,1,0
+812,goliath,"20,20,1",1,0,1
+812,goliath,"17,23,1",1,1,0
+812,goliath,"20,26,1",1,0,1
+812,goliath,"27,26,1",1,0,1
+812,goliath,"31,23,1",1,1,0
+812,goliath,"31,16,1",1,1,0
+812,goliath,"26,4,1",1,0,1
+812,goliath,"3,3,12",12,1,1
+810,hammer,"3,13,3",3,0,0
+810,hammer,"19,13,2",2,0,0
+810,hammer,"24,17,2",2,0,0
+810,hammer,"28,21,2",2,0,0
+810,hammer,"20,23,3",3,0,0
+810,hammer,"21,27,3",3,0,1
+810,hammer,"25,40,4",4,0,0
+810,hammer,"49,40,2",2,0,0
+810,hammer,"53,40,2",2,1,1
+810,hammer,"59,35,3",3,0,0
+810,hammer,"54,29,5",5,0,0
+810,hammer,"58,29,4",4,0,0
+810,hammer,"50,29,21",21,0,0
+810,hammer,"37,24,5",5,0,0
+810,hammer,"41,20,3",3,1,1
+810,hammer,"51,20,3",3,0,1
+810,hammer,"53,13,2",3,0,0
+810,hammer,"55,14,3",3,0,1
+810,hammer,"64,14,3",3,0,1
+810,hammer,"64,10,4",4,0,0
+810,hammer,"65,4,3",3,0,0
+815,hangout,"16,24,2",2,0,0
+815,hangout,"16,14,5",5,1,0
+815,hangout,"22,2,3",3,0,0
+815,hangout,"27,2,3",3,0,0
+815,hangout,"30,2,3",3,0,0
+815,hangout,"38,1,6",6,1,0
+815,hangout,"40,17,2",2,1,1
+815,hangout,"39,23,2",2,1,0
+815,hangout,"36,26,2",2,1,0
+815,hangout,"26,28,5",5,1,1
+815,hangout,"16,24,2",2,0,0
+815,hangout,"16,14,5",5,1,0
+815,hangout,"22,2,3",3,0,0
+815,hangout,"27,2,3",3,0,0
+815,hangout,"30,2,3",3,0,0
+815,hangout,"38,1,6",6,1,0
+815,hangout,"40,17,2",2,1,1
+815,hangout,"39,23,2",2,1,0
+815,hangout,"36,26,2",2,1,0
+815,hangout,"26,28,5",5,1,1
+804,indiana,"3,60,1",1,0,1
+804,indiana,"8,52,1",1,0,0
+804,indiana,"3,46,4",4,0,0
+804,indiana,"9,43,1",1,0,0
+804,indiana,"13,26,1",1,1,1
+804,indiana,"12,22,3",3,0,0
+804,indiana,"8,19,4",4,0,2
+804,indiana,"25,30,1",1,0,1
+804,indiana,"31,28,1",1,1,0
+804,indiana,"31,22,1",1,1,0
+804,indiana,"31,14,1",1,1,0
+804,indiana,"34,10,1",1,1,0
+804,indiana,"39,5,1",1,0,0
+804,indiana,"44,5,1",1,0,0
+804,indiana,"49,5,1",1,1,0
+804,indiana,"50,12,3",3,1,0
+804,indiana,"51,16,1",1,1,1
+804,indiana,"51,28,1",1,1,0
+804,indiana,"46,38,1",1,0,0
+804,indiana,"46,43,1",1,0,0
+804,indiana,"43,46,1",1,0,0
+804,indiana,"38,46,1",1,0,1
+804,indiana,"31,51,3",3,2,0
+804,indiana,"32,55,1",2,0,0
+804,indiana,"35,57,1",1,0,1
+804,indiana,"32,57,3",3,1,0
+804,indiana,"30,60,2",2,0,0
+804,indiana,"30,68,1",1,0,0
+809,islands,"23,16,1",1,0,1
+809,islands,"22,16,4",4,0,0
+809,islands,"22,12,4",4,0,0
+809,islands,"25,11,4",4,0,0
+809,islands,"33,11,4",4,0,0
+809,islands,"33,16,4",4,0,0
+809,islands,"35,11,3",3,0,0
+809,islands,"38,13,1",1,0,0
+809,islands,"35,13,1",1,0,0
+809,islands,"38,16,1",1,0,0
+809,islands,"38,27,1",1,0,0
+809,islands,"33,25,1",1,0,2
+809,islands,"27,27,1",1,0,0
+809,islands,"26,23,1",1,0,0
+809,islands,"25,22,3",3,0,0
+809,islands,"22,22,3",3,0,0
+809,islands,"25,25,1",1,0,0
+809,islands,"16,24,1",1,0,0
+809,islands,"13,27,1",1,0,0
+809,islands,"12,26,4",4,0,0
+809,islands,"13,16,1",3,0,0
+809,islands,"12,11,4",4,0,0
+809,islands,"0,11,1",1,0,0
+809,islands,"3,13,2",2,0,0
+809,islands,"5,15,1",1,1,0
+809,islands,"15,12,1",1,0,0
+809,islands,"15,16,1",1,0,0
+809,islands,"16,1,1",1,0,0
+809,islands,"12,3,2",2,0,0
+809,islands,"11,2,4",4,0,0
+809,islands,"15,0,4",4,0,0
+809,islands,"14,4,1",1,0,0
+809,islands,"22,5,1",1,0,0
+809,islands,"25,0,1",1,2,0
+809,islands,"36,3,1",1,0,0
+653103,"EDGE Old Levels
+playground (java)","1,6,1",1,1,0
+653103,"EDGE Old Levels
+playground (java)","1,0,4",4,1,0
+653103,"EDGE Old Levels
+playground (java)","16,3,4",4,0,0
+653104,"EDGE Old Levels
+try again (java)","2,9,1",1,0,1
+653104,"EDGE Old Levels
+try again (java)","4,11,1",1,0,2
+653104,"EDGE Old Levels
+try again (java)","6,6,1",1,0,3
+653104,"EDGE Old Levels
+try again (java)","9,1,4",4,0,4
+653104,"EDGE Old Levels
+try again (java)","10,3,1",1,0,5
+653104,"EDGE Old Levels
+try again (java)","14,8,1",1,0,6
+653104,"EDGE Old Levels
+try again (java)","16,1,1",1,0,7
+653104,"EDGE Old Levels
+try again (java)","16,12,1",1,0,8
+653105,"EDGE Old Levels
+milky way (java)","8,27,1",1,0,0
+653105,"EDGE Old Levels
+milky way (java)","3,21,1",1,1,1
+653105,"EDGE Old Levels
+milky way (java)","1,11,1",1,1,0
+653105,"EDGE Old Levels
+milky way (java)","2,5,4",4,1,1
+653105,"EDGE Old Levels
+milky way (java)","5,3,4",4,1,1
+653105,"EDGE Old Levels
+milky way (java)","11,13,1",1,0,1
+653106,"EDGE Old Levels
+star castle (java)","5,16,1",1,0,1
+653106,"EDGE Old Levels
+star castle (java)","1,16,4",4,0,2
+653106,"EDGE Old Levels
+star castle (java)","10,13,4",4,0,3
+653106,"EDGE Old Levels
+star castle (java)","13,6,4",4,0,4
+653106,"EDGE Old Levels
+star castle (java)","8,3,4",4,0,5
+653106,"EDGE Old Levels
+star castle (java)","1,6,4",4,0,6
+653107,"EDGE Old Levels
+equalizer (java)","2,12,1",1,1,0
+653107,"EDGE Old Levels
+equalizer (java)","1,7,1",1,1,0
+653107,"EDGE Old Levels
+equalizer (java)","2,1,1",1,0,0
+653107,"EDGE Old Levels
+equalizer (java)","7,1,1",1,0,0
+653107,"EDGE Old Levels
+equalizer (java)","18,8,1",1,0,0
+653107,"EDGE Old Levels
+equalizer (java)","15,10,4",4,1,1
+653107,"EDGE Old Levels
+equalizer (java)","14,15,1",1,1,1
+653107,"EDGE Old Levels
+equalizer (java)","11,15,4",4,0,0
+653108,"EDGE Old Levels
+metronome (java)","2,13,1",1,1,1
+653108,"EDGE Old Levels
+metronome (java)","9,7,1",1,0,0
+653108,"EDGE Old Levels
+metronome (java)","13,3,1",1,1,1
+653108,"EDGE Old Levels
+metronome (java)","9,4,4",4,1,1
+653108,"EDGE Old Levels
+metronome (java)","12,19,4",4,0,1
+653108,"EDGE Old Levels
+metronome (java)","15,14,1",1,1,1
+653110,"EDGE Old Levels
+vertex (java)","10,0,1",1,0,0
+653110,"EDGE Old Levels
+vertex (java)","9,7,1",1,0,0
+653110,"EDGE Old Levels
+vertex (java)","8,10,1",1,1,1
+653110,"EDGE Old Levels
+vertex (java)","5,11,4",4,1,1
+653110,"EDGE Old Levels
+vertex (java)","2,15,1",1,1,1
+653110,"EDGE Old Levels
+vertex (java)","4,19,1",1,0,0
+653110,"EDGE Old Levels
+vertex (java)","21,19,1",1,0,0
+653110,"EDGE Old Levels
+vertex (java)","17,14,1",1,0,0
+653110,"EDGE Old Levels
+vertex (java)","19,11,1",1,0,0
+653111,"EDGE Old Levels
+orion (java)","3,27,1",1,0,0
+653111,"EDGE Old Levels
+orion (java)","3,21,2",2,0,0
+653111,"EDGE Old Levels
+orion (java)","3,18,2",2,0,0
+653111,"EDGE Old Levels
+orion (java)","3,13,1",1,0,0
+653111,"EDGE Old Levels
+orion (java)","3,8,1",1,0,0
+653111,"EDGE Old Levels
+orion (java)","5,4,1",1,1,1
+653112,"EDGE Old Levels
+edge master (java)","1,16,2",2,0,2
+653112,"EDGE Old Levels
+edge master (java)","3,16,2",2,0,2
+653112,"EDGE Old Levels
+edge master (java)","5,16,2",2,0,2
+653112,"EDGE Old Levels
+edge master (java)","8,17,1",1,1,2
+653112,"EDGE Old Levels
+edge master (java)","11,14,1",1,0,0
+653112,"EDGE Old Levels
+edge master (java)","17,11,1",1,0,0
+653112,"EDGE Old Levels
+edge master (java)","16,3,3",3,0,0
+653112,"EDGE Old Levels
+edge master (java)","8,1,4",4,0,0
+653113,"EDGE Old Levels
+sync the wall (java)","15,1,1",1,0,0
+653113,"EDGE Old Levels
+sync the wall (java)","17,8,1",1,1,1
+653113,"EDGE Old Levels
+sync the wall (java)","16,17,2",2,1,1
+653113,"EDGE Old Levels
+sync the wall (java)","4,17,1",1,1,1
+653113,"EDGE Old Levels
+sync the wall (java)","1,13,4",4,1,1
+653113,"EDGE Old Levels
+sync the wall (java)","1,5,4",4,0,0
+653113,"EDGE Old Levels
+sync the wall (java)","2,5,1",1,0,0
+653114,"EDGE Old Levels
+mecanic (java)","10,12,1",1,0,0
+653114,"EDGE Old Levels
+mecanic (java)","11,7,1",1,0,0
+653114,"EDGE Old Levels
+mecanic (java)","11,1,1",1,1,1
+653114,"EDGE Old Levels
+mecanic (java)","4,1,4",4,1,1
+653115,"EDGE Old Levels
+extra cube (java)","1,6,1",1,1,1
+653115,"EDGE Old Levels
+extra cube (java)","6,1,4",4,0,2
+201,bump,"12,2,5",6,0,0
+201,bump,"14,5,1",1,0,1
+201,bump,"7,10,1",2,1,1
+201,bump,"1,10,4",5,1,1
+202,mecanic,"12,11,1",1,0,1
+202,mecanic,"10,7,1",1,0,1
+202,mecanic,"10,1,1",2,1,1
+202,mecanic,"3,1,4",5,1,2
+204,hypnozone,"22,37,1",1,0,1
+204,hypnozone,"15,37,1",2,1,1
+204,hypnozone,"10,26,1",1,0,1
+204,hypnozone,"2,24,1",1,0,1
+204,hypnozone,"3,11,1",2,1,1
+204,hypnozone,"2,7,2",2,0,1
+204,hypnozone,"5,1,4",5,1,2
+204,hypnozone,"15,2,1",1,0,1
+204,hypnozone,"25,8,1",2,1,1
+204,hypnozone,"21,14,4",5,1,2
+204,hypnozone,"25,18,1",2,1,1
+206,equalizer,"5,10,4",4,1,2
+206,equalizer,"3,26,1",1,0,1
+206,equalizer,"6,26,1",1,0,1
+206,equalizer,"12,22,1",1,0,1
+206,equalizer,"22,20,1",1,0,1
+206,equalizer,"25,14,1",1,0,1
+206,equalizer,"25,7,1",1,0,1
+206,equalizer,"23,1,4",6,0,2
+220,vertigo,"18,49,1",1,0,1
+220,vertigo,"29,44,1",1,1,1
+220,vertigo,"28,40,4",5,1,0
+220,vertigo,"42,42,1",2,1,1
+220,vertigo,"45,51,1",1,0,1
+220,vertigo,"40,54,1",1,0,1
+220,vertigo,"43,57,1",1,0,1
+220,vertigo,"23,59,1",1,0,1
+220,vertigo,"12,63,1",1,0,1
+220,vertigo,"8,45,1",1,0,1
+220,vertigo,"2,39,11",11,0,0
+220,vertigo,"7,31,28",28,0,1
+220,vertigo,"17,14,4",4,0,0
+220,vertigo,"26,14,4",4,0,0
+220,vertigo,"36,19,1",1,0,1
+221,earthquake,"64,45,1",1,0,1
+221,earthquake,"33,45,1",1,0,1
+221,earthquake,"24,49,1",3,0,1
+221,earthquake,"19,49,1",3,0,1
+221,earthquake,"13,49,1",4,0,1
+221,earthquake,"4,45,1",1,2,1
+221,earthquake,"3,35,1",1,0,0
+221,earthquake,"16,28,1",1,0,1
+221,earthquake,"66,28,1",1,0,1
+221,earthquake,"68,7,1",2,1,1
+221,earthquake,"63,14,1",1,0,1
+221,earthquake,"58,14,1",1,0,1
+221,earthquake,"40,13,1",1,0,1
+221,earthquake,"32,3,4",5,1,2
+221,earthquake,"29,8,4",5,1,2
+221,earthquake,"16,14,1",2,1,1
+221,earthquake,"16,2,1",2,0,1
+221,earthquake,"8,13,1",3,1,2
+222,sliced,"6,37,1",1,1,1
+222,sliced,"9,33,1",1,1,1
+222,sliced,"17,29,1",2,1,1
+222,sliced,"22,36,1",3,1,1
+222,sliced,"26,36,1",4,1,1
+222,sliced,"40,32,2",2,0,1
+222,sliced,"42,20,1",1,1,1
+222,sliced,"24,11,1",1,0,1
+222,sliced,"21,14,1",2,0,1
+222,sliced,"10,17,1",1,0,1
+300,training,"4,22,1",2,1,1
+300,training,"4,9,1",2,1,1
+300,training,"3,8,4",5,1,2
+300,training,"10,3,1",1,0,1
+300,training,"22,12,2",2,0,1
+300,training,"23,21,1",1,0,1
+301,metro,"12,8,1",1,1,1
+301,metro,"9,12,1",4,0,2
+301,metro,"9,30,1",3,0,1
+301,metro,"9,34,1",2,0,2
+301,metro,"11,54,1",1,0,0
+301,metro,"11,50,1",1,0,0
+301,metro,"2,47,3",3,0,0
+301,metro,"5,52,1",5,0,2
+301,metro,"5,32,1",5,0,2
+302,try again,"30,18,1",2,1,1
+302,try again,"27,6,1",2,2,1
+302,try again,"15,5,1",1,0,1
+302,try again,"6,9,1",2,1,1
+302,try again,"2,15,1",1,1,1
+302,try again,"4,21,1",1,1,1
+302,try again,"5,26,1",2,1,1
+302,try again,"3,34,4",5,1,2
+302,try again,"17,33,4",4,1,2
+302,try again,"18,27,1",2,1,1
+302,try again,"20,22,1",1,0,1
+302,try again,"22,16,1",1,1,1
+302,try again,"20,14,4",4,0,2
+303,metronome,"38,18,1",1,0,1
+303,metronome,"36,16,4",4,0,2
+303,metronome,"39,8,1",1,1,1
+303,metronome,"38,1,4",4,1,1
+303,metronome,"29,2,1",2,1,1
+303,metronome,"27,34,1",1,1,1
+303,metronome,"22,32,4",5,0,2
+303,metronome,"16,25,4",4,0,2
+303,metronome,"13,25,4",4,1,1
+303,metronome,"16,18,4",4,1,1
+303,metronome,"17,4,4",4,1,2
+303,metronome,"19,1,2",2,1,1
+303,metronome,"19,2,1",2,0,1
+303,metronome,"12,15,6",7,1,1
+304,beat,"54,18,1",2,1,1
+304,beat,"48,14,3",3,0,2
+304,beat,"56,9,1",2,1,1
+304,beat,"59,3,1",1,0,1
+304,beat,"63,1,4",4,0,1
+304,beat,"55,1,4",4,0,1
+304,beat,"46,4,1",1,0,1
+304,beat,"40,6,1",1,1,1
+304,beat,"38,15,1",1,1,1
+304,beat,"27,15,1",2,0,1
+304,beat,"10,12,1",2,1,1
+304,beat,"1,12,4",5,1,1
+304,beat,"30,41,4",4,3,0
+305,higher,"30,24,1",1,0,1
+305,higher,"31,33,1",2,1,1
+305,higher,"25,37,1",1,0,1
+305,higher,"32,45,1",1,0,1
+305,higher,"41,43,1",1,0,1
+305,higher,"39,2,2",2,1,1
+305,higher,"35,2,1",2,1,1
+305,higher,"28,6,1",1,1,1
+305,higher,"26,6,1",1,0,2
+305,higher,"21,4,1",1,1,0
+305,higher,"18,5,1",3,1,2
+305,higher,"11,5,1",2,0,1
+305,higher,"8,7,1",2,0,1
+305,higher,"3,8,2",2,1,1
+305,higher,"2,14,4",4,0,1
+305,higher,"2,31,4",5,1,2
+305,higher,"10,31,4",4,0,1
+305,higher,"11,20,2",2,0,0
+306,snap,"31,13,1",1,0,1
+306,snap,"27,19,1",1,0,1
+306,snap,"27,30,1",1,0,1
+306,snap,"9,30,1",1,0,1
+306,snap,"6,25,1",1,0,1
+306,snap,"4,17,4",4,1,2
+306,snap,"11,16,1",1,0,1
+306,snap,"14,6,1",1,0,1
+306,snap,"21,5,1",1,0,1
+306,snap,"14,2,4",5,1,2
+306,snap,"6,4,4",4,1,2
+307,chess,"1,24,2",3,1,1
+307,chess,"4,16,2",2,0,1
+307,chess,"5,9,2",2,0,1
+307,chess,"20,5,1",1,0,1
+307,chess,"22,11,2",2,0,1
+307,chess,"22,19,2",3,1,1
+307,chess,"18,23,4",11,0,2
+307,chess,"33,23,1",2,1,1
+307,chess,"39,18,1",2,1,1
+307,chess,"39,8,1",2,1,1
+307,chess,"41,5,1",1,0,1
+307,chess,"41,3,1",1,0,1
+307,chess,"48,9,1",2,1,0
+307,chess,"54,25,1",1,0,1
+308,sticker,"35,2,1",1,0,1
+308,sticker,"20,2,1",1,0,1
+308,sticker,"16,11,1",1,0,1
+308,sticker,"16,21,1",1,0,1
+308,sticker,"16,26,1",1,0,1
+308,sticker,"15,25,4",4,1,0
+308,sticker,"1,35,1",1,0,1
+308,sticker,"12,36,1",2,1,1
+308,sticker,"17,35,4",4,0,2
+308,sticker,"25,34,2",2,0,1
+308,sticker,"34,31,1",1,1,1
+308,sticker,"29,23,1",1,0,1
+308,sticker,"33,22,4",4,1,2
+308,sticker,"38,15,1",1,0,1
+309,1st contact,"6,22,1",1,0,1
+309,1st contact,"7,5,2",3,2,0
+309,1st contact,"11,1,4",4,0,0
+309,1st contact,"6,22,1",1,0,1
+309,1st contact,"7,5,2",3,2,0
+309,1st contact,"11,1,4",4,0,0
+310,playground,"7,31,2",4,1,1
+310,playground,"13,35,1",1,0,0
+310,playground,"16,32,1",3,2,1
+310,playground,"16,18,3",5,1,2
+310,playground,"22,3,2",2,0,0
+311,speedrun,"16,11,1",3,1,1
+311,speedrun,"4,23,1",2,1,1
+311,speedrun,"25,25,1",1,0,1
+311,speedrun,"27,24,1",1,0,1
+311,speedrun,"47,21,1",2,0,1
+311,speedrun,"59,32,1",2,0,1
+311,speedrun,"62,33,2",3,1,1
+653311,"EDGE Old Levels
+speedrun (mobile)","16,10,1",1,1,2
+653311,"EDGE Old Levels
+speedrun (mobile)","4,22,1",1,1,1
+653311,"EDGE Old Levels
+speedrun (mobile)","27,23,1",1,1,0
+653311,"EDGE Old Levels
+speedrun (mobile)","47,20,1",1,0,1
+653311,"EDGE Old Levels
+speedrun (mobile)","62,32,2",2,1,1
+312,peripherique,"2,30,4",4,0,2
+312,peripherique,"17,24,1",2,0,1
+312,peripherique,"29,16,1",2,0,1
+312,peripherique,"21,16,1",2,0,1
+312,peripherique,"17,24,1",2,0,1
+312,peripherique,"22,28,1",1,1,1
+312,peripherique,"24,40,1",1,1,1
+313,2nd contact,"5,9,1",2,0,1
+313,2nd contact,"10,2,1",3,0,1
+314,speedrun 2,"17,8,1",1,0,1
+314,speedrun 2,"4,22,1",2,1,1
+314,speedrun 2,"26,23,1",1,1,1
+314,speedrun 2,"47,20,1",2,0,1
+314,speedrun 2,"59,31,1",2,0,1
+314,speedrun 2,"62,32,2",3,1,1
+653314,"EDGE Old Levels
+speedrun 2 (mobile)","17,8,1",1,0,0
+653314,"EDGE Old Levels
+speedrun 2 (mobile)","4,22,1",1,1,1
+653314,"EDGE Old Levels
+speedrun 2 (mobile)","26,23,1",1,1,0
+653314,"EDGE Old Levels
+speedrun 2 (mobile)","47,20,1",1,0,1
+653314,"EDGE Old Levels
+speedrun 2 (mobile)","62,32,2",2,1,1
+315,edge code,"17,18,1",3,1,1
+315,edge code,"17,8,1",1,1,1
+315,edge code,"12,4,1",3,1,1
+315,edge code,"7,1,1",1,0,1
+315,edge code,"1,4,1",2,1,1
+317,starfield,"30,50,1",1,3,0
+317,starfield,"38,37,2",2,2,0
+317,starfield,"26,25,3",3,0,2
+317,starfield,"3,40,1",2,1,1
+317,starfield,"12,42,1",1,1,0
+317,starfield,"17,39,3",3,0,1
+317,starfield,"25,14,2",2,0,1
+317,starfield,"14,4,1",1,0,1
+317,starfield,"15,1,2",2,0,1
+317,starfield,"4,4,1",2,1,1
+318,extra cube,"38,60,1",1,0,1
+318,extra cube,"33,73,1",4,1,1
+318,extra cube,"27,74,1",1,0,1
+318,extra cube,"20,74,1",1,0,1
+318,extra cube,"13,74,1",1,0,1
+318,extra cube,"3,74,1",1,0,1
+318,extra cube,"3,68,4",4,1,2
+318,extra cube,"8,57,1",2,1,1
+318,extra cube,"24,39,1",2,1,1
+318,extra cube,"21,38,4",4,0,2
+318,extra cube,"18,38,3",3,0,2
+318,extra cube,"3,45,4",5,1,2
+318,extra cube,"3,35,4",4,1,2
+318,extra cube,"6,24,4",4,1,2
+318,extra cube,"16,27,1",1,0,1
+318,extra cube,"38,20,1",2,1,1
+318,extra cube,"38,16,4",5,1,2
+319,bonus,"8,31,2",2,0,1
+319,bonus,"9,27,2",2,0,1
+319,bonus,"9,20,2",3,0,1
+319,bonus,"11,20,2",3,0,1
+319,bonus,"9,11,3",3,1,2
+319,bonus,"12,2,3",4,0,2
+319,bonus,"19,1,4",4,0,2
+319,bonus,"26,0,4",4,1,1
+319,bonus,"24,8,3",3,1,0
+319,bonus,"23,13,4",4,1,0
+319,bonus,"26,28,2",3,1,1
+319,bonus,"25,32,2",2,0,1
+319,bonus,"21,33,2",2,0,1
+319,bonus,"19,38,1",1,0,1
+319,bonus,"17,48,1",2,0,1
+319,bonus,"15,52,1",1,1,1
+319,bonus,"11,51,4",4,0,1
+319,bonus,"8,52,1",1,0,1
+319,bonus,"8,58,1",1,0,1
+319,bonus,"25,58,1",1,0,1
+319,bonus,"34,59,1",1,0,1
+319,bonus,"38,31,1",2,0,1
+319,bonus,"36,24,2",2,0,1
+319,bonus,"37,13,2",2,0,1
+319,bonus,"39,7,2",2,1,1
+36,pushing stars,"12,31,1",3,1,1
+36,pushing stars,"17,31,1",2,0,1
+36,pushing stars,"25,27,3",3,0,2
+36,pushing stars,"21,21,4",4,1,2
+36,pushing stars,"21,15,4",5,1,2
+36,pushing stars,"24,14,1",2,1,1
+36,pushing stars,"29,13,1",1,0,1
+36,pushing stars,"29,1,1",1,0,1
+37,city rythm,"6,24,1",1,0,1
+37,city rythm,"8,31,1",2,1,1
+37,city rythm,"12,31,1",2,1,1
+37,city rythm,"19,27,1",2,1,1
+37,city rythm,"18,18,3",4,1,2
+37,city rythm,"20,14,1",2,1,1
+37,city rythm,"19,10,1",3,1,1
+37,city rythm,"25,7,1",2,1,1
+37,city rythm,"25,4,4",4,0,2
+37,city rythm,"31,2,3",3,0,2
+37,city rythm,"34,2,3",3,0,2
+38,milky way,"13,28,4",5,1,2
+38,milky way,"13,24,4",5,1,2
+38,milky way,"15,21,1",2,1,1
+38,milky way,"16,19,4",5,0,2
+38,milky way,"17,12,4",5,1,2
+38,milky way,"23,11,3",4,1,2
+38,milky way,"21,5,4",5,1,2
+38,milky way,"12,0,4",4,0,2
+38,milky way,"6,2,2",3,1,1
+38,milky way,"4,8,4",5,1,2
+38,milky way,"4,13,1",2,1,1
+40,mini me,"8,40,1",2,0,1
+40,mini me,"8,40,4",5,0,2
+40,mini me,"5,40,4",4,0,2
+40,mini me,"2,37,4",4,0,2
+40,mini me,"3,30,4",5,1,2
+40,mini me,"6,30,1",2,1,1
+40,mini me,"5,17,1",2,1,1
+40,mini me,"2,12,1",3,0,1
+40,mini me,"8,12,1",1,1,1
+40,mini me,"12,11,1",2,0,1
+40,mini me,"18,6,1",2,1,1
+40,mini me,"19,3,1",2,0,1
+40,mini me,"17,3,1",1,0,1
+40,mini me,"8,2,4",4,0,2
+400,push me,"40,58,4",5,1,2
+400,push me,"40,31,3",4,0,1
+400,push me,"40,17,4",4,0,2
+400,push me,"40,12,2",3,1,1
+400,push me,"31,12,3",3,0,2
+400,push me,"22,20,1",1,0,1
+400,push me,"17,22,1",1,0,0
+400,push me,"12,37,1",2,1,1
+401,perfect cell,"7,53,1",1,0,1
+401,perfect cell,"12,45,2",2,0,1
+401,perfect cell,"3,32,2",3,1,1
+401,perfect cell,"8,27,3",3,0,2
+401,perfect cell,"21,23,3",3,0,2
+401,perfect cell,"27,18,3",3,0,2
+401,perfect cell,"33,7,1",1,0,1
+401,perfect cell,"32,2,1",2,1,1
+401,perfect cell,"46,2,1",1,0,1
+401,perfect cell,"56,4,1",1,0,1
+401,perfect cell,"52,15,1",1,0,1
+401,perfect cell,"47,25,2",2,0,1
+401,perfect cell,"33,41,1",1,0,1
+41,squadron,"8,45,1",2,1,1
+41,squadron,"3,42,1",1,0,1
+41,squadron,"2,41,4",4,0,2
+41,squadron,"12,40,4",4,0,2
+41,squadron,"35,27,1",1,1,1
+41,squadron,"28,16,2",3,1,1
+41,squadron,"28,26,1",2,1,1
+41,squadron,"32,22,1",2,0,1
+41,squadron,"18,22,1",2,1,1
+41,squadron,"21,10,1",2,1,1
+41,squadron,"14,12,1",2,1,1
+41,squadron,"8,15,1",2,0,0
+42,mind the gap,"39,7,4",4,0,2
+42,mind the gap,"62,13,1",3,1,1
+42,mind the gap,"61,21,2",2,0,1
+42,mind the gap,"61,19,4",4,0,2
+42,mind the gap,"58,22,4",4,1,2
+42,mind the gap,"42,27,1",1,1,1
+42,mind the gap,"38,28,4",4,1,2
+42,mind the gap,"38,37,1",1,1,1
+42,mind the gap,"31,44,1",2,1,1
+42,mind the gap,"22,44,1",2,0,1
+42,mind the gap,"11,45,1",1,0,1
+42,mind the gap,"15,39,1",2,1,1
+42,mind the gap,"10,39,1",2,1,1
+42,mind the gap,"10,33,1",2,1,1
+42,mind the gap,"5,33,1",1,0,1
+43,vertex,"1,72,1",2,1,1
+43,vertex,"2,67,4",5,0,2
+43,vertex,"9,67,1",2,1,1
+43,vertex,"11,62,4",5,1,2
+43,vertex,"16,62,1",1,0,1
+43,vertex,"16,53,1",1,0,1
+43,vertex,"20,57,3",3,0,2
+43,vertex,"23,43,3",3,0,2
+43,vertex,"23,21,3",4,1,2
+43,vertex,"27,1,3",3,0,2
+44,time machine,"7,35,4",5,0,2
+44,time machine,"17,35,2",3,1,1
+44,time machine,"16,28,2",3,1,1
+44,time machine,"24,29,2",3,1,1
+44,time machine,"24,15,2",3,1,1
+44,time machine,"12,15,2",3,1,1
+44,time machine,"5,16,2",3,1,1
+44,time machine,"5,11,4",4,1,2
+44,time machine,"8,8,4",5,1,2
+44,time machine,"10,6,3",3,1,2
+44,time machine,"25,6,4",4,1,2
+44,time machine,"32,10,1",2,1,1
+44,time machine,"41,6,1",2,1,1
+45,edge time,"69,25,1",2,1,1
+45,edge time,"70,32,1",3,1,1
+45,edge time,"64,32,1",2,1,1
+45,edge time,"54,32,1",2,1,1
+45,edge time,"44,32,1",2,1,1
+45,edge time,"33,32,1",2,1,1
+45,edge time,"23,32,2",2,1,1
+45,edge time,"13,32,1",2,0,1
+45,edge time,"10,33,1",2,1,1
+45,edge time,"8,24,1",1,0,1
+45,edge time,"7,28,4",4,0,2
+45,edge time,"7,20,4",4,0,2
+45,edge time,"14,11,3",3,0,2
+45,edge time,"11,20,1",1,0,1
+45,edge time,"3,3,4",5,1,2
+46,chase,"15,51,1",2,1,1
+46,chase,"15,49,2",2,0,1
+46,chase,"15,46,1",1,0,1
+46,chase,"15,41,4",4,1,2
+46,chase,"20,41,3",3,0,2
+46,chase,"22,25,4",4,1,2
+46,chase,"23,17,4",4,1,2
+46,chase,"34,19,2",3,0,1
+46,chase,"31,37,2",2,0,1
+46,chase,"35,46,1",1,0,1
+46,chase,"43,9,1",1,0,1
+46,chase,"39,6,1",1,1,1
+46,chase,"45,2,1",2,1,1
+47,jungle fever,"18,27,1",1,0,1
+47,jungle fever,"9,28,1",1,0,1
+47,jungle fever,"8,17,1",3,0,1
+47,jungle fever,"8,11,4",4,0,2
+47,jungle fever,"16,10,3",3,0,2
+47,jungle fever,"22,10,4",4,0,2
+47,jungle fever,"30,10,4",5,1,2
+47,jungle fever,"38,10,1",2,1,1
+47,jungle fever,"63,34,1",1,2,1
+47,jungle fever,"61,40,1",1,0,1
+47,jungle fever,"59,38,1",1,1,1
+47,jungle fever,"45,38,1",1,0,1
+47,jungle fever,"2,32,1",2,1,1
+48,switch keep,"8,34,3",3,1,2
+48,switch keep,"8,22,3",3,1,2
+48,switch keep,"19,22,1",1,0,1
+48,switch keep,"24,16,1",2,1,1
+48,switch keep,"39,14,1",3,1,1
+48,switch keep,"42,22,1",1,0,1
+48,switch keep,"42,28,1",2,1,1
+48,switch keep,"41,30,1",1,0,1
+48,switch keep,"41,34,2",2,0,1
+48,switch keep,"42,45,1",2,1,1
+48,switch keep,"38,49,1",1,0,1
+48,switch keep,"29,48,1",1,0,1
+49,orion,"45,44,1",1,0,1
+49,orion,"42,42,1",1,0,1
+49,orion,"40,42,1",1,0,1
+49,orion,"37,44,1",1,0,1
+49,orion,"31,45,1",1,0,1
+49,orion,"30,56,1",1,0,1
+49,orion,"29,53,3",3,0,2
+49,orion,"20,53,3",3,0,2
+49,orion,"17,65,1",2,1,1
+49,orion,"3,55,1",2,1,1
+49,orion,"2,46,1",2,1,1
+49,orion,"2,33,1",2,1,1
+49,orion,"3,27,1",1,0,1
+49,orion,"14,28,1",1,0,1
+49,orion,"32,27,1",2,1,1
+49,orion,"32,21,2",2,0,1
+49,orion,"32,19,2",2,0,1
+49,orion,"32,14,1",1,0,1
+49,orion,"32,9,1",1,0,1
+49,orion,"34,5,1",2,1,1
+50,sync the wall,"7,42,1",1,0,1
+50,sync the wall,"8,34,1",1,0,1
+50,sync the wall,"7,30,3",3,0,2
+50,sync the wall,"12,32,1",1,0,1
+50,sync the wall,"17,27,4",5,1,2
+50,sync the wall,"24,26,1",2,1,1
+50,sync the wall,"25,20,1",1,0,1
+50,sync the wall,"30,14,1",1,1,1
+50,sync the wall,"29,3,1",1,0,1
+50,sync the wall,"29,5,4",4,0,2
+50,sync the wall,"47,34,1",1,0,1
+50,sync the wall,"49,31,1",1,0,1
+50,sync the wall,"53,28,4",4,0,2
+500,roots,"5,68,1",1,0,2
+500,roots,"4,49,1",1,3,0
+500,roots,"4,29,1",1,2,0
+500,roots,"26,25,1",1,0,1
+500,roots,"34,25,2",2,0,0
+500,roots,"40,20,1",1,0,0
+500,roots,"41,13,1",1,3,0
+653500,"EDGE Old Levels
+roots (mobile)","5,68,1",1,0,2
+653500,"EDGE Old Levels
+roots (mobile)","4,49,1",1,3,0
+653500,"EDGE Old Levels
+roots (mobile)","4,29,1",1,2,0
+653500,"EDGE Old Levels
+roots (mobile)","26,25,1",1,0,1
+653500,"EDGE Old Levels
+roots (mobile)","34,25,2",2,0,0
+653500,"EDGE Old Levels
+roots (mobile)","41,13,1",1,3,0
+507,trench,"122,4,1",1,0,2
+507,trench,"111,4,1",1,0,2
+507,trench,"100,3,1",1,2,0
+507,trench,"95,4,1",1,1,1
+507,trench,"87,6,1",1,0,3
+507,trench,"83,6,1",1,1,0
+507,trench,"69,5,1",1,0,1
+507,trench,"63,5,1",1,0,1
+507,trench,"55,5,1",1,1,1
+507,trench,"46,3,2",2,0,0
+507,trench,"36,5,2",2,0,0
+507,trench,"31,3,2",2,0,0
+507,trench,"31,1,2",2,0,0
+507,trench,"25,5,2",2,0,0
+507,trench,"21,4,4",4,0,0
+508,sugar ground,"65,94,1",1,0,1
+508,sugar ground,"68,94,1",1,0,1
+508,sugar ground,"71,94,1",1,0,1
+508,sugar ground,"73,87,1",1,2,0
+508,sugar ground,"73,77,1",1,1,0
+508,sugar ground,"65,67,1",1,2,0
+508,sugar ground,"64,62,1",1,1,1
+508,sugar ground,"59,60,2",2,0,0
+508,sugar ground,"53,62,1",1,0,1
+508,sugar ground,"48,57,1",1,2,0
+508,sugar ground,"35,46,2",2,0,1
+508,sugar ground,"27,46,1",1,0,1
+508,sugar ground,"17,45,1",1,0,2
+508,sugar ground,"9,38,1",1,2,0
+508,sugar ground,"9,29,1",1,2,0
+508,sugar ground,"9,23,1",1,2,0
+508,sugar ground,"9,15,1",1,2,0
+509,impulsed maze,"17,14,2",2,0,0
+509,impulsed maze,"5,4,2",2,0,0
+51,braintonic,"10,14,1",1,0,1
+51,braintonic,"9,21,1",1,0,1
+51,braintonic,"8,24,1",2,1,1
+51,braintonic,"5,25,4",5,0,2
+51,braintonic,"1,27,4",4,1,2
+51,braintonic,"6,50,2",3,2,2
+51,braintonic,"21,35,2",2,0,1
+51,braintonic,"33,0,3",3,0,2
+51,braintonic,"46,8,4",4,0,2
+51,braintonic,"51,17,1",3,1,1
+51,braintonic,"42,24,1",1,1,1
+51,braintonic,"46,27,1",1,0,1
+51,braintonic,"47,29,1",2,1,1
+51,braintonic,"46,34,1",2,1,1
+51,braintonic,"44,38,1",2,1,1
+51,braintonic,"39,33,1",1,0,1
+510,cloudy way,"40,60,1",1,1,0
+510,cloudy way,"39,56,1",1,1,0
+510,cloudy way,"40,49,1",1,2,0
+510,cloudy way,"32,39,1",1,0,1
+510,cloudy way,"27,32,1",1,0,1
+510,cloudy way,"19,33,1",1,1,1
+510,cloudy way,"12,33,1",1,0,1
+510,cloudy way,"6,32,1",1,0,0
+510,cloudy way,"2,31,1",1,0,0
+510,cloudy way,"3,25,1",1,1,0
+510,cloudy way,"4,19,1",1,2,0
+510,cloudy way,"3,12,1",1,2,0
+510,cloudy way,"1,3,3",3,0,0
+510,cloudy way,"18,6,1",1,2,0
+511,crateria,"92,34,4",4,0,2
+511,crateria,"91,27,2",2,0,0
+511,crateria,"95,19,4",4,1,0
+511,crateria,"66,18,4",4,0,2
+511,crateria,"61,19,4",4,0,2
+511,crateria,"58,26,1",1,0,1
+511,crateria,"54,20,4",4,2,1
+511,crateria,"52,22,4",4,2,2
+511,crateria,"50,17,2",2,2,2
+511,crateria,"45,11,4",4,3,2
+511,crateria,"43,9,2",2,1,1
+511,crateria,"7,10,4",4,0,3
+511,crateria,"3,15,4",4,2,0
+511,crateria,"9,15,1",1,0,2
+511,crateria,"14,16,2",2,0,2
+511,crateria,"17,27,2",2,0,0
+511,crateria,"14,28,3",3,3,0
+512,stratosphere,"174,170,2",2,0,2
+512,stratosphere,"169,170,4",4,0,2
+512,stratosphere,"164,176,2",2,1,0
+512,stratosphere,"149,176,1",1,1,0
+512,stratosphere,"146,172,4",4,0,1
+512,stratosphere,"144,177,1",1,0,0
+512,stratosphere,"130,177,1",1,0,2
+512,stratosphere,"124,177,4",4,0,2
+512,stratosphere,"121,178,3",3,0,0
+512,stratosphere,"121,174,3",3,0,0
+512,stratosphere,"117,178,3",3,0,0
+512,stratosphere,"104,176,1",1,0,0
+512,stratosphere,"102,177,4",4,0,1
+512,stratosphere,"94,174,1",1,0,0
+514,star dust,"1,6,1",1,1,0
+514,star dust,"6,14,1",1,1,0
+514,star dust,"6,5,1",1,1,0
+514,star dust,"9,14,1",1,0,1
+514,star dust,"17,15,1",1,0,1
+514,star dust,"17,3,1",1,0,0
+514,star dust,"16,2,4",4,0,0
+514,star dust,"18,12,4",4,0,0
+514,star dust,"28,13,4",4,0,0
+514,star dust,"28,17,1",1,0,0
+514,star dust,"30,5,1",1,0,0
+514,star dust,"35,2,1",1,0,0
+514,star dust,"43,12,1",1,0,0
+514,star dust,"35,14,4",4,0,0
+514,star dust,"48,3,4",4,0,0
+515,geometric snake,"4,43,1",1,1,2
+515,geometric snake,"48,39,3",3,0,0
+515,geometric snake,"45,14,1",1,0,1
+515,geometric snake,"35,15,1",1,0,1
+515,geometric snake,"25,15,1",1,0,1
+515,geometric snake,"8,15,1",1,0,1
+515,geometric snake,"1,10,3",3,0,0
+516,claustrophobia,"2,17,2",2,0,0
+516,claustrophobia,"6,14,2",2,1,0
+516,claustrophobia,"7,7,2",2,0,0
+516,claustrophobia,"15,4,2",2,0,0
+516,claustrophobia,"19,4,1",1,0,0
+516,claustrophobia,"21,14,1",1,0,0
+516,claustrophobia,"22,20,1",1,0,0
+516,claustrophobia,"31,21,2",2,0,0
+516,claustrophobia,"45,22,1",1,0,0
+516,claustrophobia,"48,24,1",1,0,0
+516,claustrophobia,"52,21,1",1,0,0
+516,claustrophobia,"54,18,1",1,0,0
+516,claustrophobia,"59,16,1",1,0,0
+516,claustrophobia,"59,28,1",1,0,0
+516,claustrophobia,"70,28,1",1,0,0
+516,claustrophobia,"75,19,1",1,0,0
+516,claustrophobia,"70,11,1",1,0,0
+517,galaxy rail,"35,38,1",1,0,0
+517,galaxy rail,"25,38,1",1,0,0
+517,galaxy rail,"22,33,1",1,0,0
+517,galaxy rail,"14,22,1",1,0,0
+517,galaxy rail,"14,13,1",1,0,0
+517,galaxy rail,"16,5,1",1,0,3
+517,galaxy rail,"32,5,1",1,0,3
+517,galaxy rail,"62,6,1",1,0,3
+517,galaxy rail,"98,5,1",1,0,3
+517,galaxy rail,"123,5,1",1,0,3
+518,white spring,"17,57,1",1,2,0
+518,white spring,"17,47,1",1,2,0
+518,white spring,"17,40,4",4,2,0
+518,white spring,"22,36,1",1,1,1
+518,white spring,"27,24,1",1,2,0
+518,white spring,"26,17,4",4,2,0
+518,white spring,"4,15,4",4,0,0
+518,white spring,"29,10,1",1,0,2
+518,white spring,"38,10,1",1,0,2
+519,tiny road,"9,31,1",1,1,1
+519,tiny road,"10,20,4",4,0,0
+519,tiny road,"16,19,1",1,2,1
+519,tiny road,"19,14,4",4,0,1
+519,tiny road,"24,14,4",4,0,1
+519,tiny road,"32,12,1",1,1,0
+519,tiny road,"34,8,4",4,0,1
+519,tiny road,"41,7,1",1,1,0
+519,tiny road,"41,1,4",4,1,1
+519,tiny road,"45,1,1",1,0,0
+519,tiny road,"38,9,1",1,0,0
+519,tiny road,"30,15,1",1,0,0
+519,tiny road,"24,13,1",1,0,0
+519,tiny road,"19,15,1",1,0,0
+519,tiny road,"11,19,2",2,0,0
+519,tiny road,"7,33,1",1,0,0
+519,tiny road,"2,42,1",1,0,0
+519,tiny road,"1,42,4",4,1,1
+52,star castle,"15,24,1",2,0,1
+52,star castle,"5,18,1",3,1,1
+52,star castle,"1,18,4",4,0,2
+52,star castle,"10,15,4",4,0,2
+52,star castle,"13,8,4",4,0,2
+52,star castle,"8,5,4",4,0,2
+52,star castle,"8,1,4",4,0,2
+520,black hole,"20,81,1",1,1,0
+520,black hole,"21,73,1",1,3,0
+520,black hole,"21,56,1",1,1,0
+520,black hole,"23,49,1",1,2,0
+520,black hole,"4,40,1",1,1,0
+520,black hole,"25,44,1",1,0,0
+520,black hole,"25,36,1",1,1,0
+520,black hole,"24,21,1",1,1,0
+520,black hole,"28,17,1",1,0,1
+520,black hole,"54,14,1",1,0,1
+521,hyperphase,"13,12,1",1,1,0
+521,hyperphase,"8,18,1",1,0,1
+521,hyperphase,"2,18,1",1,0,2
+521,hyperphase,"2,25,1",1,0,0
+521,hyperphase,"9,26,1",1,0,0
+521,hyperphase,"15,23,1",1,0,0
+521,hyperphase,"22,22,4",4,0,0
+521,hyperphase,"25,18,1",1,0,0
+521,hyperphase,"24,13,3",3,1,0
+521,hyperphase,"24,9,1",1,0,0
+521,hyperphase,"26,4,1",1,3,0
+521,hyperphase,"30,1,2",2,0,0
+521,hyperphase,"34,1,2",2,0,0
+521,hyperphase,"39,0,1",1,0,1
+521,hyperphase,"42,11,1",1,0,0
+521,hyperphase,"36,10,4",4,0,0
+522,don't click!,"4,92,2",2,0,0
+522,don't click!,"4,81,3",3,0,0
+522,don't click!,"11,79,1",1,1,1
+522,don't click!,"13,73,1",1,1,0
+522,don't click!,"20,71,2",2,0,1
+522,don't click!,"17,58,3",3,0,0
+522,don't click!,"25,44,2",2,1,0
+522,don't click!,"25,40,3",3,0,0
+522,don't click!,"43,40,1",1,0,2
+522,don't click!,"47,29,2",2,0,0
+522,don't click!,"48,22,1",1,0,0
+522,don't click!,"50,16,1",1,0,0
+522,don't click!,"47,11,1",1,1,1
+522,don't click!,"61,8,1",1,0,2
+523,far,"11,38,1",1,3,0
+523,far,"10,34,4",4,2,0
+523,far,"7,33,3",3,2,0
+523,far,"6,21,3",3,1,0
+523,far,"7,17,4",4,1,1
+523,far,"6,11,3",3,1,0
+523,far,"14,9,1",1,0,0
+523,far,"20,4,1",1,0,0
+523,far,"23,9,2",2,0,0
+523,far,"30,9,2",2,0,0
+523,far,"33,0,1",1,0,0
+523,far,"36,9,2",2,0,0
+523,far,"45,9,1",1,0,0
+523,far,"48,3,1",1,0,1
+523,far,"48,2,3",3,0,0
+524,paper wall,"9,251,43",43,3,3
+524,paper wall,"8,251,31",31,1,0
+524,paper wall,"8,249,19",19,1,1
+524,paper wall,"9,251,7",7,1,1
+524,paper wall,"7,249,1",1,1,1
+524,paper wall,"14,247,1",1,2,0
+524,paper wall,"17,227,1",1,2,0
+524,paper wall,"21,194,1",1,0,2
+524,paper wall,"27,192,1",1,0,0
+524,paper wall,"25,132,1",1,0,0
+524,paper wall,"27,132,1",1,0,0
+524,paper wall,"26,132,2",2,0,0
+524,paper wall,"26,87,1",1,2,0
+524,paper wall,"28,42,2",2,1,0
+524,paper wall,"26,14,2",2,1,0
+524,paper wall,"34,9,1",1,0,0
+525,cubefall,"46,7,3",3,0,0
+525,cubefall,"53,14,3",3,0,0
+525,cubefall,"60,21,3",3,0,0
+525,cubefall,"67,25,3",3,0,1
+525,cubefall,"76,26,3",3,0,0
+525,cubefall,"68,26,2",2,0,0
+525,cubefall,"68,21,3",3,0,0
+525,cubefall,"62,21,2",2,0,0
+525,cubefall,"58,21,2",2,0,0
+525,cubefall,"53,21,3",3,0,0
+525,cubefall,"53,16,2",2,0,0
+525,cubefall,"53,12,2",2,0,0
+525,cubefall,"53,7,3",3,0,0
+525,cubefall,"48,7,2",2,0,0
+525,cubefall,"44,7,2",2,0,0
+525,cubefall,"40,7,3",3,0,1
+525,cubefall,"32,7,4",4,0,2
+525,cubefall,"20,11,4",4,1,0
+525,cubefall,"3,13,4",4,0,1
+526,walled up race,"7,42,1",1,0,1
+526,walled up race,"7,32,1",1,0,1
+526,walled up race,"1,33,4",4,0,0
+526,walled up race,"7,27,1",1,0,1
+526,walled up race,"17,27,1",1,0,1
+526,walled up race,"26,27,1",1,0,0
+526,walled up race,"33,19,1",1,0,0
+526,walled up race,"28,14,4",4,0,0
+526,walled up race,"28,2,4",4,0,2
+526,walled up race,"44,2,1",1,0,0
+526,walled up race,"51,4,2",2,0,0
+526,walled up race,"58,9,2",3,0,0
+527,rodeo,"9,79,1",1,1,0
+527,rodeo,"6,73,2",2,1,1
+527,rodeo,"6,73,1",2,1,0
+527,rodeo,"21,69,2",2,0,1
+527,rodeo,"20,69,1",2,0,1
+527,rodeo,"26,61,2",2,1,0
+527,rodeo,"26,62,1",2,1,0
+527,rodeo,"22,44,2",2,1,0
+527,rodeo,"22,45,1",1,1,0
+527,rodeo,"34,38,1",1,1,0
+527,rodeo,"28,25,1",1,0,1
+527,rodeo,"18,17,1",2,0,1
+527,rodeo,"19,10,2",2,1,0
+527,rodeo,"19,11,1",2,1,0
+527,rodeo,"23,3,1",1,0,1
+527,rodeo,"35,4,1",1,0,1
+528,blind,"14,30,1",1,0,0
+528,blind,"14,34,1",1,0,0
+528,blind,"23,43,1",1,0,0
+528,blind,"32,39,1",1,0,0
+528,blind,"29,25,1",1,0,0
+528,blind,"32,15,1",1,0,0
+528,blind,"25,5,1",1,1,0
+528,blind,"13,2,1",1,0,1
+528,blind,"3,2,1",1,0,1
+53,edge master,"6,45,1",2,1,1
+53,edge master,"11,35,1",2,1,1
+53,edge master,"4,30,1",1,1,1
+53,edge master,"28,32,1",3,1,1
+53,edge master,"33,32,2",4,0,1
+53,edge master,"35,32,2",3,0,1
+53,edge master,"37,32,2",4,0,1
+53,edge master,"40,33,1",3,0,1
+53,edge master,"43,30,1",1,0,1
+53,edge master,"47,27,1",1,0,1
+53,edge master,"49,23,1",1,0,1
+53,edge master,"55,24,1",1,0,1
+53,edge master,"55,49,1",1,0,1
+53,edge master,"62,38,1",1,0,1
+53,edge master,"67,36,1",2,0,1
+53,edge master,"69,27,1",1,0,1
+53,edge master,"69,16,1",1,0,1
+53,edge master,"69,11,1",1,0,1
+530,highest flag,"8,34,3",3,0,0
+530,highest flag,"5,32,7",7,0,0
+530,highest flag,"5,32,15",15,0,0
+530,highest flag,"3,33,24",24,0,0
+530,highest flag,"4,32,33",33,0,0
+530,highest flag,"4,33,34",34,0,0
+530,highest flag,"4,32,43",43,0,0
+530,highest flag,"3,32,45",45,0,0
+530,highest flag,"4,32,55",55,0,0
+530,highest flag,"5,32,57",57,0,0
+530,highest flag,"4,32,64",64,0,0
+530,highest flag,"3,32,77",77,0,0
+530,highest flag,"2,30,79",79,0,0
+530,highest flag,"3,30,87",87,0,0
+530,highest flag,"4,30,89",89,0,0
+530,highest flag,"3,30,92",92,0,0
+530,highest flag,"3,29,104",104,0,0
+530,highest flag,"3,29,114",114,0,0
+530,highest flag,"5,27,119",119,0,0
+530,highest flag,"4,30,128",128,0,0
+530,highest flag,"3,27,137",137,0,0
+530,highest flag,"2,27,142",142,0,0
+530,highest flag,"2,12,1",1,0,0
+531,destructuring,"14,44,4",4,1,0
+531,destructuring,"20,48,1",1,0,0
+531,destructuring,"39,49,1",1,0,0
+531,destructuring,"37,30,1",1,2,0
+531,destructuring,"31,20,4",4,1,0
+531,destructuring,"33,15,4",4,0,1
+531,destructuring,"52,4,3",3,0,2
+532,star factory,"5,52,1",1,1,0
+532,star factory,"6,44,1",1,2,0
+532,star factory,"7,40,1",1,1,0
+532,star factory,"27,35,1",1,1,0
+532,star factory,"33,30,3",3,1,0
+532,star factory,"34,30,2",2,1,0
+532,star factory,"44,21,2",2,0,1
+532,star factory,"46,18,1",1,0,1
+532,star factory,"47,13,3",3,1,0
+532,star factory,"48,9,4",4,0,0
+532,star factory,"79,9,3",3,0,0
+532,star factory,"78,27,1",1,1,1
+532,star factory,"78,44,2",2,0,0
+533,hurry,"3,18,4",4,0,0
+533,hurry,"12,8,4",4,0,1
+533,hurry,"21,5,1",1,0,0
+533,hurry,"26,1,1",1,0,0
+533,hurry,"41,12,1",1,0,0
+533,hurry,"39,14,3",3,0,0
+533,hurry,"40,27,1",1,1,1
+533,hurry,"46,39,1",1,0,0
+533,hurry,"22,53,1",1,0,0
+533,hurry,"19,52,4",4,0,0
+533,hurry,"30,47,4",4,0,0
+534,pushy,"13,29,1",1,0,0
+534,pushy,"6,34,1",1,0,0
+534,pushy,"5,54,1",1,1,0
+534,pushy,"60,39,4",4,1,1
+534,pushy,"62,22,2",2,0,0
+534,pushy,"58,12,1",1,0,0
+534,pushy,"77,2,4",4,3,1
+534,pushy,"90,4,1",1,0,0
+534,pushy,"89,25,1",1,0,0
+534,pushy,"84,30,3",3,1,1
+534,pushy,"74,42,3",3,0,0
+534,pushy,"76,37,4",4,0,0
+535,moving walls,"13,21,1",1,1,0
+535,moving walls,"12,22,1",1,0,1
+535,moving walls,"10,17,4",4,0,0
+535,moving walls,"10,11,3",3,1,0
+535,moving walls,"9,8,1",1,1,0
+535,moving walls,"9,1,1",1,1,0
+535,moving walls,"6,1,3",3,0,0
+535,moving walls,"6,4,3",3,0,0
+535,moving walls,"6,7,3",3,0,0
+535,moving walls,"1,4,3",3,1,0
+653002,"EDGE Old Levels
+first step animated (mobile)","4,7,1",1,0,0
+653002,"EDGE Old Levels
+first step animated (mobile)","3,6,1",1,0,0
+653002,"EDGE Old Levels
+first step animated (mobile)","4,5,1",1,0,0
+653002,"EDGE Old Levels
+first step animated (mobile)","5,6,1",1,0,0
+653001,"EDGE Old Levels
+first step (mobile)","1,5,2",2,0,0
+536,climbing,"3,2,3",3,0,0
+536,climbing,"2,12,1",1,1,0
+536,climbing,"8,13,1",1,0,1
+536,climbing,"11,10,3",3,1,0
+536,climbing,"18,9,1",1,0,1
+653536,"EDGE Old Levels
+climbing (mobile)","3,2,3",3,0,0
+653536,"EDGE Old Levels
+climbing (mobile)","2,12,1",1,1,0
+653536,"EDGE Old Levels
+climbing (mobile)","8,13,1",1,0,1
+653536,"EDGE Old Levels
+climbing (mobile)","11,10,3",3,1,0
+653536,"EDGE Old Levels
+climbing (mobile)","18,9,1",1,0,1
+537,first step,"4,22,1",1,4,0
+537,first step,"4,15,3",3,1,0
+537,first step,"5,15,1",1,1,0
+537,first step,"12,13,2",2,0,0
+537,first step,"12,15,1",1,0,1
+537,first step,"15,11,1",1,1,0
+537,first step,"18,4,3",3,0,1
+537,first step,"25,1,3",3,1,0
+537,first step,"26,3,1",1,0,2
+653537,"EDGE Old Levels
+moving walls (mobile)","4,22,1",1,4,0
+653537,"EDGE Old Levels
+moving walls (mobile)","4,15,3",3,1,0
+653537,"EDGE Old Levels
+moving walls (mobile)","5,15,1",1,1,0
+653537,"EDGE Old Levels
+moving walls (mobile)","12,13,2",2,0,0
+653537,"EDGE Old Levels
+moving walls (mobile)","12,15,1",1,0,1
+653537,"EDGE Old Levels
+moving walls (mobile)","15,11,1",1,1,0
+653537,"EDGE Old Levels
+moving walls (mobile)","18,4,3",3,0,1
+653537,"EDGE Old Levels
+moving walls (mobile)","25,1,3",3,1,0
+653537,"EDGE Old Levels
+moving walls (mobile)","26,3,1",1,0,2
+538,click,"3,31,3",3,1,1
+538,click,"0,30,3",4,0,0
+538,click,"10,28,1",1,0,1
+538,click,"11,23,1",1,1,0
+538,click,"9,20,1",1,0,0
+538,click,"13,18,2",2,0,1
+538,click,"15,10,1",1,1,0
+538,click,"12,7,4",4,0,0
+653538,"EDGE Old Levels
+click (mobile)","3,31,3",3,1,1
+653538,"EDGE Old Levels
+click (mobile)","10,28,1",1,0,1
+653538,"EDGE Old Levels
+click (mobile)","11,23,1",1,1,0
+653538,"EDGE Old Levels
+click (mobile)","9,20,1",1,0,0
+653538,"EDGE Old Levels
+click (mobile)","13,18,2",2,0,0
+653538,"EDGE Old Levels
+click (mobile)","15,10,1",1,1,0
+653538,"EDGE Old Levels
+click (mobile)","12,7,4",4,0,0
+539,black robot,"21,28,4",4,0,0
+539,black robot,"65,27,4",4,0,0
+539,black robot,"76,21,1",1,1,0
+539,black robot,"76,16,1",1,1,0
+539,black robot,"76,12,1",1,1,0
+539,black robot,"76,5,1",1,1,0
+539,black robot,"79,1,3",3,0,2
+539,black robot,"87,1,3",3,0,2
+539,black robot,"96,2,3",3,2,0
+539,black robot,"96,4,1",1,2,0
+54,cube invaders,"26,101,2",2,0,1
+54,cube invaders,"34,84,3",3,0,2
+54,cube invaders,"43,78,3",3,0,2
+54,cube invaders,"41,75,4",4,0,2
+54,cube invaders,"41,64,2",3,1,1
+54,cube invaders,"36,65,2",3,0,2
+54,cube invaders,"29,65,2",3,0,2
+54,cube invaders,"21,65,2",3,0,1
+54,cube invaders,"11,64,1",2,1,1
+54,cube invaders,"2,32,2",3,0,1
+54,cube invaders,"2,23,2",2,0,1
+54,cube invaders,"4,18,2",2,0,1
+54,cube invaders,"10,20,2",2,0,3
+54,cube invaders,"19,19,1",2,1,2
+54,cube invaders,"22,17,2",4,0,1
+54,cube invaders,"24,39,1",1,0,1
+54,cube invaders,"24,43,1",1,0,1
+54,cube invaders,"41,43,1",1,0,1
+54,cube invaders,"41,24,2",2,0,1
+54,cube invaders,"38,11,3",6,0,2
+54,cube invaders,"29,9,4",5,0,2
+54,cube invaders,"29,3,1",2,1,1
+540,lying bridge,"9,32,4",4,0,0
+540,lying bridge,"19,30,4",4,0,0
+540,lying bridge,"18,18,4",4,0,0
+540,lying bridge,"23,15,2",2,1,1
+540,lying bridge,"32,15,2",2,0,1
+540,lying bridge,"33,9,2",2,2,0
+540,lying bridge,"32,2,2",2,1,0
+541,darkcube,"28,30,1",1,1,0
+541,darkcube,"24,30,3",3,0,2
+541,darkcube,"16,32,3",3,1,0
+541,darkcube,"16,20,2",2,1,0
+541,darkcube,"17,20,1",1,1,0
+541,darkcube,"28,30,1",1,1,0
+541,darkcube,"24,30,3",3,0,2
+541,darkcube,"16,32,3",3,1,0
+541,darkcube,"16,20,2",2,1,0
+541,darkcube,"17,20,1",1,1,0
+542,wire,"25,83,3",3,0,0
+542,wire,"32,89,1",1,0,0
+542,wire,"37,85,1",1,0,0
+542,wire,"37,69,2",3,1,0
+542,wire,"37,69,3",3,0,0
+542,wire,"42,71,3",3,0,1
+542,wire,"34,63,1",1,0,1
+542,wire,"37,60,2",3,1,0
+542,wire,"37,60,3",3,0,0
+542,wire,"37,50,2",3,1,0
+542,wire,"37,50,3",3,0,0
+542,wire,"43,54,1",1,0,0
+542,wire,"37,38,2",3,1,0
+542,wire,"37,38,3",3,0,0
+542,wire,"37,28,2",3,1,0
+542,wire,"37,28,3",3,0,0
+542,wire,"25,28,1",1,0,0
+542,wire,"25,21,4",4,0,0
+544,voodoo dance,"21,46,2",2,2,0
+544,voodoo dance,"28,39,2",2,1,1
+544,voodoo dance,"11,42,2",2,0,0
+544,voodoo dance,"12,45,1",1,0,0
+544,voodoo dance,"6,42,2",2,0,0
+544,voodoo dance,"3,44,3",3,0,1
+544,voodoo dance,"8,41,3",3,0,0
+544,voodoo dance,"8,33,1",1,0,0
+544,voodoo dance,"10,27,2",2,0,0
+544,voodoo dance,"13,25,2",2,0,0
+544,voodoo dance,"15,21,1",1,0,0
+544,voodoo dance,"19,22,1",1,0,0
+544,voodoo dance,"22,13,1",1,0,0
+544,voodoo dance,"23,4,1",1,0,0
+545,deadly race,"4,142,1",1,1,0
+545,deadly race,"13,140,1",1,1,1
+545,deadly race,"13,124,1",1,1,0
+545,deadly race,"15,103,1",1,0,1
+545,deadly race,"10,100,1",1,1,0
+545,deadly race,"9,89,1",1,0,0
+545,deadly race,"10,81,1",1,1,0
+545,deadly race,"13,22,1",1,1,1
+546,dark edge time,"30,55,2",2,1,1
+546,dark edge time,"25,53,2",2,1,0
+546,dark edge time,"15,46,2",2,1,1
+546,dark edge time,"12,46,2",2,0,0
+546,dark edge time,"8,46,2",2,0,1
+546,dark edge time,"8,36,2",2,0,0
+546,dark edge time,"13,20,1",1,1,1
+546,dark edge time,"13,16,1",2,0,0
+546,dark edge time,"7,14,1",1,1,0
+546,dark edge time,"11,6,3",3,1,1
+547,final clash,"194,106,1",1,0,1
+547,final clash,"182,106,1",1,0,1
+547,final clash,"167,106,1",1,0,1
+547,final clash,"156,106,1",1,0,1
+547,final clash,"145,106,1",1,0,1
+547,final clash,"135,96,1",1,1,0
+547,final clash,"135,73,1",1,1,0
+547,final clash,"125,69,1",1,0,1
+547,final clash,"109,69,1",1,0,1
+547,final clash,"102,59,4",4,0,0
+547,final clash,"97,0,4",4,0,0
+547,final clash,"1,1,1",1,0,0
+548,flick,"20,49,1",1,1,1
+548,flick,"15,39,1",1,0,1
+548,flick,"1,33,3",3,1,0
+548,flick,"2,23,3",3,1,0
+548,flick,"9,17,1",1,2,0
+653548,"EDGE Old Levels
+flick (mobile)","20,49,1",1,1,1
+653548,"EDGE Old Levels
+flick (mobile)","15,39,1",1,0,1
+653548,"EDGE Old Levels
+flick (mobile)","1,33,3",3,1,0
+653548,"EDGE Old Levels
+flick (mobile)","2,23,3",3,1,0
+653548,"EDGE Old Levels
+flick (mobile)","9,17,1",1,2,0
+550,timorg,"1,51,4",4,1,1
+550,timorg,"10,48,1",1,0,0
+550,timorg,"16,36,1",1,0,0
+550,timorg,"19,49,1",1,0,0
+550,timorg,"26,51,1",1,1,1
+550,timorg,"32,40,4",4,0,0
+550,timorg,"35,33,1",1,0,0
+550,timorg,"32,44,2",2,0,2
+550,timorg,"38,35,1",1,0,0
+550,timorg,"43,30,2",2,0,0
+550,timorg,"48,27,1",1,0,0
+550,timorg,"43,20,5",5,0,1
+550,timorg,"48,16,1",1,1,1
+550,timorg,"55,7,1",1,1,1
+550,timorg,"56,1,3",3,0,0
+551,arksecktor,"44,41,1",14,0,22
+551,arksecktor,"69,37,4",14,22,0
+551,arksecktor,"69,60,3",14,0,26
+551,arksecktor,"98,64,4",14,22,0
+551,arksecktor,"105,87,1",14,0,22
+551,arksecktor,"102,61,4",14,0,25
+551,arksecktor,"98,38,4",14,0,22
+551,arksecktor,"98,5,1",14,0,22
+551,arksecktor,"68,5,1",14,25,0
+551,arksecktor,"38,5,1",14,25,0
+551,arksecktor,"11,5,1",14,25,0
+551,arksecktor,"1,1,2",14,9,0
+551,arksecktor,"1,10,2",14,0,4
+551,arksecktor,"6,5,1",14,0,4
+553,electric way,"18,33,4",4,0,0
+553,electric way,"18,30,1",1,4,0
+553,electric way,"18,16,4",4,2,0
+553,electric way,"18,13,1",1,4,0
+554,path of piracy,"4,246,1",1,0,0
+554,path of piracy,"9,237,1",1,1,1
+554,path of piracy,"7,234,4",4,1,1
+554,path of piracy,"7,228,4",4,0,0
+554,path of piracy,"13,225,1",1,1,1
+554,path of piracy,"18,222,4",4,0,0
+554,path of piracy,"21,218,2",2,1,1
+554,path of piracy,"22,214,1",1,1,0
+554,path of piracy,"22,209,1",1,1,0
+554,path of piracy,"22,208,3",3,0,0
+554,path of piracy,"24,203,1",1,1,1
+554,path of piracy,"25,195,4",4,1,1
+554,path of piracy,"28,190,4",4,1,1
+554,path of piracy,"31,189,1",1,1,1
+554,path of piracy,"33,179,1",1,1,1
+554,path of piracy,"44,190,1",1,0,0
+554,path of piracy,"51,190,2",2,0,0
+554,path of piracy,"55,184,1",1,2,1
+554,path of piracy,"57,182,1",1,1,1
+554,path of piracy,"61,169,1",1,2,0
+554,path of piracy,"61,134,3",3,1,1
+555,furious bot,"10,86,3",3,0,0
+555,furious bot,"10,80,3",3,0,0
+555,furious bot,"12,76,3",3,0,0
+555,furious bot,"22,73,3",3,0,0
+555,furious bot,"27,70,3",3,0,0
+555,furious bot,"31,66,3",3,0,0
+555,furious bot,"32,60,3",3,0,0
+555,furious bot,"32,54,3",3,0,0
+555,furious bot,"32,51,2",2,0,0
+555,furious bot,"33,42,3",3,1,0
+555,furious bot,"34,36,3",3,1,1
+555,furious bot,"36,30,3",3,0,0
+555,furious bot,"39,29,3",3,0,1
+555,furious bot,"47,17,3",3,0,0
+555,furious bot,"51,11,3",3,0,0
+555,furious bot,"53,7,3",3,0,0
+555,furious bot,"52,6,5",5,0,0
+555,furious bot,"47,12,5",5,0,0
+556,minicube,"2,29,2",2,1,1
+556,minicube,"1,27,4",4,1,0
+556,minicube,"6,24,4",4,0,2
+556,minicube,"7,23,1",1,0,0
+556,minicube,"9,24,1",1,0,0
+556,minicube,"9,21,4",4,2,0
+556,minicube,"6,21,7",7,3,3
+556,minicube,"4,16,8",8,1,0
+556,minicube,"4,13,10",10,0,0
+556,minicube,"7,9,9",9,1,1
+556,minicube,"15,9,8",8,1,1
+556,minicube,"17,9,6",6,0,0
+556,minicube,"15,12,3",3,0,0
+556,minicube,"19,13,1",1,2,2
+556,minicube,"28,15,1",1,1,1
+556,minicube,"29,5,1",1,2,1
+557,vertical way,"1,24,3",3,0,0
+557,vertical way,"2,23,5",5,0,0
+557,vertical way,"3,22,6",6,1,0
+557,vertical way,"2,21,8",8,0,0
+557,vertical way,"0,20,9",9,0,0
+557,vertical way,"1,19,9",9,0,0
+557,vertical way,"3,19,10",10,0,0
+557,vertical way,"2,17,12",12,2,1
+557,vertical way,"2,15,15",15,1,0
+557,vertical way,"0,13,18",18,0,0
+557,vertical way,"4,13,18",18,0,0
+557,vertical way,"4,11,20",20,0,0
+557,vertical way,"3,10,21",21,0,0
+557,vertical way,"1,10,21",21,0,0
+557,vertical way,"2,8,23",23,1,0
+557,vertical way,"2,7,26",26,1,0
+557,vertical way,"2,4,29",29,1,0
+558,cargo,"6,116,3",3,0,2
+558,cargo,"12,99,3",3,1,1
+558,cargo,"9,97,5",5,0,0
+558,cargo,"12,92,3",3,1,1
+558,cargo,"6,74,4",4,1,1
+558,cargo,"9,70,5",5,0,0
+558,cargo,"7,64,5",5,1,2
+558,cargo,"7,45,3",3,0,1
+558,cargo,"5,40,6",6,1,0
+558,cargo,"6,6,3",3,1,1
+558,cargo,"4,3,5",5,1,1
+560,the wall,"2,22,9",9,0,0
+560,the wall,"2,15,7",7,0,0
+560,the wall,"2,7,8",8,0,0
+560,the wall,"2,8,12",12,0,0
+560,the wall,"2,13,11",11,0,0
+560,the wall,"2,18,13",13,0,0
+560,the wall,"2,24,12",12,0,0
+560,the wall,"2,1,8",7,0,0
+560,the wall,"2,7,3",3,0,0
+560,the wall,"2,14,3",3,0,0
+560,the wall,"2,22,2",2,0,0
+560,the wall,"1,29,4",4,0,0
+560,the wall,"2,21,5",5,0,0
+561,the wall 2,"5,17,2",2,0,0
+561,the wall 2,"9,13,2",2,0,0
+561,the wall 2,"9,13,8",8,0,0
+561,the wall 2,"13,9,2",2,0,0
+561,the wall 2,"20,4,5",5,0,0
+561,the wall 2,"22,2,7",7,0,0
+562,the wall 3,"8,25,10",10,0,0
+562,the wall 3,"1,24,10",10,0,0
+562,the wall 3,"4,28,8",8,0,0
+562,the wall 3,"7,28,6",6,1,0
+562,the wall 3,"9,14,5",5,0,0
+562,the wall 3,"12,14,6",6,0,0
+562,the wall 3,"9,17,8",8,0,0
+562,the wall 3,"9,17,9",9,0,0
+562,the wall 3,"2,17,10",10,0,0
+562,the wall 3,"16,12,10",10,0,0
+562,the wall 3,"20,14,9",9,0,0
+562,the wall 3,"23,9,7",7,0,0
+562,the wall 3,"20,11,10",10,0,0
+562,the wall 3,"20,2,10",10,0,0
+562,the wall 3,"23,5,7",7,0,0
+562,the wall 3,"23,8,7",7,0,0
+562,the wall 3,"23,8,9",9,0,0
+562,the wall 3,"23,6,3",3,0,0
+562,the wall 3,"16,14,2",2,0,0
+562,the wall 3,"9,19,2",2,0,0
+563,rush,"11,9,2",2,1,2
+563,rush,"13,18,1",1,1,1
+563,rush,"9,29,2",2,0,1
+563,rush,"4,28,4",4,1,0
+563,rush,"7,16,4",4,2,1
+563,rush,"9,5,4",4,0,0
+564,cubing machine,"28,20,1",1,0,0
+564,cubing machine,"27,18,3",3,0,0
+564,cubing machine,"26,21,2",2,0,0
+564,cubing machine,"25,20,2",2,0,0
+564,cubing machine,"16,19,3",3,0,0
+564,cubing machine,"15,19,2",2,2,1
+564,cubing machine,"12,20,2",2,1,0
+564,cubing machine,"5,19,3",3,1,1
+564,cubing machine,"6,12,2",2,0,0
+564,cubing machine,"8,11,2",2,0,0
+564,cubing machine,"7,11,1",1,0,0
+564,cubing machine,"9,4,5",5,1,0
+566,piano,"5,99,3",3,2,0
+566,piano,"5,89,3",3,2,0
+566,piano,"5,83,4",4,2,0
+566,piano,"5,78,4",4,2,0
+566,piano,"5,67,4",4,2,0
+566,piano,"5,59,4",4,2,0
+566,piano,"5,53,5",5,2,0
+566,piano,"6,47,6",6,2,0
+566,piano,"6,39,6",6,2,0
+566,piano,"6,27,6",6,2,0
+566,piano,"6,13,6",6,2,0
+567,black way,"31,3,1",1,0,2
+567,black way,"25,2,2",2,0,0
+567,black way,"28,2,2",2,0,0
+567,black way,"23,2,2",2,0,0
+567,black way,"18,11,1",1,0,0
+567,black way,"12,15,1",1,1,0
+567,black way,"18,24,1",1,1,1
+567,black way,"10,26,1",1,0,1
+567,black way,"7,22,1",1,0,1
+567,black way,"4,17,7",7,0,0
+567,black way,"8,16,3",3,0,0
+568,curious land,"12,13,1",1,1,0
+568,curious land,"8,22,1",1,0,0
+568,curious land,"4,18,5",5,1,0
+568,curious land,"5,6,5",5,1,1
+568,curious land,"12,6,1",1,0,0
+569,space noise,"8,14,1",1,0,1
+569,space noise,"10,11,3",3,1,0
+569,space noise,"6,11,5",5,0,0
+569,space noise,"5,10,5",5,1,0
+569,space noise,"3,8,9",9,0,0
+569,space noise,"3,1,15",15,0,0
+569,space noise,"7,0,17",17,4,0
+569,space noise,"19,0,1",1,0,0
+569,space noise,"20,5,1",1,1,0
+569,space noise,"22,8,1",1,0,0
+569,space noise,"24,9,1",1,0,0
+569,space noise,"22,15,1",1,1,0
+569,space noise,"22,23,1",1,3,0
+570,remember,"4,14,2",2,0,1
+570,remember,"7,14,1",1,0,1
+570,remember,"11,11,1",1,0,0
+570,remember,"15,12,1",1,0,1
+570,remember,"16,9,1",1,0,1
+570,remember,"18,5,1",1,0,2
+570,remember,"25,11,1",1,1,1
+570,remember,"33,9,1",1,2,0
+570,remember,"36,7,4",4,2,0
+571,magic maze,"20,13,2",2,1,0
+571,magic maze,"18,10,4",4,0,0
+571,magic maze,"11,15,4",4,0,0
+571,magic maze,"9,10,8",8,1,0
+571,magic maze,"7,3,9",9,0,1
+572,zero,"3,23,1",1,1,0
+572,zero,"12,23,1",1,1,0
+572,zero,"17,22,1",1,0,0
+572,zero,"20,19,1",1,0,0
+572,zero,"24,15,1",1,0,0
+572,zero,"24,14,4",4,0,1
+572,zero,"13,20,2",2,0,0
+572,zero,"11,18,4",4,0,0
+573,star heart,"50,5,1",1,1,0
+573,star heart,"46,8,4",4,0,0
+573,star heart,"45,13,2",2,1,0
+573,star heart,"45,23,1",1,0,0
+573,star heart,"43,31,1",1,0,1
+573,star heart,"36,31,1",1,0,1
+573,star heart,"29,30,1",1,0,0
+573,star heart,"7,30,3",3,2,2
+573,star heart,"3,34,5",5,1,0
+573,star heart,"0,33,8",8,0,0
+573,star heart,"2,33,8",8,0,0
+573,star heart,"4,33,8",8,0,1
+574,crystal mine,"18,5,2",2,0,0
+574,crystal mine,"17,11,3",3,0,0
+574,crystal mine,"19,17,4",4,1,1
+574,crystal mine,"25,16,1",1,1,0
+574,crystal mine,"29,20,1",1,0,0
+574,crystal mine,"29,24,1",1,1,0
+574,crystal mine,"24,30,1",1,0,0
+574,crystal mine,"27,31,1",1,0,1
+574,crystal mine,"20,33,1",1,0,1
+574,crystal mine,"15,33,3",3,0,1
+574,crystal mine,"2,33,5",5,0,0
+574,crystal mine,"1,29,6",6,0,0
+574,crystal mine,"3,28,4",4,0,0
+574,crystal mine,"7,24,5",5,0,0
+574,crystal mine,"6,25,4",4,0,0
+574,crystal mine,"7,23,7",7,0,0
+575,little seed,"5,81,2",2,0,0
+575,little seed,"5,69,2",2,1,1
+575,little seed,"8,66,5",5,1,1
+575,little seed,"8,63,7",7,1,0
+575,little seed,"11,55,7",7,1,0
+575,little seed,"9,58,9",9,0,1
+575,little seed,"8,61,11",11,0,0
+575,little seed,"11,44,10",10,1,1
+575,little seed,"11,27,10",10,0,0
+575,little seed,"17,12,10",10,1,1
+575,little seed,"18,4,15",15,0,1
+575,little seed,"17,8,15",15,1,0
+575,little seed,"18,0,18",18,0,0
+575,little seed,"18,1,17",17,0,1
+59,8-bit,"6,22,1",3,1,1
+59,8-bit,"2,19,2",4,1,1
+59,8-bit,"7,12,3",3,0,2
+59,8-bit,"13,9,2",3,1,1
+59,8-bit,"17,8,2",4,1,1
+59,8-bit,"25,25,1",2,2,1
+60,landing,"5,10,3",4,1,2
+60,landing,"4,2,4",5,1,2
+60,landing,"11,2,4",5,1,2
+60,landing,"13,8,2",3,1,1
+60,landing,"14,16,2",3,0,1
+60,landing,"22,8,1",2,0,1
+60,landing,"32,13,1",1,0,1
+60,landing,"32,25,1",2,1,1
+60,landing,"46,13,1",2,1,1
+60,landing,"49,4,2",2,1,1
+60,landing,"44,9,4",5,1,2
+600,robot sport,"9,64,3",3,0,0
+600,robot sport,"10,36,1",1,0,0
+600,robot sport,"23,51,1",1,0,0
+600,robot sport,"19,54,3",3,0,0
+600,robot sport,"28,60,3",3,0,0
+600,robot sport,"20,71,3",3,0,0
+600,robot sport,"64,51,1",1,3,0
+600,robot sport,"65,37,1",1,0,0
+600,robot sport,"66,24,1",1,0,0
+600,robot sport,"58,41,1",1,2,2
+600,robot sport,"49,21,3",3,0,0
+811,magic,"7,10,1",1,0,1
+811,magic,"14,7,1",1,0,4
+811,magic,"20,8,2",2,0,1
+811,magic,"20,11,1",1,0,1
+811,magic,"24,8,2",2,0,0
+811,magic,"26,11,1",1,0,1
+811,magic,"30,9,1",1,0,0
+811,magic,"30,4,1",1,1,0
+811,magic,"34,4,1",1,0,1
+811,magic,"40,3,1",1,0,0
+811,magic,"40,14,1",1,1,0
+811,magic,"40,20,2",2,1,0
+811,magic,"0,10,4",4,0,2
+813,mystic,"31,6,1",1,0,0
+813,mystic,"29,8,4",4,0,1
+813,mystic,"29,12,3",3,0,0
+813,mystic,"27,14,3",3,0,0
+813,mystic,"28,16,1",1,0,0
+813,mystic,"28,20,1",1,0,0
+813,mystic,"25,21,2",2,0,0
+813,mystic,"20,20,3",3,0,0
+813,mystic,"15,19,4",4,0,0
+813,mystic,"11,24,2",2,0,0
+813,mystic,"11,29,3",3,0,0
+813,mystic,"7,33,3",3,0,0
+813,mystic,"4,35,3",3,0,0
+813,mystic,"4,41,2",2,0,0
+813,mystic,"4,48,1",1,0,1
+813,mystic,"0,48,3",3,0,1
+813,mystic,"2,56,2",2,0,1
+813,mystic,"6,56,3",3,0,0
+813,mystic,"12,56,3",3,0,0
+813,mystic,"14,59,1",1,0,0
+813,mystic,"20,58,3",3,0,0
+813,mystic,"30,59,1",1,0,0
+813,mystic,"35,59,1",1,0,0
+813,mystic,"36,53,3",3,0,0
+803,scientist,"2,1,4",4,0,0
+803,scientist,"5,3,1",1,0,0
+803,scientist,"19,3,2",2,0,1
+803,scientist,"21,1,3",3,0,0
+803,scientist,"20,10,1",1,1,0
+803,scientist,"29,17,1",1,0,0
+803,scientist,"31,20,1",1,0,0
+803,scientist,"33,18,1",1,0,0
+803,scientist,"41,17,1",1,0,1
+803,scientist,"38,16,6",6,0,0
+803,scientist,"37,20,4",5,0,0
+803,scientist,"34,25,2",2,0,0
+803,scientist,"34,38,1",1,1,0
+803,scientist,"27,40,1",1,0,1
+803,scientist,"19,42,1",1,0,1
+803,scientist,"12,42,1",1,0,1
+803,scientist,"8,32,5",5,1,0
+803,scientist,"10,22,2",2,0,0
+803,scientist,"12,19,4",4,0,0
+801,swirl,"19,2,1",1,0,0
+801,swirl,"21,5,1",1,0,0
+801,swirl,"24,3,1",1,0,0
+801,swirl,"27,3,4",4,0,0
+801,swirl,"30,3,1",1,1,1
+801,swirl,"35,3,1",1,0,1
+801,swirl,"38,3,4",4,0,0
+801,swirl,"38,17,4",4,0,0
+801,swirl,"33,17,1",1,0,0
+801,swirl,"25,17,1",2,0,0
+801,swirl,"26,22,1",1,0,0
+801,swirl,"24,19,1",1,0,0
+801,swirl,"20,23,1",1,0,1
+801,swirl,"18,28,1",1,0,0
+801,swirl,"4,27,1",1,1,0
+801,swirl,"3,24,1",1,0,0
+801,swirl,"0,18,1",1,0,1
+801,swirl,"7,15,3",3,0,0
+801,swirl,"11,22,3",3,0,0
+807,switchboard,"8,1,1",1,0,0
+807,switchboard,"8,7,1",1,0,0
+807,switchboard,"13,3,1",1,0,0
+807,switchboard,"19,2,2",2,0,0
+807,switchboard,"25,2,1",1,0,0
+807,switchboard,"25,16,1",1,0,1
+807,switchboard,"19,16,1",1,0,1
+807,switchboard,"16,16,3",3,0,1
+807,switchboard,"13,16,1",1,0,1
+807,switchboard,"6,15,4",4,0,0
+807,switchboard,"4,28,2",2,0,0
+807,switchboard,"10,28,4",4,0,0
+807,switchboard,"14,28,4",4,0,0
+807,switchboard,"21,29,1",1,0,0
+807,switchboard,"25,41,1",1,0,1
+807,switchboard,"17,41,1",1,0,1
+807,switchboard,"11,41,1",1,0,1
+807,switchboard,"5,39,1",1,0,0
+814,tide,"2,45,1",1,0,0
+814,tide,"2,43,12",12,1,0
+814,tide,"3,41,12",12,0,1
+814,tide,"4,41,1",1,0,1
+814,tide,"13,41,1",1,0,0
+814,tide,"14,44,1",1,0,0
+814,tide,"12,46,3",3,0,1
+814,tide,"13,53,1",1,0,0
+814,tide,"23,52,1",1,0,0
+814,tide,"22,49,1",1,0,0
+814,tide,"23,45,1",1,0,0
+814,tide,"22,44,3",3,0,0
+814,tide,"24,43,4",4,0,0
+814,tide,"23,41,4",4,0,0
+814,tide,"25,38,2",2,0,0
+814,tide,"21,36,4",4,0,0
+814,tide,"23,32,2",2,0,0
+814,tide,"25,32,4",4,0,0
+814,tide,"25,29,2",2,0,0
+814,tide,"23,29,5",5,0,0
+814,tide,"21,25,6",6,0,0
+814,tide,"22,18,6",6,0,0
+814,tide,"23,16,5",5,0,0
+814,tide,"23,15,1",1,0,0
+814,tide,"23,13,1",1,2,0
+814,tide,"21,11,1",1,0,1
+814,tide,"23,9,1",1,2,0
+814,tide,"25,11,1",1,0,1
+934017,"EDGE Old Levels
+abandoned ruins","5,10,4",4,0,0
+934017,"EDGE Old Levels
+abandoned ruins","7,4,4",4,0,0
+934017,"EDGE Old Levels
+abandoned ruins","10,6,2",2,1,1
+934015,"EDGE Old Levels
+ghost city","20,33,1",2,0,0
+934015,"EDGE Old Levels
+ghost city","25,29,1",2,0,0
+934015,"EDGE Old Levels
+ghost city","28,23,1",2,2,0
+934015,"EDGE Old Levels
+ghost city","4,9,1",1,0,0
+820,winners,"5,93,1",1,1,0
+820,winners,"5,87,1",1,0,0
+820,winners,"2,84,4",4,0,0
+820,winners,"1,80,2",2,0,0
+820,winners,"2,73,4",4,0,0
+820,winners,"6,71,1",1,0,0
+820,winners,"2,65,4",4,0,0
+820,winners,"2,61,4",4,0,0
+820,winners,"6,60,1",1,0,0
+820,winners,"4,53,1",1,0,0
+820,winners,"19,51,4",4,0,0
+820,winners,"34,51,4",4,0,0
+820,winners,"46,51,5",5,1,0
+820,winners,"46,50,4",4,1,0
+820,winners,"46,41,4",5,1,0
+820,winners,"46,32,4",5,1,0
+820,winners,"46,24,4",5,1,0
+820,winners,"46,17,4",5,1,0
+820,winners,"46,10,4",5,1,0
+820,winners,"46,5,6",7,0,0
+850,zias,"25,6,2",2,0,0
+850,zias,"25,12,2",2,0,1
+850,zias,"24,20,2",2,0,1
+850,zias,"24,25,2",2,1,0
+850,zias,"3,26,1",1,0,1
+850,zias,"2,22,1",1,1,1
+850,zias,"3,15,1",1,1,1
+850,zias,"2,11,2",2,0,1
+850,zias,"1,4,2",2,0,0
+850,zias,"8,2,2",2,1,1
+850,zias,"21,23,2",2,1,0
+850,zias,"25,5,2",2,0,0
+850,zias,"16,3,3",3,1,0
+850,zias,"16,22,2",2,0,0
+850,zias,"12,5,2",2,0,0
+850,zias,"10,24,2",2,0,0
+850,zias,"4,10,2",2,0,0
