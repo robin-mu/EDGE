@@ -23,10 +23,10 @@ with open(file, 'rb') as f:
     language_data = {string_ascii(f, 2): [] for _ in range(numlangs)}
 
     numstrings = int16(f)
-    m_StringKeys = []
+    string_keys = []
 
     for _ in range(numstrings):
-        m_StringKeys.append(uint32(f))
+        string_keys.append(uint32(f))
 
         for lang in language_data.keys():
             string_length = int16(f)
@@ -34,4 +34,4 @@ with open(file, 'rb') as f:
 
             language_data[lang].append(string_value.rstrip('\x00'))
 
-    pd.DataFrame(language_data, index=m_StringKeys).to_csv('text.csv')
+    pd.DataFrame(language_data, index=string_keys).to_csv('text.csv')
