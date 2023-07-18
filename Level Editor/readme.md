@@ -2,6 +2,9 @@
 
 This is a tool to convert Minecraft structure files to EDGE levels. See [CatLook’s level documentation](https://catlooks.github.io/edge/doc) for additional info on all used terms.
 
+## Table of Contents
+1. [Level Parameters](#level-parameters)
+
 # Level Parameters
 
 | Tag | Minecraft Representation |
