@@ -4,37 +4,41 @@ This is a tool to convert Minecraft structure files to EDGE levels. See [CatLook
 
 ## Table of Contents
 1. [Level Parameters](#level-parameters)
+2. [Static Level Parts](#static-level-parts)
+3. [Dynamic Level Parts](#dynamic-level-parts)
+4. [Saving and Converting a Structure](#saving-and-converting-a-structure)
+5. [Using the Script](#using-the-script)
 
 # Level Parameters
 
 | Tag | Minecraft Representation |
 | --- | --- |
-| SpawnPoint | Gold Block |
-| ExitPoint | Emerald Block |
-| Size | Size of structure(s) |
+| `SpawnPoint` | **Gold Block** |
+| `ExitPoint` | **Emerald Block** |
+| `Size` | Size of structure(s) |
 
-Other level parameters are written in a book with `Level [filename]` as its first line. The book has to be put in a lectern located anywhere in the structure. Parameters are `key=value` pairs separated by new lines:
+Other level parameters are written in a **Book** with `Level [filename]` as its first line. The book has to be put in a **Lectern** located anywhere in the structure. Parameters are `key=value` pairs separated by new lines:
 
 ![Untitled](Minecraft%20Structure%20to%20EDGE%20Level%20Converter%2098832466638b48b7820fd93d4233f2ad/Untitled.png)
 
-# Static level parts
+# Static Level Parts
 
 | Block | Brightness | Height | RGB | Minecraft Representation |
 | --- | --- | --- | --- | --- |
-| Common | 0 | Full | #FFFFFF | Quartz Block |
-| Common | 0 | Half | #FFFF80 | Quartz Slab |
-| Common | -1, -2, -3 | Full | #FF(80,40,00)FF | Oak, Spruce, Dark Oak Planks |
-| Common | -1, -2, -3 | Half | #FF(80,40,00)80 | Oak, Spruce, Dark Oak Slab |
-| Luminous | -3 (Does not matter) | Full | #E00000 | Smooth Stone |
-| Luminous | -3 (Does not matter) | Half | #C00000 | Smooth Stone Slab |
-| No collision | 0, -1, -2, -3 | Full | #00(FF,80,40,00)FF | White, Light Gray, Gray, Black Stained Glass |
-| Invisible | -3 (Does not matter) | 0 | #FF0000 | Glass |
+| Common | 0 | Full | `#FFFFFF` | **Quartz Block** |
+| Common | 0 | Half | `#FFFF80` | **Quartz Slab** |
+| Common | -1, -2, -3 | Full | `#FF(80,40,00)FF` | **Oak, Spruce, Dark Oak Planks** |
+| Common | -1, -2, -3 | Half | `#FF(80,40,00)80` | **Oak, Spruce, Dark Oak Slab** |
+| Luminous | -3 (Does not matter) | Full | `#E00000` | **Smooth Stone** |
+| Luminous | -3 (Does not matter) | Half | `#C00000` | **Smooth Stone Slab** |
+| No collision | 0, -1, -2, -3 | Full | `#00(FF,80,40,00)FF` | **White, Light Gray, Gray, Black Stained Glass** |
+| Invisible | -3 (Does not matter) | 0 | `#FF0000` | **Glass** |
 
 To create a block with a custom RGB value, place a **sign** with the desired value written on its first line.
 
 ![Untitled](Minecraft%20Structure%20to%20EDGE%20Level%20Converter%2098832466638b48b7820fd93d4233f2ad/Untitled%201.png)
 
-# Dynamic level parts
+# Dynamic Level Parts
 
 Most dynamic level parts have so many parameters that **containers** (Shulker Boxes, Barrels, Chests) have to be used as their representation. The position of the part corresponds to the position of the container. Parameters are represented either by items or a book inside the container. The book contains `key=value` pairs separated by new lines, just as done for the level parameters.
 Note: If preferred, every parameter that is represented by items in containers can also be written inside a book. Parameters from the book overwrite parameters from items in the container.
@@ -58,9 +62,9 @@ Some parts have a `Visible="[True,False(,Null)]`" parameter:
 
 | Value | Item |
 | --- | --- |
-| True | No item (always default) |
-| False | Glass |
-| Null | White Stained Glass |
+| `True` | No item (always default) |
+| `False` | Glass |
+| `Null` | White Stained Glass |
 
 ### Radius
 
@@ -68,8 +72,8 @@ Some parts have a `Radius="[x],[y]"` parameter:
 
 | Data | Value |
 | --- | --- |
-| x | Amount of Prismarine Shard |
-| y | Amount of Stick |
+| `x` | Amount of Prismarine Shard |
+| `y` | Amount of Stick |
 
 Note that the orientation of the items matches the orientation of the corresponding axis.
 
@@ -160,37 +164,24 @@ Example: This chest marks the third waypoint for the platform with `WaypointItem
 
 ## Summary
 
-|            Parameter
-
-Part | Block | Timing | Visibility | Radius | Extra | Additional data | Notes |
+| Name | Block | Timing | Visibility | Radius | Extra | Additional data | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Item |  / | 1. Iron Nugget (1 tick) and Iron Ingot (1 second)
-2. Gold Nugget (1 tick) and Gold Ingot (1 second) | False = Glass
-Null = White Stained Glass | x = Prismarine Shard
-y = Stick | Various | Book with one key=value pair per line. Parameters in the book overwrite items in the container. |  |
-| MovingPlatform | White Shulker Box | 1. TravelTime (of first waypoint) 
-2. PauseTime (of first waypoint) | - | - | WaypointItem: Arbitrary item (Amount = LoopStartIndex)
-FullBlock = False: Quartz Slab
-AutoStart = False: Red Wool | ID, RelatedTo, Offset | Block position defines position of first waypoint |
-| Waypoint | Chest | 1. TravelTime
-2. PauseTime | - | - | - | - |  |
-| FallingPlatform | Dropper | 1. FloatTime | - | - | - | - |  |
-| Bumper | Barrel | 1. StartDelay
-2. PulseRate | - | - | Enabled = False: Red Wool | ID | Bumper orientation = Barrel orientation |
-| Button | Light Gray Shulker Box | - | True (default), False, Null | - | DisableCount: Amount of Stone Button | ID, Mode, TriggerAchievements, AffectMovingPlatforms, AffectButtons, AffectBumpers | Will be attached to a moving platform underneath it if it has an ID |
-| ResizerGrow | Red Shulker Box | - | True (default), False | [x],[y] | - | - |  |
-| ResizerShrink | Green Shulker Box | - | True (default), False | [x],[y] | - | - |  |
-| OtherCube | Orange Shulker Box | - | - | [x],[y] | - | PositionCube, MovingBlockSync, KeyEvents | Shulker Box position denotes PositionTrigger
-Relative coordinates (~) can be used for PositionCube |
-| DarkCube | Black Shulker Box | - | - | [x],[y] | - | PositionCube, MovingBlockSync, KeyEvents | Shulker Box position denotes PositionTrigger
-Relative coordinates (~) can be used for PositionCube |
-| Checkpoint | Blue Shulker Box | - | - | [x],[y] | RespawnZ: Arrow (Amount = height above checkpoint) | - |  |
-| CameraTrigger | Pink Shulker Box | 1. StartDelay
-2. Duration | - | - | - | Zoom, Angle, FieldOfView, SingleUse |  |
-| ButtonSequence | Lectern | - | - | - | - | ButtonIDs, SequenceInOrder, TriggerAchievements, AffectMovingPlatforms, AffectButtons, AffectBumpers | Can be placed anywhere in the structure |
+| Item |  / | 1. Iron Nugget (1 tick) and Iron Ingot (1 second)<br/>2. Gold Nugget (1 tick) and Gold Ingot (1 second) | `False` = Glass<br/>`Null` = White Stained Glass | `x` = Prismarine Shard<br/>`y` = Stick | Various | Book with one `key=value` pair per line. Parameters in the book overwrite items in the container. |  |
+| MovingPlatform | White Shulker Box | 1. `TravelTime` (of first waypoint) <br/>2. `PauseTime` (of first waypoint) | - | - | `WaypointItem`: Arbitrary item (Amount = `LoopStartIndex`)<br/>`FullBlock` = False: Quartz Slab<br/>`AutoStart` = False: Red Wool | `ID`, `RelatedTo`, `Offset` | Block position defines position of first waypoint |
+| Waypoint | Chest | 1. `TravelTime`<br/>2. `PauseTime` | - | - | - | - |  |
+| FallingPlatform | Dropper | 1. `FloatTime` | - | - | - | - |  |
+| Bumper | Barrel | 1. `StartDelay`<br/>2. `PulseRate` | - | - | `Enabled = False`: Red Wool | `ID` | Bumper orientation = Barrel orientation |
+| Button | Light Gray Shulker Box | - | `True` (default), `False`, `Null` | - | `DisableCount`: Amount of Stone Button | `ID`, `Mode`, `TriggerAchievements`, `AffectMovingPlatforms`, `AffectButtons`, `AffectBumpers` | Will be attached to a moving platform underneath it if it has an `ID` |
+| ResizerGrow | Red Shulker Box | - | `True` (default), `False` | `[x],[y]` | - | - |  |
+| ResizerShrink | Green Shulker Box | - | `True` (default), `False` | `[x],[y]` | - | - |  |
+| OtherCube | Orange Shulker Box | - | - | `[x],[y]` | - | `PositionCube`, `MovingBlockSync`, `KeyEvents` | Shulker Box position denotes `PositionTrigger`<br/>Relative coordinates (~) can be used for `PositionCube` |
+| DarkCube | Black Shulker Box | - | - | `[x],[y]` | - | `PositionCube`, `MovingBlockSync`, `KeyEvents` | Shulker Box position denotes `PositionTrigger`<br/>Relative coordinates (~) can be used for `PositionCube` |
+| Checkpoint | Blue Shulker Box | - | - | `[x],[y]` | `RespawnZ`: Arrow (Amount = height above checkpoint) | - |  |
+| CameraTrigger | Pink Shulker Box | 1. `StartDelay`<br/>2. `Duration` | - | - | - | `Zoom`, `Angle`, `FieldOfView`, `SingleUse` |  |
+| ButtonSequence | Lectern | - | - | - | - | `ButtonIDs`, `SequenceInOrder`, `TriggerAchievements`, `AffectMovingPlatforms`, `AffectButtons`, `AffectBumpers` | Can be placed anywhere in the structure |
 | Prism | Prismarine | - | - | - | - | - |  |
 
-# Saving and converting a structure
+# Saving and Converting a Structure
 
 When building your level, note that the camera in EDGE is facing north-west. You can check your facing direction by pressing F3. 
 You have to have cheats enabled in your Minecraft world. Get a structure block by typing `/give @p minecraft:structure_block`. Place the structure block in the bottom-north-west corner of your level. Right-click the structure block and set it into “Save” mode by clicking the button in the bottom left that says “Load” twice. Enter your structure size and click “Done”, and a white outline will appear around your level. Enter a structure name and click “SAVE” in the bottom right to save your structure.
@@ -205,7 +196,7 @@ Example: To create a 96x96x96 level, you have to place 8 structure blocks and na
 
 ![big_level.png](Minecraft%20Structure%20to%20EDGE%20Level%20Converter%2098832466638b48b7820fd93d4233f2ad/big_level.png)
 
-# Using the script
+# Using the Script
 
 You need to have Python and the modules nbt (`pip install nbt`) and pillow (`pip install pillow`) installed. Open your terminal in the same folder as the script. To convert a structure, type
 
