@@ -23,16 +23,16 @@ Other level parameters are written in a **Book** with `Level [filename]` as its 
 
 # Static Level Parts
 
-| Block | Brightness | Height | RGB | Minecraft Representation |
-| --- | --- | --- | --- | --- |
-| Common | 0 | Full | `#FFFFFF` | **Quartz Block** |
-| Common | 0 | Half | `#FFFF80` | **Quartz Slab** |
-| Common | -1, -2, -3 | Full | `#FF(80,40,00)FF` | **Oak, Spruce, Dark Oak Planks** |
-| Common | -1, -2, -3 | Half | `#FF(80,40,00)80` | **Oak, Spruce, Dark Oak Slab** |
-| Luminous | -3 (Does not matter) | Full | `#E00000` | **Smooth Stone** |
-| Luminous | -3 (Does not matter) | Half | `#C00000` | **Smooth Stone Slab** |
-| No collision | 0, -1, -2, -3 | Full | `#00(FF,80,40,00)FF` | **White, Light Gray, Gray, Black Stained Glass** |
-| Invisible | -3 (Does not matter) | 0 | `#FF0000` | **Glass** |
+|                                                                                                        | Block        | Brightness           | Height | RGB                  | Minecraft Representation                         |                                                                                                              |
+|--------------------------------------------------------------------------------------------------------|--------------|----------------------|--------|----------------------|--------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| ![Untitled](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/0.png?raw=true)             | Common       | 0                    | Full   | `#FFFFFF`            | **Quartz Block**                                 | ![Untitled](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/quartz_block.png?raw=true)        |
+| ![Untitled](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/0_half.png?raw=true)        | Common       | 0                    | Half   | `#FFFF80`            | **Quartz Slab**                                  | ![Untitled](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/quartz_slab.png?raw=true)         |
+| ![Untitled](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/-1.png?raw=true)            | Common       | -1, -2, -3           | Full   | `#FF(80,40,00)FF`    | **Oak, Spruce, Dark Oak Planks**                 | ![Untitled](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/oak_planks.png?raw=true)          |
+| ![Untitled](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/-1_half.png?raw=true)       | Common       | -1, -2, -3           | Half   | `#FF(80,40,00)80`    | **Oak, Spruce, Dark Oak Slab**                   | ![Untitled](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/oak_slab.png?raw=true)            |
+| ![Untitled](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/luminous.png?raw=true)      | Luminous     | -3 (Does not matter) | Full   | `#E00000`            | **Smooth Stone**                                 | ![Untitled](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/smooth_stone.png?raw=true)        |
+| ![Untitled](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/luminous_half.png?raw=true) | Luminous     | -3 (Does not matter) | Half   | `#C00000`            | **Smooth Stone Slab**                            | ![Untitled](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/smooth_stone_slab.png?raw=true)   |
+|                                                                                                        | No collision | 0, -1, -2, -3        | Full   | `#00(FF,80,40,00)FF` | **White, Light Gray, Gray, Black Stained Glass** | ![Untitled](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/white_stained_glass.png?raw=true) |
+|                                                                                                        | Invisible    | -3 (Does not matter) | 0      | `#FF0000`            | **Glass**                                        | ![Untitled](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/glass.png?raw=true)               |
 
 To create a block with a custom RGB value, place a **sign** with the desired value written on its first line.
 
@@ -100,11 +100,11 @@ Note that the orientation of the items matches the orientation of the correspond
 
 Example: This chest marks the third waypoint for the platform with `WaypointItem` of Stone. It has a `TravelTime` of 2.5 seconds (2 seconds + 15 ticks) and a `PauseTime` of 3 seconds.
 
-![Untitled](Minecraft%20Structure%20to%20EDGE%20Level%20Converter%2098832466638b48b7820fd93d4233f2ad/Untitled%202.png)
+![Untitled](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/waypoint.png?raw=true)
 
 ## [Button](https://catlooks.github.io/edge/doc/#tag-btn)
 
-- Representation: ********************************************Light Gray Shulker Box********************************************
+- Representation: **Light Gray Shulker Box**
 - When placed on a MovingPlatform that has an `ID`, the Button will automatically be attached to that platform
 - Items:
     - `Visible`: False = **Glass**, Null = **White Stained Glass**
@@ -113,7 +113,7 @@ Example: This chest marks the third waypoint for the platform with `WaypointItem
 
 ## [FallingPlatform](https://catlooks.github.io/edge/doc/#tag-fp)
 
-- Representation: ****************Dropper****************
+- Representation: **Dropper**
 - Items: `FloatTime` (**Iron Nugget/Ingot**)
 
 ## [Bumper](https://catlooks.github.io/edge/doc/#tag-bmp)
@@ -186,7 +186,7 @@ Example: This chest marks the third waypoint for the platform with `WaypointItem
 When building your level, note that the camera in EDGE is facing north-west. You can check your facing direction by pressing F3. 
 You have to have cheats enabled in your Minecraft world. Get a structure block by typing `/give @p minecraft:structure_block`. Place the structure block in the bottom-north-west corner of your level. Right-click the structure block and set it into “Save” mode by clicking the button in the bottom left that says “Load” twice. Enter your structure size and click “Done”, and a white outline will appear around your level. Enter a structure name and click “SAVE” in the bottom right to save your structure.
 
-![structure.png](Minecraft%20Structure%20to%20EDGE%20Level%20Converter%2098832466638b48b7820fd93d4233f2ad/structure.png)
+![structure.png](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/structure.png?raw=true)
 
 ## Levels bigger than 48x48x48
 
@@ -194,7 +194,7 @@ To convert levels bigger than the maximum structure size of 48x48x48, you have t
 
 Example: To create a 96x96x96 level, you have to place 8 structure blocks and name them in the following way:
 
-![big_level.png](Minecraft%20Structure%20to%20EDGE%20Level%20Converter%2098832466638b48b7820fd93d4233f2ad/big_level.png)
+![big_level.png](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/big_level.png?raw=true)
 
 # Using the Script
 
