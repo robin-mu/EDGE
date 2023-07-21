@@ -1,6 +1,6 @@
 # Minecraft Structure to EDGE Level Converter
 
-This is a tool to convert Minecraft structure files to EDGE levels. See [CatLook’s level documentation](https://catlooks.github.io/edge/doc) for additional info on all used terms.
+This is a tool to convert Minecraft structure files to EDGE levels. See [CatLooks’s level documentation](https://catlooks.github.io/edge/doc) for additional info on all used terms.
 
 ## Table of Contents
 1. [Level Parameters](#level-parameters)
@@ -216,9 +216,9 @@ Example: To create a 96x96x96 level, you have to place 8 structure blocks and na
 ![big_level.png](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/big_level.png?raw=true)
 
 # Using the Script
-You need to have [Python](https://www.python.org/downloads/) and the modules nbt (type `pip install nbt` in your terminal) and pillow (`pip install pillow`) installed. Open your terminal in the same folder as the script. To convert a structure, type
+If you don't have Python, download structure_to_level.exe and run it. Otherwise, you need to have [Python](https://www.python.org/downloads/) and the modules nbt (type `pip install nbt` in your terminal) and pillow (`pip install pillow`) installed. Open your terminal in the same folder as the script. To convert a structure, type
 
-`python.exe structure_to_level.py [world folder] [structure name]`
+`python.exe structure_to_level.py "[world folder]" "[structure name]"`
 
 `[world folder]` is the name displayed in gray under your world name in the world select screen.
 

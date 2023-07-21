@@ -21,8 +21,10 @@ elif len(sys.argv) == 2:
     world_folder_path = os.getcwd()
     structure_name = sys.argv[1]
 else:
-    print('Usage: "python structure_to_level.py [world folder] [structure name]" or "python structure_to_level.py [structure name]"')
-    exit()
+    world_folder = input('Enter your world folder name (just press enter if your structure files are in the same folder as the script): ')
+    world_folder_path = os.path.join(os.path.expanduser('~'), 'AppData', 'Roaming', '.minecraft', 'saves',
+                                         world_folder, 'generated', 'minecraft', 'structures') if world_folder else os.getcwd()
+    structure_name = input('Enter the name of your structure: ')
     # debug
     # world_folder = 'EDGE Level Editor'
     # structure_name = 'test'
