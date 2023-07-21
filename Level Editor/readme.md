@@ -195,10 +195,10 @@ Example: This chest marks the third waypoint for the platform with `WaypointItem
 | ![structure.png](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/prism.png?raw=true)            | ![structure.png](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/prismarine.png?raw=true)             | -                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | -                                                                                                                                                                                                                                                                                                                        | -                                                                                                                                                                                                                                                                                                            | -                                                                                                                                         | -                                                                                                                |                                                                                                            |
 
 Better views of this table can be found here:
-- [Text (Light mode)](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/summary.png?raw=true)
-- [Text (Dark mode)](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/summary_dark.png?raw=true)
-- [Icons (Light mode)](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/summary_icons.png?raw=true)
-- [Icons (Dark mode)](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/summary_icons_dark.png?raw=true)
+- [Text (Light mode)](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/summary.png)
+- [Text (Dark mode)](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/summary_dark.png)
+- [Icons (Light mode)](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/summary_icons.png)
+- [Icons (Dark mode)](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/summary_icons_dark.png)
 
 # Saving and Converting a Structure
 
@@ -224,3 +224,5 @@ You need to have Python and the modules nbt (`pip install nbt`) and pillow (`pip
 `[world folder]` is the name displayed in gray under your world name in the world select screen.
 
 `[structure name]` in the name you wrote into the structure block (without `minecraft:`).
+
+If you specify no `[world folder]`, the script will look for the structure files in your current working directory.

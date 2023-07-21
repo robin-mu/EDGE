@@ -13,6 +13,20 @@ moving_platforms: dict[str, et.Element] = {}
 moving_platforms_by_position: dict[str, str] = {}
 waypoints: dict[str, dict[int, et.Element]] = {}
 
+if len(sys.argv) == 3:
+    world_folder_path = os.path.join(os.path.expanduser('~'), 'AppData', 'Roaming', '.minecraft', 'saves', sys.argv[1],
+                                     'generated', 'minecraft', 'structures')
+    structure_name = sys.argv[2]
+elif len(sys.argv) == 2:
+    world_folder_path = os.getcwd()
+    structure_name = sys.argv[1]
+else:
+    print('Usage: "python structure_to_level.py [world folder] [structure name]" or "python structure_to_level.py [structure name]"')
+    exit()
+    # debug
+    # world_folder = 'EDGE Level Editor'
+    # structure_name = 'test'
+
 
 class DynamicPart:
     def __init__(self, name, timing: tuple = (), visible: bool = False, radius: bool = False, position: bool = True,
@@ -25,7 +39,7 @@ class DynamicPart:
         self.higher_pos = higher_pos
         self.items = items if items else {}
 
-    def to_element(self, container: list, pos: tuple[int, int, int]=(0, 0, 0), orientation: str = None):
+    def to_element(self, container: list, pos: tuple[int, int, int] = (0, 0, 0), orientation: str = None):
         params = {}
         if self.position:
             params['Position'] = v3d(pos, self.higher_pos)
@@ -199,12 +213,6 @@ mc_static_blocks = {
     'minecraft:glass': (0xFF, 0x00, 0x00)
 }
 
-world_folder = sys.argv[1]
-structure_name = sys.argv[2]
-
-world_folder_path = os.path.join(os.path.expanduser('~'), 'AppData', 'Roaming', '.minecraft', 'saves', world_folder,
-                                 'generated', 'minecraft', 'structures')
-
 structure_files = [f for f in os.listdir(world_folder_path) if f.startswith(structure_name)]
 print(f'Found {len(structure_files)} structure files: {structure_files}')
 
@@ -229,7 +237,7 @@ for f in structure_files:
 
     for e in file['blocks']:
         block = str(mc_palette[e['state'].value])
-        pos= tuple(
+        pos = tuple(
             (48 * int(f.split('_')[-1].split('.')[:-1][i]) if len(structure_files) > 1 else 0) + e['pos'][i].value for i
             in range(3))
         if block == 'minecraft:lectern':
@@ -260,7 +268,8 @@ for f in structure_files:
                 elements['Prism'] = [et.Element('Prism', {'Position': v3d(pos)})]
         elif block in dynamic_parts:
             if block == 'minecraft:barrel':
-                dynamic_parts[block].to_element(e['nbt'].get('Items', []), pos, file['palette'][e['state'].value]['Properties']['facing'].value.title())
+                dynamic_parts[block].to_element(e['nbt'].get('Items', []), pos,
+                                                file['palette'][e['state'].value]['Properties']['facing'].value.title())
             else:
                 dynamic_parts[block].to_element(e['nbt'].get('Items', []), pos)
         else:
@@ -321,7 +330,7 @@ shutil.move(os.path.realpath(f'{level_filename}.bin'),
 eso = [f for f in os.listdir() if f.endswith('.eso')][0]
 shutil.move(os.path.realpath(eso), os.path.join(r'C:\Program Files (x86)\Steam\steamapps\common\EDGE\models', eso))
 
-print('Removing files')
-os.remove(f'{level_filename}.xml')
-for i in range(len(level_images)):
-    os.remove(f'{level_filename}.{i}.png')
+# print('Removing files')
+# os.remove(f'{level_filename}.xml')
+# for i in range(len(level_images)):
+#     os.remove(f'{level_filename}.{i}.png')
