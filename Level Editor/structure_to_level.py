@@ -322,15 +322,19 @@ for i, im in enumerate(level_images):
     im.save(fp=f'{level_filename}.{i}.png')
 
 print('Compiling level')
-subprocess.run(f'EdgeTool.exe {level_filename}.xml')
+try:
+    subprocess.run(f'EdgeTool.exe {level_filename}.xml')
 
-print('Moving compiled files')
-shutil.move(os.path.realpath(f'{level_filename}.bin'),
-            os.path.join(r'C:\Program Files (x86)\Steam\steamapps\common\EDGE\levels', f'{level_filename}.bin'))
-eso = [f for f in os.listdir() if f.endswith('.eso')][0]
-shutil.move(os.path.realpath(eso), os.path.join(r'C:\Program Files (x86)\Steam\steamapps\common\EDGE\models', eso))
+    # print('Removing files')
+    # os.remove(f'{level_filename}.xml')
+    # for i in range(len(level_images)):
+    #     os.remove(f'{level_filename}.{i}.png')
+except FileNotFoundError:
+    print('Error: EdgeTool.exe not found. You have to compile the generated files manually.')
 
-# print('Removing files')
-# os.remove(f'{level_filename}.xml')
-# for i in range(len(level_images)):
-#     os.remove(f'{level_filename}.{i}.png')
+# print('Moving compiled files')
+# shutil.move(os.path.realpath(f'{level_filename}.bin'),
+#             os.path.join(r'C:\Program Files (x86)\Steam\steamapps\common\EDGE\levels', f'{level_filename}.bin'))
+# eso = [f for f in os.listdir() if f.endswith('.eso')][0]
+# shutil.move(os.path.realpath(eso), os.path.join(r'C:\Program Files (x86)\Steam\steamapps\common\EDGE\models', eso))
+

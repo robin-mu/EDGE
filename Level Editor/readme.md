@@ -216,8 +216,7 @@ Example: To create a 96x96x96 level, you have to place 8 structure blocks and na
 ![big_level.png](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/big_level.png?raw=true)
 
 # Using the Script
-
-You need to have Python and the modules nbt (`pip install nbt`) and pillow (`pip install pillow`) installed. Open your terminal in the same folder as the script. To convert a structure, type
+You need to have [Python](https://www.python.org/downloads/) and the modules nbt (type `pip install nbt` in your terminal) and pillow (`pip install pillow`) installed. Open your terminal in the same folder as the script. To convert a structure, type
 
 `python.exe structure_to_level.py [world folder] [structure name]`
 
@@ -226,3 +225,5 @@ You need to have Python and the modules nbt (`pip install nbt`) and pillow (`pip
 `[structure name]` in the name you wrote into the structure block (without `minecraft:`).
 
 If you specify no `[world folder]`, the script will look for the structure files in your current working directory.
+
+If you have EdgeTool in the same folder as the script, the level will be compiled automatically.
