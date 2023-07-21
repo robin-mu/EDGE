@@ -11,11 +11,11 @@ This is a tool to convert Minecraft structure files to EDGE levels. See [CatLook
 
 # Level Parameters
 
-| Tag | Minecraft Representation |
-| --- | --- |
-| `SpawnPoint` | **Gold Block** |
-| `ExitPoint` | **Emerald Block** |
-| `Size` | Size of structure(s) |
+| Tag          | Minecraft Representation |                                                                                                        |
+|--------------|--------------------------|--------------------------------------------------------------------------------------------------------|
+| `SpawnPoint` | **Gold Block**           | ![Untitled](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/gold_block.png?raw=true)    |
+| `ExitPoint`  | **Emerald Block**        | ![Untitled](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/emerald_block.png?raw=true) |
+| `Size`       | Size of structure(s)     |                                                                                                        |
 
 Other level parameters are written in a **Book** with `Level [filename]` as its first line. The book has to be put in a **Lectern** located anywhere in the structure. Parameters are `key=value` pairs separated by new lines:
 
@@ -47,42 +47,39 @@ Note: If preferred, every parameter that is represented by items in containers c
 
 ### Timing
 
-Some parts have one or two parameters that specify an amount of ticks, e. g. `TravelTime` or `PauseTime`. These are represented in the following way:
+Some parts have one or two parameters that specify an amount of ticks, e.g. `TravelTime` or `PauseTime`. These are represented in the following way:
 
-| Data | Item |
-| --- | --- |
-| First parameter: 1 tick per item | **Iron Nugget** |
-| First parameter: 1 second (30 ticks) per item | **Iron Ingot** |
-| Second parameter: 1 tick per item | **Gold Nugget** |
-| Second parameter: 1 second (30 ticks) per item | **Gold Ingot** |
+| Data                                           | Item            |                                                                                                      |
+|------------------------------------------------|-----------------|------------------------------------------------------------------------------------------------------|
+| First parameter: 1 tick per item               | **Iron Nugget** | ![Untitled](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/iron_nugget.png?raw=true) |
+| First parameter: 1 second (30 ticks) per item  | **Iron Ingot**  | ![Untitled](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/iron_ingot.png?raw=true)  |
+| Second parameter: 1 tick per item              | **Gold Nugget** | ![Untitled](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/gold_nugget.png?raw=true) |
+| Second parameter: 1 second (30 ticks) per item | **Gold Ingot**  | ![Untitled](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/gold_ingot.png?raw=true)  |
 
 ### Visibility
 
 Some parts have a `Visible="[True,False(,Null)]`" parameter:
 
-| Value | Item |
-| --- | --- |
-| `True` | No item (always default) |
-| `False` | **Glass** |
-| `Null` | **White Stained Glass** |
+| Value   | Item                     |                                                                                                              |
+|---------|--------------------------|--------------------------------------------------------------------------------------------------------------|
+| `True`  | No item (always default) |                                                                                                              |
+| `False` | **Glass**                | ![Untitled](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/glass.png?raw=true)               |
+| `Null`  | **White Stained Glass**  | ![Untitled](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/white_stained_glass.png?raw=true) |
 
 ### Radius
 
 Some parts have a `Radius="[x],[y]"` parameter:
 
-| Data | Value |
-| --- | --- |
-| `x` | Amount of **Prismarine Shard** |
-| `y` | Amount of **Stick** |
+| Data | Value                          |                                                                                                           |
+|------|--------------------------------|-----------------------------------------------------------------------------------------------------------|
+| `x`  | Amount of **Prismarine Shard** | ![Untitled](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/prismarine_shard.png?raw=true) |
+| `y`  | Amount of **Stick**            | ![Untitled](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/stick.png?raw=true)            |
 
 Note that the orientation of the items matches the orientation of the corresponding axis.
 
-## [Prism](https://catlooks.github.io/edge/doc/#tag-psm)
-
-- Representation: **Prismarine** (No container needed)
-
 ## [MovingPlatform](https://catlooks.github.io/edge/doc/#tag-mp)
 
+![structure.png](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/luminous_full.png?raw=true) ![structure.png](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/white_shulker_box.png?raw=true)
 - Representation: **White Shulker Box**
 - Items:
     - `WaypointItem`: An arbitrary item that has to be unique for each MovingPlatform and has to be in the first slot. Used to sync MovingPlatforms with their Waypoints. Items that indicate other parameters are not allowed. The amount of that item denotes the value of the `LoopStartIndex` parameter.
@@ -93,6 +90,7 @@ Note that the orientation of the items matches the orientation of the correspond
 
 ### [Waypoint](https://catlooks.github.io/edge/doc/#tag-wp)
 
+![structure.png](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/chest.png?raw=true)
 - Representation: **Chest**
 - Items:
     - `WaypointItem` of corresponding MovingPlatform. The amount of that item corresponds to the index of the waypoint (having one of that item in a chest means it is the first waypoint, having two of it means the second waypoint and so on). Note: If you want your waypoint indices to match the indices used by the `LoopStartIndex` parameter, you have to start with index 2 since the platform’s initial position counts as its first waypoint.
@@ -102,22 +100,15 @@ Example: This chest marks the third waypoint for the platform with `WaypointItem
 
 ![Untitled](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/waypoint.png?raw=true)
 
-## [Button](https://catlooks.github.io/edge/doc/#tag-btn)
-
-- Representation: **Light Gray Shulker Box**
-- When placed on a MovingPlatform that has an `ID`, the Button will automatically be attached to that platform
-- Items:
-    - `Visible`: False = **Glass**, Null = **White Stained Glass**
-    - `DisableCount`: Amount of **Stone Button**
-- Book: `ID`, `Mode`, `TriggerAchievements`, `AffectMovingPlatforms`, `AffectButtons`, `AffectBumpers`
-
 ## [FallingPlatform](https://catlooks.github.io/edge/doc/#tag-fp)
 
+![structure.png](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/falling_platform.png?raw=true) ![structure.png](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/dropper.png?raw=true)
 - Representation: **Dropper**
 - Items: `FloatTime` (**Iron Nugget/Ingot**)
 
 ## [Bumper](https://catlooks.github.io/edge/doc/#tag-bmp)
 
+![structure.png](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/bumper.png?raw=true) ![structure.png](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/barrel.png?raw=true)
 - Representation: **Barrel**
 - The Bumper is facing in the same direction as the barrel’s lid
 - Items:
@@ -125,8 +116,19 @@ Example: This chest marks the third waypoint for the platform with `WaypointItem
     - `Enabled = False`: **Red Wool**
 - Book: `ID`
 
+## [Button](https://catlooks.github.io/edge/doc/#tag-btn)
+
+![structure.png](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/button.png?raw=true) ![structure.png](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/light_gray_shulker_box.png?raw=true)
+- Representation: **Light Gray Shulker Box**
+- When placed on a MovingPlatform that has an `ID`, the Button will automatically be attached to that platform
+- Items:
+    - `Visible`: False = **Glass**, Null = **White Stained Glass**
+    - `DisableCount`: Amount of **Stone Button**
+- Book: `ID`, `Mode`, `TriggerAchievements`, `AffectMovingPlatforms`, `AffectButtons`, `AffectBumpers`
+
 ## [Resizer](https://catlooks.github.io/edge/doc/#tag-rgs)
 
+![structure.png](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/resizer.png?raw=true) ![structure.png](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/red_shulker_box.png?raw=true) ![structure.png](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/green_shulker_box.png?raw=true)
 - ResizerGrow: **Red Shulker Box**
 - ResizerShrink: **Green Shulker Box**
 - Items:
@@ -135,6 +137,9 @@ Example: This chest marks the third waypoint for the platform with `WaypointItem
 
 ## [OtherCube and DarkCube](https://catlooks.github.io/edge/doc/#tag-odc)
 
+![structure.png](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/othercube.png?raw=true) ![structure.png](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/orange_shulker_box.png?raw=true)
+
+![structure.png](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/darkcube.png?raw=true) ![structure.png](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/black_shulker_box.png?raw=true)
 - OtherCube: **Orange Shulker Box**
 - DarkCube: **Black Shulker Box**
 - The Position of the Shulker Box corresponds to `PositionTrigger`
@@ -142,25 +147,33 @@ Example: This chest marks the third waypoint for the platform with `WaypointItem
     - `Radius`: `x` = **Prismarine Shard**, `y` = **Stick**
 - Book: `PositionCube`, `MovingBlockSync`, `KeyEvents`
     - `PositionCube`: You can use relative coordinates with ~ just like in Minecraft
-    - KeyEvents are entered in the following way: `[N,S,W,E][D,U][TimeOffset]`, e. g. a NorthDown input after 100 ticks would be `ND100`. KeyEvents are separated by commas.
+    - KeyEvents are entered in the following way: `[N,S,W,E][D,U][TimeOffset]`, e.g. a NorthDown input after 100 ticks would be `ND100`. KeyEvents are separated by commas.
 
 ## [Checkpoint](https://catlooks.github.io/edge/doc/#tag-cp)
 
+![structure.png](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/blue_shulker_box.png?raw=true)
 - Representation: **Blue Shulker Box**
 - Items:
     - `Radius`: `x` = **Prismarine Shard**, `y` = **Stick**
-    - `RespawnZ`: Amount of **Arrow** corresponds to respawn height relative to the height of the checkpoint (e. g. 2 Arrows mean you respawn 2 blocks above the checkpoint)
+    - `RespawnZ`: Amount of **Arrow** corresponds to respawn height relative to the height of the checkpoint (e.g. 2 Arrows mean you respawn 2 blocks above the checkpoint)
 
 ## [CameraTrigger](https://catlooks.github.io/edge/doc/#tag-ct)
 
+![structure.png](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/pink_shulker_box.png?raw=true)
 - Representation: **Pink Shulker Box**
 - Items: `StartDelay` (**Iron Nugget/Ingot**), `Duration` (**Gold Nugget/Ingot**)
 - Book: `Zoom`, `Angle`, `FieldOfView`, `SingleUse`
 
 ## [ButtonSequence](https://catlooks.github.io/edge/doc/#tag-bs)
 
+![structure.png](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/lectern.png?raw=true)
 - Representation: **Lectern** located anywhere inside the structure
 - Book: `ButtonIDs` (comma-separated list), `SequenceInOrder`, `TriggerAchievements`, `AffectMovingPlatforms`, `AffectButtons`, `AffectBumpers`
+
+## [Prism](https://catlooks.github.io/edge/doc/#tag-psm)
+
+![structure.png](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/prism.png?raw=true) ![structure.png](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/prismarine.png?raw=true)
+- Representation: **Prismarine** (No container needed)
 
 ## Summary
 
@@ -181,6 +194,12 @@ Example: This chest marks the third waypoint for the platform with `WaypointItem
 | ButtonSequence                                                                                                 | ![structure.png](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/lectern.png?raw=true)                | -                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | -                                                                                                                                                                                                                                                                                                                        | -                                                                                                                                                                                                                                                                                                            | -                                                                                                                                         | `ButtonIDs`, `SequenceInOrder`, `TriggerAchievements`, `AffectMovingPlatforms`, `AffectButtons`, `AffectBumpers` | Can be placed anywhere in the structure                                                                    |
 | ![structure.png](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/prism.png?raw=true)            | ![structure.png](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/prismarine.png?raw=true)             | -                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | -                                                                                                                                                                                                                                                                                                                        | -                                                                                                                                                                                                                                                                                                            | -                                                                                                                                         | -                                                                                                                |                                                                                                            |
 
+Better views of this table can be found here:
+- [Text (Light mode)](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/summary.png?raw=true)
+- [Text (Dark mode)](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/summary_dark.png?raw=true)
+- [Icons (Light mode)](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/summary_icons.png?raw=true)
+- [Icons (Dark mode)](https://github.com/robin-mu/EDGE/blob/main/Wiki/Level%20Editor/summary_icons_dark.png?raw=true)
+
 # Saving and Converting a Structure
 
 When building your level, note that the camera in EDGE is facing north-west. You can check your facing direction by pressing F3. 
@@ -190,7 +209,7 @@ You have to have cheats enabled in your Minecraft world. Get a structure block b
 
 ## Levels bigger than 48x48x48
 
-To convert levels bigger than the maximum structure size of 48x48x48, you have to place multiple structure blocks so that they together create a bigger cube. The resulting structures have to be named `[name]_x.y.z` where x, y and z are the **coordinates of the structure.** The structure name you enter in the script is still just `[name]`
+To convert levels bigger than the maximum structure size of 48x48x48, you have to place multiple structure blocks so that they together create a bigger cube. The resulting structures have to be named `[name]_x.y.z` where x, y and z are the **coordinates of the structure.** The structure name you enter into the script is still just `[name]`
 
 Example: To create a 96x96x96 level, you have to place 8 structure blocks and name them in the following way:
 
@@ -204,4 +223,4 @@ You need to have Python and the modules nbt (`pip install nbt`) and pillow (`pip
 
 `[world folder]` is the name displayed in gray under your world name in the world select screen.
 
-`[structure name]` in the name you entered in the structure block (without `minecraft:`).
+`[structure name]` in the name you wrote into the structure block (without `minecraft:`).
