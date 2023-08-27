@@ -1,9 +1,5 @@
-/Level Editor/Resources/Achievements.xml
+/Level Editor/Resources/
 /Level Editor/EdgeTool.exe
-/Level Editor/Resources/Libraries/Microsoft.WindowsAPICodePack.dll
-/Level Editor/Resources/Libraries/Microsoft.WindowsAPICodePack.pdb
-/Level Editor/Resources/Libraries/Microsoft.WindowsAPICodePack.Shell.dll
-/Level Editor/Resources/Libraries/Microsoft.WindowsAPICodePack.Shell.pdb
-/Level Editor/Resources/Libraries/MygodLibrary.dll
-/Level Editor/Resources/Libraries/MygodLibrary.pdb
-/Level Editor/Resources/Libraries/XactInterop3.dll
+/Level Editor/.idea/
+/Wiki/
+/.idea
