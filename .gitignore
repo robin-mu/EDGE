@@ -1,5 +1,6 @@
 /Level Editor/Resources/
 /Level Editor/EdgeTool.exe
 /Level Editor/.idea/
-/Wiki/
+/Wiki/.idea/
+/Wiki/.gitignore
 /.idea
