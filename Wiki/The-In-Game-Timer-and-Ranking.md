@@ -1,6 +1,6 @@
 # The In-Game Timer
 
-In EDGE, there are only 22 possible values for milliseconds:
+In EDGE, there are only 22 possible values for milliseconds that the timer can show:
 
 ```python
 .00, .04, .09, .13, .18, .22, .27, .31, .36, .40, .45, 
