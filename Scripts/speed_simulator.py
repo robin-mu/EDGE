@@ -22,6 +22,7 @@ def simulate(ticks, steps_since_last_prism, const_speed=None, climbing=False, mi
 	speed = START_SPEED if const_speed is None else const_speed
 	angle_speed = 0
 	angle = START_ANGLE
+	climbed = False
 	
 	steps = 0
 	last_step = 0
@@ -89,11 +90,13 @@ def simulate(ticks, steps_since_last_prism, const_speed=None, climbing=False, mi
 					angle = 0
 				log(f'{i:4d} {steps_since_last_prism:5d} {acceleration:5d} {speed:5d} {angle_speed:6d} {angle:6d}', verbose=verbose_output)
 				
-				angle_speed //= 10
+				angle_speed //= 10 if not climbed else 6
+				climbed = False
 				log(f'{i:4d} {steps_since_last_prism:5d} {acceleration:5d} {speed:5d} {angle_speed:6d} {angle:6d}', verbose=verbose_output)
 			else:
 				angle = START_ANGLE
 				climbing = False
+				climbed = True
 			
 			steps_since_last_prism += 1
 			
@@ -227,3 +230,5 @@ def time_angle_plot(speed):
 	df_angle = pd.DataFrame(data={'time': list(range(1, len(angle_data) + 1)), 'angle': angle_data})
 	
 	px.scatter(df_angle, x='time', y='angle').show()
+
+simulate(4500, 22, othercube=True, output_per_tick=True)
