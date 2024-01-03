@@ -218,7 +218,7 @@ Example: To create a 96x96x96 level, you have to place 8 structure blocks and na
 ![big_level.png](images/big_level.png)
 
 # Using the Script
-If you don't have Python, download [structure_to_level.exe](https://github.com/robin-mu/EDGE/raw/main/Level%20Editor/structure_to_level.exe) and run it. Otherwise, you need to have [Python](https://www.python.org/downloads/) and the modules nbt (type `pip install nbt` in your terminal) and pillow (`pip install pillow`) installed. Open your terminal in the same folder as the script. To convert a structure, type
+If you don't have Python, download [structure_to_level.exe](https://github.com/robin-mu/EDGE/raw/main/Level%20Converter/structure_to_level.exe) and run it. Otherwise, you need to have [Python](https://www.python.org/downloads/) and the modules nbt (type `pip install nbt` in your terminal) and pillow (`pip install pillow`) installed. Open your terminal in the same folder as the script. To convert a structure, type
 
 `python.exe structure_to_level.py "[world folder]" "[structure name]"`
 
