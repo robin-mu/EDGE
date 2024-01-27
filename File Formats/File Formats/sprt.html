@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://will.kirk.by/labs/tt/tt2/sprt -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>sprt | Two Tribes File Formats</title>
+  <link href="./sprt_files/bootstrap.min.css" rel="stylesheet">
+  <link href="./sprt_files/prettify.css" rel="stylesheet">
+  <style>
+    pre.prettyprint{
+      padding: 9.5px !important;
+      border: 1px solid #ccc !important;
+    }
+  </style>
+  <meta name="viewport" content="width=device-width">
+<link rel="stylesheet" type="text/css" href="./sprt_files/prettify(1).css"></head>
+<body style="">
+  <div class="container">
+    <h1><small>Toki Tori 2 ~</small> sprt</h1>
+    <h3>Spritestrip Metadata</h3>
+    <pre class="prettyprint lang-cpp prettyprinted" style=""><span class="kwd">struct</span><span class="pln"> </span><span class="typ">sprt_file_t</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> magic</span><span class="pun">[</span><span class="lit">5</span><span class="pun">];</span><span class="pln">  </span><span class="com">// { 'S','P','R','T',0 }</span><span class="pln">
+    </span><span class="typ">int</span><span class="pln"> unknown1</span><span class="pun">;</span><span class="pln">   </span><span class="com">// seemingly constant 2</span><span class="pln">
+    </span><span class="typ">float</span><span class="pln"> width</span><span class="pun">;</span><span class="pln">
+    </span><span class="typ">float</span><span class="pln"> height</span><span class="pun">;</span><span class="pln">   </span><span class="com">// believed to be constant 1.0 in release build</span><span class="pln">
+    </span><span class="typ">int</span><span class="pln"> num_frames</span><span class="pun">;</span><span class="pln">
+</span><span class="pun">};</span><span class="pln">
+
+</span><span class="com">// dimensions are in UV space (0.0 - 1.0) rather than pixel space.</span></pre>
+  </div>
+  <script src="./sprt_files/jquery.min.js.Download"></script>
+  <script src="./sprt_files/bootstrap.min.js.Download"></script>
+  <script src="./sprt_files/prettify.js.Download"></script>
+  
+
+
+</body></html>

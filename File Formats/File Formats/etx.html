@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://will.kirk.by/labs/tt/ttdev/etx -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>etx | Two Tribes File Formats</title>
+  <link href="./etx_files/bootstrap.min.css" rel="stylesheet">
+  <link href="./etx_files/prettify.css" rel="stylesheet">
+  <style>
+    pre.prettyprint{
+      padding: 9.5px !important;
+      border: 1px solid #ccc !important;
+    }
+  </style>
+  <meta name="viewport" content="width=device-width">
+<link rel="stylesheet" type="text/css" href="./etx_files/prettify(1).css"></head>
+<body style="">
+  <div class="container">
+    <h1><small>Two Tribes Engine ~</small> etx</h1>
+    <h3>Texture</h3>
+    <pre class="prettyprint lang-cpp prettyprinted" style=""><span class="com">// for engine version 18-03 (RUSH, some EDGE builds)</span><span class="pln">
+</span><span class="kwd">struct</span><span class="pln"> </span><span class="typ">etx_file_t</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+    </span><span class="typ">asset_header_t</span><span class="pln"> asset_header</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> data</span><span class="pun">[];</span><span class="pln">  </span><span class="com">// image in PNG format. No length provided, just read to the EOF.</span><span class="pln">
+</span><span class="pun">};</span><span class="pln">
+
+</span><span class="com">// for engine version 18-04 (some EDGE builds)</span><span class="pln">
+</span><span class="kwd">struct</span><span class="pln"> </span><span class="typ">etx_file_t</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+    </span><span class="typ">asset_header_t</span><span class="pln"> asset_header</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> width</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> height</span><span class="pun">;</span><span class="pln">
+    </span><span class="typ">int</span><span class="pln"> unknown1</span><span class="pun">;</span><span class="pln">
+    </span><span class="typ">int</span><span class="pln"> data_length</span><span class="pun">;</span><span class="pln">          </span><span class="com">// width * height * 4</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> data</span><span class="pun">[</span><span class="pln">data_length</span><span class="pun">];</span><span class="pln">   </span><span class="com">// BGRA8888 in standard raster scan order</span><span class="pln">
+</span><span class="pun">};</span><span class="pln">
+
+</span><span class="com">// for engine version 00-04 (Toki Tori 2+)</span><span class="pln">
+</span><span class="kwd">struct</span><span class="pln"> </span><span class="typ">etx_file_t</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+    </span><span class="typ">asset_header_t</span><span class="pln"> asset_header</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> width</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> height</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> depth</span><span class="pun">;</span><span class="pln">    </span><span class="com">// 1 for non-volumetric textures</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> mipmap_count</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> unknown1</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> format</span><span class="pun">;</span><span class="pln">   </span><span class="com">// this might be a flags-based thing, I'm unsure.</span><span class="pln">
+                    </span><span class="com">// so far the only values I've seen are:</span><span class="pln">
+                    </span><span class="com">// 0x0006 = BGRA8888</span><span class="pln">
+                    </span><span class="com">// 0x0206 = A8  (alpha-only, used for lightmasks)</span><span class="pln">
+    </span><span class="typ">int</span><span class="pln"> data_length_dst</span><span class="pun">;</span><span class="pln">
+    </span><span class="typ">int</span><span class="pln"> data_length_src</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> data</span><span class="pun">[</span><span class="pln">data_length_src</span><span class="pun">];</span><span class="pln">   </span><span class="com">// compressed with FastLZ.</span><span class="pln">
+                                  </span><span class="com">// Decompresses to be of length `data_length_dst`</span><span class="pln">
+</span><span class="pun">};</span></pre>
+  </div>
+  <script src="./etx_files/jquery.min.js.Download"></script>
+  <script src="./etx_files/bootstrap.min.js.Download"></script>
+  <script src="./etx_files/prettify.js.Download"></script>
+  
+
+
+</body></html>

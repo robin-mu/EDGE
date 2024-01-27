@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://will.kirk.by/labs/tt/ttdev/eso -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>eso | Two Tribes File Formats</title>
+  <link href="./eso_files/bootstrap.min.css" rel="stylesheet">
+  <link href="./eso_files/prettify.css" rel="stylesheet">
+  <style>
+    pre.prettyprint{
+      padding: 9.5px !important;
+      border: 1px solid #ccc !important;
+    }
+  </style>
+  <meta name="viewport" content="width=device-width">
+<link rel="stylesheet" type="text/css" href="./eso_files/prettify(1).css"></head>
+<body style="">
+  <div class="container">
+    <h1><small>Two Tribes Engine ~</small> eso</h1>
+    <h3>3D Mesh</h3>
+    <pre class="prettyprint lang-cpp prettyprinted" style=""><span class="kwd">struct</span><span class="pln"> </span><span class="typ">vec2_t</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+    </span><span class="typ">float</span><span class="pln"> x</span><span class="pun">;</span><span class="pln">
+    </span><span class="typ">float</span><span class="pln"> y</span><span class="pun">;</span><span class="pln">
+</span><span class="pun">};</span><span class="pln">
+
+</span><span class="kwd">struct</span><span class="pln"> </span><span class="typ">vec3_t</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+    </span><span class="typ">float</span><span class="pln"> x</span><span class="pun">;</span><span class="pln">
+    </span><span class="typ">float</span><span class="pln"> y</span><span class="pun">;</span><span class="pln">
+    </span><span class="typ">float</span><span class="pln"> z</span><span class="pun">;</span><span class="pln">
+</span><span class="pun">};</span><span class="pln">
+
+</span><span class="kwd">struct</span><span class="pln"> </span><span class="typ">eso_header_t</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+    </span><span class="typ">int</span><span class="pln"> unknown1</span><span class="pun">;</span><span class="pln">
+    </span><span class="typ">int</span><span class="pln"> unknown2</span><span class="pun">;</span><span class="pln">
+    </span><span class="typ">asset_hash_t</span><span class="pln"> asset_child</span><span class="pun">;</span><span class="pln">
+    </span><span class="typ">asset_hash_t</span><span class="pln"> asset_sibling</span><span class="pun">;</span><span class="pln">
+    </span><span class="typ">int</span><span class="pln"> unknown3</span><span class="pun">;</span><span class="pln">
+    </span><span class="typ">int</span><span class="pln"> unknown4</span><span class="pun">;</span><span class="pln">
+    </span><span class="typ">int</span><span class="pln"> unknown5</span><span class="pun">;</span><span class="pln">
+    </span><span class="typ">float</span><span class="pln"> scale_xyz</span><span class="pun">;</span><span class="pln">
+    </span><span class="typ">vec3_t</span><span class="pln"> translate</span><span class="pun">;</span><span class="pln">
+    </span><span class="typ">vec3_t</span><span class="pln"> rotate</span><span class="pun">;</span><span class="pln">
+    </span><span class="typ">vec3_t</span><span class="pln"> scale</span><span class="pun">;</span><span class="pln">
+    </span><span class="typ">float</span><span class="pln"> unknown6</span><span class="pun">;</span><span class="pln">
+    </span><span class="typ">int</span><span class="pln"> unknown7</span><span class="pun">;</span><span class="pln">
+    </span><span class="typ">int</span><span class="pln"> num_models</span><span class="pun">;</span><span class="pln">
+    </span><span class="com">// if (num_models &gt; 0) {</span><span class="pln">
+      </span><span class="typ">vec3_t</span><span class="pln"> bounding_min</span><span class="pun">;</span><span class="pln">
+      </span><span class="typ">vec3_t</span><span class="pln"> bounding_max</span><span class="pun">;</span><span class="pln">
+    </span><span class="com">// }</span><span class="pln">
+</span><span class="pun">};</span><span class="pln">
+
+</span><span class="kwd">enum</span><span class="pln"> TYPE_FLAG </span><span class="pun">{</span><span class="pln">
+    TYPE_FLAG_NORMALS </span><span class="pun">=</span><span class="pln"> </span><span class="lit">0x01</span><span class="pun">,</span><span class="pln">
+    TYPE_FLAG_COLORS </span><span class="pun">=</span><span class="pln"> </span><span class="lit">0x02</span><span class="pun">,</span><span class="pln">
+    TYPE_FLAG_TEX_COORDS </span><span class="pun">=</span><span class="pln"> </span><span class="lit">0x04</span><span class="pun">,</span><span class="pln">
+    TYPE_FLAG_TEX_COORDS_2 </span><span class="pun">=</span><span class="pln"> </span><span class="lit">0x08</span><span class="pln"> </span><span class="com">// only seen in RUSH for the checkerboard pattern</span><span class="pln">
+</span><span class="pun">};</span><span class="pln">
+
+</span><span class="kwd">struct</span><span class="pln"> </span><span class="typ">eso_model_t</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+    </span><span class="typ">asset_hash_t</span><span class="pln"> asset_material</span><span class="pun">;</span><span class="pln">
+    u32 type_flags</span><span class="pun">;</span><span class="pln">
+    </span><span class="typ">int</span><span class="pln"> num_verts</span><span class="pun">;</span><span class="pln">
+    </span><span class="typ">int</span><span class="pln"> num_polys</span><span class="pun">;</span><span class="pln">
+    </span><span class="typ">int</span><span class="pln"> unknown1</span><span class="pun">;</span><span class="pln">
+    </span><span class="typ">vec3_t</span><span class="pln"> vertices</span><span class="pun">[</span><span class="pln">num_verts</span><span class="pun">];</span><span class="pln">
+    </span><span class="com">// if (type_flags &amp; TYPE_FLAG_NORMALS)</span><span class="pln">
+      </span><span class="typ">vec3_t</span><span class="pln"> normals</span><span class="pun">[</span><span class="pln">num_verts</span><span class="pun">];</span><span class="pln">
+    </span><span class="com">// if (type_flags &amp; TYPE_FLAG_COLORS)</span><span class="pln">
+      u32 colors</span><span class="pun">[</span><span class="pln">num_verts</span><span class="pun">];</span><span class="pln">
+    </span><span class="com">// if (type_flags &amp; TYPE_FLAG_TEX_COORDS)</span><span class="pln">
+      </span><span class="typ">vec2_t</span><span class="pln"> tex_coords</span><span class="pun">[</span><span class="pln">num_verts</span><span class="pun">];</span><span class="pln">
+    </span><span class="com">// if (type_flags &amp; TYPE_FLAG_TEX_COORDS_2)</span><span class="pln">
+      </span><span class="typ">vec2_t</span><span class="pln"> tex_coords_2</span><span class="pun">[</span><span class="pln">num_verts</span><span class="pun">];</span><span class="pln">
+    u16 indices</span><span class="pun">[</span><span class="pln">num_polys </span><span class="pun">*</span><span class="pln"> </span><span class="lit">3</span><span class="pun">];</span><span class="pln">
+</span><span class="pun">};</span><span class="pln">
+
+</span><span class="kwd">struct</span><span class="pln"> </span><span class="typ">eso_footer_t</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+    </span><span class="typ">float</span><span class="pln"> unknown1</span><span class="pun">;</span><span class="pln">
+    </span><span class="typ">float</span><span class="pln"> unknown2</span><span class="pun">;</span><span class="pln">
+    </span><span class="typ">int</span><span class="pln"> unknown3</span><span class="pun">;</span><span class="pln">
+    </span><span class="typ">int</span><span class="pln"> unknown4</span><span class="pun">;</span><span class="pln">
+</span><span class="pun">};</span><span class="pln">
+
+</span><span class="kwd">struct</span><span class="pln"> </span><span class="typ">eso_file_t</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+    </span><span class="typ">asset_header_t</span><span class="pln"> asset_header</span><span class="pun">;</span><span class="pln">
+    </span><span class="typ">eso_header_t</span><span class="pln"> eso_header</span><span class="pun">;</span><span class="pln">
+    </span><span class="typ">eso_model_t</span><span class="pln"> models</span><span class="pun">[</span><span class="pln">eso_header</span><span class="pun">.</span><span class="pln">num_models</span><span class="pun">];</span><span class="pln">
+    </span><span class="com">// if (eso_header.num_models &gt; 0) {</span><span class="pln">
+      </span><span class="typ">int</span><span class="pln"> footer_check</span><span class="pun">;</span><span class="pln">
+      </span><span class="com">// if (footer_check == 1) {</span><span class="pln">
+        </span><span class="typ">eso_footer_t</span><span class="pln"> eso_footer</span><span class="pun">;</span><span class="pln">
+      </span><span class="com">// }</span><span class="pln">
+    </span><span class="com">// }</span><span class="pln">
+</span><span class="pun">};</span></pre>
+  </div>
+  <script src="./eso_files/jquery.min.js.Download"></script>
+  <script src="./eso_files/bootstrap.min.js.Download"></script>
+  <script src="./eso_files/prettify.js.Download"></script>
+  
+
+
+</body></html>

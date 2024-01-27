@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://will.kirk.by/labs/tt/ttgbc/rem -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>rem | Two Tribes File Formats</title>
+  <link href="./rem_files/bootstrap.min.css" rel="stylesheet">
+  <link href="./rem_files/prettify.css" rel="stylesheet">
+  <style>
+    pre.prettyprint{
+      padding: 9.5px !important;
+      border: 1px solid #ccc !important;
+    }
+  </style>
+  <meta name="viewport" content="width=device-width">
+<link rel="stylesheet" type="text/css" href="./rem_files/prettify(1).css"></head>
+<body style="">
+  <div class="container">
+    <h1><small>Toki Tori GBC ~</small> rem</h1>
+    <h3>Level file</h3>
+    <pre class="prettyprint lang-cpp prettyprinted" style=""><span class="com">// massive thanks to @MstrBlinky for help with this.</span><span class="pln">
+
+</span><span class="kwd">struct</span><span class="pln"> </span><span class="typ">rem_entity_t</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> x</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> y</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> type</span><span class="pun">;</span><span class="pln">  </span><span class="com">// bottom 3 bits are type, middle 2 bits are direction, top 3 bits are extra data</span><span class="pln">
+                </span><span class="com">// types: 0 = egg,</span><span class="pln">
+                </span><span class="com">//        1 = toki</span><span class="pln">
+                </span><span class="com">//        3 = monster</span><span class="pln">
+                </span><span class="com">//        4 = passive</span><span class="pln">
+                </span><span class="com">//        5 = special</span><span class="pln">
+</span><span class="pun">};</span><span class="pln">
+
+</span><span class="kwd">struct</span><span class="pln"> </span><span class="typ">rem_tool_t</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> type</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> count</span><span class="pun">;</span><span class="pln"> </span><span class="com">// 0xFF for infinite.</span><span class="pln">
+</span><span class="pun">};</span><span class="pln">
+
+</span><span class="kwd">struct</span><span class="pln"> </span><span class="typ">rem_file_t</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> world_theme</span><span class="pun">;</span><span class="pln"> </span><span class="com">// 0 = Forest Falls, 1 = Creepy Castle, 2 = Slime Cave, 3 = Bubble Barrage</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> layout</span><span class="pun">;</span><span class="pln">      </span><span class="com">// 0 = 32x128, 1 = 64x64, 2 = 128x32</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> width</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> height</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> title_length</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> title</span><span class="pun">[</span><span class="pln">title_length</span><span class="pun">];</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> designer_length</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> designer</span><span class="pun">[</span><span class="pln">designer_length</span><span class="pun">];</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> comment_length</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> comment</span><span class="pun">[</span><span class="pln">comment_length</span><span class="pun">];</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> entities_count</span><span class="pun">;</span><span class="pln">
+    </span><span class="typ">rem_entity_t</span><span class="pln"> entities</span><span class="pun">[</span><span class="pln">entities_count</span><span class="pun">];</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> tools_count</span><span class="pun">;</span><span class="pln">
+    </span><span class="typ">rem_tool_t</span><span class="pln"> tools</span><span class="pun">[</span><span class="pln">tools_count</span><span class="pun">];</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> duration</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">bool</span><span class="pln"> attr_stairs</span><span class="pun">[</span><span class="pln">width </span><span class="pun">*</span><span class="pln"> height</span><span class="pun">];</span><span class="pln"> </span><span class="com">// not width*height bytes in file, it's compressed</span><span class="pln">
+    </span><span class="kwd">bool</span><span class="pln"> attr_solid</span><span class="pun">[</span><span class="pln">width </span><span class="pun">*</span><span class="pln"> height</span><span class="pun">];</span><span class="pln">
+    </span><span class="kwd">bool</span><span class="pln"> attr_front</span><span class="pun">[</span><span class="pln">width </span><span class="pun">*</span><span class="pln"> height</span><span class="pun">];</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> tiles</span><span class="pun">[</span><span class="pln">width </span><span class="pun">*</span><span class="pln"> height</span><span class="pun">];</span><span class="pln">       </span><span class="com">// compressed, different algorithm than for attributes</span><span class="pln">
+</span><span class="pun">};</span></pre>
+  </div>
+  <script src="./rem_files/jquery.min.js.Download"></script>
+  <script src="./rem_files/bootstrap.min.js.Download"></script>
+  <script src="./rem_files/prettify.js.Download"></script>
+  
+
+
+</body></html>

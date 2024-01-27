@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://will.kirk.by/labs/tt/ttdev/ean -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>ean | Two Tribes File Formats</title>
+  <link href="./ean_files/bootstrap.min.css" rel="stylesheet">
+  <link href="./ean_files/prettify.css" rel="stylesheet">
+  <style>
+    pre.prettyprint{
+      padding: 9.5px !important;
+      border: 1px solid #ccc !important;
+    }
+  </style>
+  <meta name="viewport" content="width=device-width">
+<link rel="stylesheet" type="text/css" href="./ean_files/prettify(1).css"></head>
+<body style="">
+  <div class="container">
+    <h1><small>Two Tribes Engine ~</small> ean</h1>
+    <h3>3D Animation</h3>
+    <pre class="prettyprint lang-cpp prettyprinted" style=""><span class="kwd">struct</span><span class="pln"> </span><span class="typ">ean_file_t</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+    </span><span class="typ">asset_header_t</span><span class="pln"> asset_header</span><span class="pun">;</span><span class="pln">
+    </span><span class="typ">float</span><span class="pln"> unknown1</span><span class="pun">;</span><span class="pln"> </span><span class="com">// mostly 0, occasionally others but very rare.</span><span class="pln">
+    </span><span class="typ">float</span><span class="pln"> duration</span><span class="pun">;</span><span class="pln"> </span><span class="com">// duration of the animation in frames</span><span class="pln">
+    </span><span class="typ">int</span><span class="pln"> zero1</span><span class="pun">;</span><span class="pln"> </span><span class="com">// always zero?</span><span class="pln">
+    </span><span class="typ">int</span><span class="pln"> zero2</span><span class="pun">;</span><span class="pln"> </span><span class="com">// always zero?</span><span class="pln">
+    </span><span class="typ">asset_hash_t</span><span class="pln"> asset_child</span><span class="pun">;</span><span class="pln">   </span><span class="com">// } these are referencing sibling animations</span><span class="pln">
+    </span><span class="typ">asset_hash_t</span><span class="pln"> asset_sibling</span><span class="pun">;</span><span class="pln"> </span><span class="com">// } left-child right-sibling binary tree</span><span class="pln">
+    </span><span class="typ">keyframe_block_t</span><span class="pln"> block_tx</span><span class="pun">;</span><span class="pln">  </span><span class="com">// translation, X axis</span><span class="pln">
+    </span><span class="typ">keyframe_block_t</span><span class="pln"> block_ty</span><span class="pun">;</span><span class="pln">  </span><span class="com">// translation, Y axis</span><span class="pln">
+    </span><span class="typ">keyframe_block_t</span><span class="pln"> block_tz</span><span class="pun">;</span><span class="pln">  </span><span class="com">// translation, Z axis</span><span class="pln">
+    </span><span class="typ">keyframe_block_t</span><span class="pln"> block_rx</span><span class="pun">;</span><span class="pln">  </span><span class="com">// rotation, X axis</span><span class="pln">
+    </span><span class="typ">keyframe_block_t</span><span class="pln"> block_ry</span><span class="pun">;</span><span class="pln">  </span><span class="com">// rotation, Y axis</span><span class="pln">
+    </span><span class="typ">keyframe_block_t</span><span class="pln"> block_rz</span><span class="pun">;</span><span class="pln">  </span><span class="com">// rotation, Z axis</span><span class="pln">
+    </span><span class="typ">keyframe_block_t</span><span class="pln"> block_sx</span><span class="pun">;</span><span class="pln">  </span><span class="com">// scaling, X axis</span><span class="pln">
+    </span><span class="typ">keyframe_block_t</span><span class="pln"> block_sy</span><span class="pun">;</span><span class="pln">  </span><span class="com">// scaling, Y axis</span><span class="pln">
+    </span><span class="typ">keyframe_block_t</span><span class="pln"> block_sz</span><span class="pun">;</span><span class="pln">  </span><span class="com">// scaling, Z axis</span><span class="pln">
+</span><span class="pun">};</span></pre>
+  </div>
+  <script src="./ean_files/jquery.min.js.Download"></script>
+  <script src="./ean_files/bootstrap.min.js.Download"></script>
+  <script src="./ean_files/prettify.js.Download"></script>
+  
+
+
+</body></html>

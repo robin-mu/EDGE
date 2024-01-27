@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)http://will.kirk.by/labs/tt/edge/level.bin -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>level.bin | Two Tribes File Formats</title>
+  <link href="./level.bin_files/bootstrap.min.css" rel="stylesheet">
+  <link href="./level.bin_files/prettify.css" rel="stylesheet">
+  <style>
+    pre.prettyprint{
+      padding: 9.5px !important;
+      border: 1px solid #ccc !important;
+    }
+  </style>
+  <meta name="viewport" content="width=device-width">
+<link rel="stylesheet" type="text/css" href="./level.bin_files/prettify(1).css"></head>
+<body style="">
+  <div class="container">
+    <h1><small>EDGE ~</small> level.bin</h1>
+    <h3>Level Format</h3>
+    <pre class="prettyprint lang-cpp prettyprinted" style=""><span class="com">// @MyGodStudio has pointed out a few errors in this documentation.</span><span class="pln">
+</span><span class="com">// I will amend these once I'm more certain about them.</span><span class="pln">
+
+</span><span class="com">#define</span><span class="pln"> TIME_THRESHOLDS_LENGTH </span><span class="lit">5</span><span class="pln">
+
+</span><span class="kwd">struct</span><span class="pln"> edge_level </span><span class="pun">{</span><span class="pln">
+    level_header header</span><span class="pun">;</span><span class="pln">    </span><span class="com">// quick access to data used for the level-select screen</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> size_z</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> size_x</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> size_y</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> unknown_short_1</span><span class="pun">;</span><span class="pln">  </span><span class="com">// size_x + size_y</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> unknown_short_2</span><span class="pun">;</span><span class="pln">  </span><span class="com">// size_x + size_y + (2 * size_z)</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> unknown_short_3</span><span class="pun">;</span><span class="pln">  </span><span class="com">// (unknown_short_1 + 9) / 10</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> unknown_short_4</span><span class="pun">;</span><span class="pln">  </span><span class="com">// (unknown_short_2 + 9) / 10</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> unknown_byte_1</span><span class="pun">;</span><span class="pln">    </span><span class="com">// 10</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> unknown_short_5</span><span class="pun">;</span><span class="pln">  </span><span class="com">// size_y - 1</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> unknown_short_6</span><span class="pun">;</span><span class="pln">  </span><span class="com">// 0</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> legacy_minimap</span><span class="pun">[];</span><span class="pln">   </span><span class="com">// length = ((unknown_short_3 * unknown_short_4) + 7) / 8</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> collision_map</span><span class="pun">[];</span><span class="pln">    </span><span class="com">// length = size_z * (((size_x * size_y) + 7) / 8)</span><span class="pln">
+    </span><span class="typ">vector</span><span class="pln"> spawn_point</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> zoom</span><span class="pun">;</span><span class="pln">
+    </span><span class="com">// if zoom &lt; 0</span><span class="pln">
+        </span><span class="kwd">short</span><span class="pln"> fov</span><span class="pun">;</span><span class="pln">
+        </span><span class="kwd">bool</span><span class="pln"> auto_adjust_zoom_for_fov</span><span class="pun">;</span><span class="pln">
+    </span><span class="com">// endif</span><span class="pln">
+    </span><span class="typ">vector</span><span class="pln"> exit_point</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> moving_platform_count</span><span class="pun">;</span><span class="pln">
+    moving_platform moving_platforms</span><span class="pun">[</span><span class="pln">moving_platform_count</span><span class="pun">];</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> bumper_count</span><span class="pun">;</span><span class="pln">
+    bumper bumpers</span><span class="pun">[</span><span class="pln">bumper_count</span><span class="pun">];</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> falling_platform_count</span><span class="pun">;</span><span class="pln">
+    falling_platform falling_platforms</span><span class="pun">[</span><span class="pln">falling_platform_count</span><span class="pun">];</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> checkpoint_count</span><span class="pun">;</span><span class="pln">
+    checkpoint checkpoints</span><span class="pun">[</span><span class="pln">checkpoint_count</span><span class="pun">];</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> camera_trigger_count</span><span class="pun">;</span><span class="pln">
+    camera_trigger camera_triggers</span><span class="pun">[</span><span class="pln">camera_trigger_count</span><span class="pun">];</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> prism_count</span><span class="pun">;</span><span class="pln">
+    prism prisms</span><span class="pun">[</span><span class="pln">prism_count</span><span class="pun">];</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> fans_count</span><span class="pun">;</span><span class="pln">       </span><span class="com">// deprecated, presumably would have been followed by fan fans[fans_count];</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> block_event_count</span><span class="pun">;</span><span class="pln">
+    block_event block_events</span><span class="pun">[</span><span class="pln">block_event_count</span><span class="pun">];</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> button_count</span><span class="pun">;</span><span class="pln">
+    button buttons</span><span class="pun">[</span><span class="pln">button_count</span><span class="pun">];</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> othercube_count</span><span class="pun">;</span><span class="pln">
+    othercube othercubes</span><span class="pun">[</span><span class="pln">othercube_count</span><span class="pun">];</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> resizer_count</span><span class="pun">;</span><span class="pln">
+    resizer resizers</span><span class="pun">[</span><span class="pln">resizer_count</span><span class="pun">];</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> mini_blocks_count</span><span class="pun">;</span><span class="pln">    </span><span class="com">// deprecated, presumably would have been followed by mini_block mini_blocks[mini_blocks_count];</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> theme</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> music_j2me</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> music</span><span class="pun">;</span><span class="pln">
+</span><span class="pun">};</span><span class="pln">
+
+</span><span class="kwd">struct</span><span class="pln"> level_header </span><span class="pun">{</span><span class="pln">
+    </span><span class="typ">int</span><span class="pln"> level_id</span><span class="pun">;</span><span class="pln">
+    </span><span class="typ">int</span><span class="pln"> title_length</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> title</span><span class="pun">[</span><span class="pln">title_length</span><span class="pun">];</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> time_thresholds</span><span class="pun">[</span><span class="pln">TIME_THRESHOLDS_LENGTH</span><span class="pun">];</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> prisms_count</span><span class="pun">;</span><span class="pln">
+</span><span class="pun">};</span><span class="pln">
+
+</span><span class="kwd">struct</span><span class="pln"> </span><span class="typ">vector</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> x</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> y</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> z</span><span class="pun">;</span><span class="pln">
+</span><span class="pun">};</span><span class="pln">
+
+</span><span class="kwd">struct</span><span class="pln"> moving_platform </span><span class="pun">{</span><span class="pln">
+    </span><span class="kwd">bool</span><span class="pln"> auto_start</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">bool</span><span class="pln"> looped</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> clones</span><span class="pun">;</span><span class="pln">   </span><span class="com">// deprecated. set to zero.</span><span class="pln">
+    </span><span class="kwd">bool</span><span class="pln"> full_block</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> waypoints_count</span><span class="pun">;</span><span class="pln">
+    waypoint waypoints</span><span class="pun">[</span><span class="pln">waypoints_count</span><span class="pun">];</span><span class="pln">
+</span><span class="pun">};</span><span class="pln">
+
+</span><span class="kwd">struct</span><span class="pln"> waypoint </span><span class="pun">{</span><span class="pln">
+    </span><span class="typ">vector</span><span class="pln"> position</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> travel_time</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> pause_time</span><span class="pun">;</span><span class="pln">
+</span><span class="pun">};</span><span class="pln">
+
+</span><span class="kwd">struct</span><span class="pln"> bumper </span><span class="pun">{</span><span class="pln">
+    </span><span class="kwd">bool</span><span class="pln"> auto_start</span><span class="pun">;</span><span class="pln">
+    </span><span class="typ">vector</span><span class="pln"> position</span><span class="pun">;</span><span class="pln">
+    bumper_side north</span><span class="pun">;</span><span class="pln">      </span><span class="com">// assuming north as -Y in blockspace, top-right in screenspace</span><span class="pln">
+    bumper_side east</span><span class="pun">;</span><span class="pln">
+    bumper_side south</span><span class="pun">;</span><span class="pln">
+    bumper_side west</span><span class="pun">;</span><span class="pln">
+</span><span class="pun">};</span><span class="pln">
+
+</span><span class="kwd">struct</span><span class="pln"> bumper_side </span><span class="pun">{</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> start_delay</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> pulse_rate</span><span class="pun">;</span><span class="pln">
+</span><span class="pun">};</span><span class="pln">
+
+</span><span class="kwd">struct</span><span class="pln"> falling_platform </span><span class="pun">{</span><span class="pln">
+    </span><span class="typ">vector</span><span class="pln"> position</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> float_time</span><span class="pun">;</span><span class="pln">
+</span><span class="pun">};</span><span class="pln">
+
+</span><span class="kwd">struct</span><span class="pln"> checkpoint </span><span class="pun">{</span><span class="pln">
+    </span><span class="typ">vector</span><span class="pln"> position</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> respawn_offset_z</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> radius_x</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> radius_y</span><span class="pun">;</span><span class="pln">
+</span><span class="pun">};</span><span class="pln">
+
+</span><span class="kwd">struct</span><span class="pln"> camera_trigger </span><span class="pun">{</span><span class="pln">
+    </span><span class="typ">vector</span><span class="pln"> position</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> zoom</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> radius_x</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> radius_y</span><span class="pun">;</span><span class="pln">
+    </span><span class="com">// if zoom == -1</span><span class="pln">
+        </span><span class="kwd">bool</span><span class="pln"> reset</span><span class="pun">;</span><span class="pln">
+        </span><span class="kwd">short</span><span class="pln"> start_delay</span><span class="pun">;</span><span class="pln">
+        </span><span class="kwd">short</span><span class="pln"> duration</span><span class="pun">;</span><span class="pln">
+        </span><span class="kwd">short</span><span class="pln"> value</span><span class="pun">;</span><span class="pln">
+        </span><span class="kwd">bool</span><span class="pln"> single_use</span><span class="pun">;</span><span class="pln">
+        </span><span class="kwd">bool</span><span class="pln"> value_is_fov</span><span class="pun">;</span><span class="pln">      </span><span class="com">// value is zoom level if false</span><span class="pln">
+    </span><span class="com">// endif</span><span class="pln">
+</span><span class="pun">};</span><span class="pln">
+
+</span><span class="kwd">struct</span><span class="pln"> prism </span><span class="pun">{</span><span class="pln">
+    </span><span class="typ">vector</span><span class="pln"> position</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> energy</span><span class="pun">;</span><span class="pln">    </span><span class="com">// deprecated. put a zero or something.</span><span class="pln">
+</span><span class="pun">};</span><span class="pln">
+
+</span><span class="kwd">struct</span><span class="pln"> block_event </span><span class="pun">{</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> type</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> block_id</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> payload</span><span class="pun">;</span><span class="pln">
+    </span><span class="com">/*
+        type == 0:
+            affects moving_platforms[block_id]
+            payload == 0:
+                traverse all waypoints
+            payload != 0:
+                traverse `payload` waypoints.
+        type == 1:
+            affects bumpers[block_id]
+            payload == 0:
+                if bumper is running, stop it
+                else fire it once
+            payload == 1:
+                start the bumper and enable looping
+        type == 2:
+            triggers achievements.
+            block_id is the achievement ID
+            payload is additional metadata that varies between different achievements.
+        type == 3:
+            affects buttons[block_id]
+            payload == 0:
+                enable the button (pop it up)
+            payload == 1:
+                disable the button
+    */</span><span class="pln">
+</span><span class="pun">};</span><span class="pln">
+
+</span><span class="kwd">struct</span><span class="pln"> button </span><span class="pun">{</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> visibility</span><span class="pun">;</span><span class="pln">
+        </span><span class="com">// visibility == 0: invisible</span><span class="pln">
+        </span><span class="com">// visibility == 1: visible, solid</span><span class="pln">
+        </span><span class="com">// visibility == 2: visible, ghosted</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> press_count</span><span class="pun">;</span><span class="pln">   </span><span class="com">// after a button has been pressed `press_count` times, it cannot be re-enabled by an event.</span><span class="pln">
+            </span><span class="com">// press_count = 0 can be re-enabled as many times as you like.</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> mode</span><span class="pun">;</span><span class="pln">
+        </span><span class="com">// mode == 0: reverses the event when the button is released</span><span class="pln">
+        </span><span class="com">// mode == 1: event is permanent, button stays up when released</span><span class="pln">
+        </span><span class="com">// mode == 2: event is permanent, button stays down when released</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> parent_id</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">bool</span><span class="pln"> sequence_in_order</span><span class="pun">;</span><span class="pln">
+    byte siblings_count</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">bool</span><span class="pln"> is_moving</span><span class="pun">;</span><span class="pln">
+    </span><span class="com">// if is_moving</span><span class="pln">
+        </span><span class="kwd">short</span><span class="pln"> moving_block_id</span><span class="pun">;</span><span class="pln">
+    </span><span class="com">// else</span><span class="pln">
+        </span><span class="typ">vector</span><span class="pln"> position</span><span class="pun">;</span><span class="pln">
+    </span><span class="com">// endif</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> event_count</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> events</span><span class="pun">[</span><span class="pln">event_count</span><span class="pun">];</span><span class="pln">
+    </span><span class="com">/*
+        this is a tricky one so I feel it needs to be explained.
+        a standalone button uses
+            visibility
+            press_count
+            mode
+            is_moving (and related position system)
+            event_count
+            events
+
+        a button sequence uses all of those and more.
+        a button sequence consists of multiple buttons which when all pressed will activate a collection of events.
+        a button sequence can insist that the buttons be pressed in a particular order.
+        a button sequence has a 'parent' button and a series of 'child' buttons.
+        only the parent trigger should have events tied to it.
+        the parent and children should all have these properties:
+            sequence_in_order = </span><true false=""><span class="com">
+            mode = 2
+        the parent has these properties:
+            parent_id = -1 (default)
+            siblings_count = </span><number of="" child="" buttons=""><span class="com">
+            events = </span><array of="" event="" ids=""><span class="com">
+        the children have these properties:
+            parent_id = </span><index of="" the="" parent="" in="" buttons="" array=""><span class="com">
+            siblings_count = 0
+    */</span><span class="pln">
+</span><span class="pun">};</span><span class="pln">
+
+</span><span class="kwd">struct</span><span class="pln"> othercube </span><span class="pun">{</span><span class="pln">
+    </span><span class="typ">vector</span><span class="pln"> position_trigger</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> moving_block_sync</span><span class="pun">;</span><span class="pln">    </span><span class="com">// id of a looped moving block to sync to. -1 for no sync.</span><span class="pln">
+    </span><span class="com">// if moving_block_sync == -2 (then it's a dark cube)</span><span class="pln">
+        </span><span class="kwd">char</span><span class="pln"> darkcube_radius_x</span><span class="pun">;</span><span class="pln">
+        </span><span class="kwd">char</span><span class="pln"> darkcube_radius_y</span><span class="pun">;</span><span class="pln">
+        </span><span class="kwd">short</span><span class="pln"> darkcube_moving_block_sync</span><span class="pun">;</span><span class="pln">
+    </span><span class="com">// endif</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> key_event_count</span><span class="pun">;</span><span class="pln">
+    </span><span class="typ">vector</span><span class="pln"> position_cube</span><span class="pun">;</span><span class="pln">
+    key_event key_events</span><span class="pun">[</span><span class="pln">key_event_count</span><span class="pun">];</span><span class="pln">  </span><span class="com">// interesting that this isn't immediately after its length...</span><span class="pln">
+</span><span class="pun">};</span><span class="pln">
+
+</span><span class="kwd">struct</span><span class="pln"> key_event </span><span class="pun">{</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> time_offset</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> direction</span><span class="pun">;</span><span class="pln">
+        </span><span class="com">// direction == 0: west</span><span class="pln">
+        </span><span class="com">// direction == 1: east</span><span class="pln">
+        </span><span class="com">// direction == 2: north</span><span class="pln">
+        </span><span class="com">// direction == 3: south</span><span class="pln">
+        </span><span class="com">// assuming, as earlier, north to be -Y in blockspace, top-right in screenspace</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> event_type</span><span class="pun">;</span><span class="pln">
+        </span><span class="com">// event_type == 0: key down</span><span class="pln">
+        </span><span class="com">// event_type == 1: key up</span><span class="pln">
+</span><span class="pun">};</span><span class="pln">
+
+</span><span class="kwd">struct</span><span class="pln"> resizer </span><span class="pun">{</span><span class="pln">
+    </span><span class="typ">vector</span><span class="pln"> position</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">bool</span><span class="pln"> visible</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> direction</span><span class="pun">;</span><span class="pln">
+        </span><span class="com">// direction == 0: shrink</span><span class="pln">
+        </span><span class="com">// direction == 1: grow</span><span class="pln">
+</span><span class="pun">};</span></index></array></number></true></pre>
+  </div>
+  <script src="./level.bin_files/jquery.min.js.Download"></script>
+  <script src="./level.bin_files/bootstrap.min.js.Download"></script>
+  <script src="./level.bin_files/prettify.js.Download"></script>
+  
+
+
+</body></html>

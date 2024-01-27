@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)http://will.kirk.by/labs/tt/edge/font.bin -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>font.bin | Two Tribes File Formats</title>
+  <link href="./font.bin_files/bootstrap.min.css" rel="stylesheet">
+  <link href="./font.bin_files/prettify.css" rel="stylesheet">
+  <style>
+    pre.prettyprint{
+      padding: 9.5px !important;
+      border: 1px solid #ccc !important;
+    }
+  </style>
+  <meta name="viewport" content="width=device-width">
+<link rel="stylesheet" type="text/css" href="./font.bin_files/prettify(1).css"></head>
+<body style="">
+  <div class="container">
+    <h1><small>EDGE ~</small> font.bin</h1>
+    <h3>Font</h3>
+    <pre class="prettyprint lang-cpp prettyprinted" style=""><span class="kwd">struct</span><span class="pln"> </span><span class="typ">font_rect_t</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> x</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> y</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> width</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> height</span><span class="pun">;</span><span class="pln">
+</span><span class="pun">};</span><span class="pln">
+
+</span><span class="kwd">struct</span><span class="pln"> </span><span class="typ">font_char_t</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> num_rects</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> width</span><span class="pun">;</span><span class="pln">
+    </span><span class="typ">font_rect_t</span><span class="pln"> rects</span><span class="pun">[</span><span class="pln">num_rects</span><span class="pun">];</span><span class="pln">
+</span><span class="pun">};</span><span class="pln">
+
+</span><span class="kwd">struct</span><span class="pln"> </span><span class="typ">font_bin_t</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> space_width</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> line_spacing</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> num_chars</span><span class="pun">;</span><span class="pln">
+    </span><span class="typ">font_char_t</span><span class="pln"> chars</span><span class="pun">[</span><span class="pln">num_chars</span><span class="pun">];</span><span class="pln">
+</span><span class="pun">};</span></pre>
+  </div>
+  <script src="./font.bin_files/jquery.min.js.Download"></script>
+  <script src="./font.bin_files/bootstrap.min.js.Download"></script>
+  <script src="./font.bin_files/prettify.js.Download"></script>
+  
+
+
+</body></html>

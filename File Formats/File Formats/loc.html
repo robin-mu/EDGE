@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://will.kirk.by/labs/tt/ttdev/loc -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>loc | Two Tribes File Formats</title>
+  <link href="./loc_files/bootstrap.min.css" rel="stylesheet">
+  <link href="./loc_files/prettify.css" rel="stylesheet">
+  <style>
+    pre.prettyprint{
+      padding: 9.5px !important;
+      border: 1px solid #ccc !important;
+    }
+  </style>
+  <meta name="viewport" content="width=device-width">
+<link rel="stylesheet" type="text/css" href="./loc_files/prettify(1).css"></head>
+<body style="">
+  <div class="container">
+    <h1><small>Two Tribes Engine ~</small> loc</h1>
+    <h3>Multilanguage Strings</h3>
+    <pre class="prettyprint lang-cpp prettyprinted" style=""><span class="typ">loc_lang_t</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> lang</span><span class="pun">[</span><span class="lit">2</span><span class="pun">];</span><span class="pln">   </span><span class="com">// 2-char country code</span><span class="pln">
+</span><span class="pun">};</span><span class="pln">
+
+</span><span class="typ">loc_string_t</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> length</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> value</span><span class="pun">[</span><span class="pln">length</span><span class="pun">];</span><span class="pln">    </span><span class="com">// UCS-2 string</span><span class="pln">
+</span><span class="pun">};</span><span class="pln">
+
+</span><span class="typ">loc_string_set_t</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+    u32 key</span><span class="pun">;</span><span class="pln">                </span><span class="com">// some sort of hash</span><span class="pln">
+    </span><span class="typ">loc_string_t</span><span class="pln"> strings</span><span class="pun">[</span><span class="pln">num_langs</span><span class="pun">];</span><span class="pln">
+</span><span class="pun">}</span><span class="pln">
+
+</span><span class="typ">loc_file_t</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> num_langs</span><span class="pun">;</span><span class="pln">
+    </span><span class="typ">loc_lang_t</span><span class="pln"> langs</span><span class="pun">[</span><span class="pln">num_langs</span><span class="pun">];</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> num_strings</span><span class="pun">;</span><span class="pln">
+    </span><span class="typ">loc_string_set_t</span><span class="pln"> string_sets</span><span class="pun">[</span><span class="pln">num_strings</span><span class="pun">];</span><span class="pln">
+</span><span class="pun">};</span></pre>
+  </div>
+  <script src="./loc_files/jquery.min.js.Download"></script>
+  <script src="./loc_files/bootstrap.min.js.Download"></script>
+  <script src="./loc_files/prettify.js.Download"></script>
+  
+
+
+</body></html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)http://will.kirk.by/labs/tt/ttdev/glyph -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>glyph | Two Tribes File Formats</title>
+  <link href="./glyph_files/bootstrap.min.css" rel="stylesheet">
+  <link href="./glyph_files/prettify.css" rel="stylesheet">
+  <style>
+    pre.prettyprint{
+      padding: 9.5px !important;
+      border: 1px solid #ccc !important;
+    }
+  </style>
+  <meta name="viewport" content="width=device-width">
+<link rel="stylesheet" type="text/css" href="./glyph_files/prettify(1).css"></head>
+<body style="">
+  <div class="container">
+    <h1><small>Two Tribes Engine ~</small> glyph</h1>
+    <h3>Bitmap Font</h3>
+    <pre class="prettyprint lang-cpp prettyprinted" style=""><span class="kwd">struct</span><span class="pln"> </span><span class="typ">glyph_entry_t</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> char_value</span><span class="pun">;</span><span class="pln">  </span><span class="com">// UCS-2</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> width</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> height</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> vertical_offset</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> unknown1</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> data</span><span class="pun">[(</span><span class="pln">width </span><span class="pun">*</span><span class="pln"> height </span><span class="pun">*</span><span class="pln"> encoding</span><span class="pun">)</span><span class="pln"> </span><span class="pun">/</span><span class="pln"> </span><span class="lit">8</span><span class="pun">];</span><span class="pln">
+                    </span><span class="com">// alpha channel in standard raster order</span><span class="pln">
+</span><span class="pun">};</span><span class="pln">
+
+</span><span class="kwd">struct</span><span class="pln"> </span><span class="typ">glyph_file_t</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> num_glyphs</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> unknown1</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">short</span><span class="pln"> encoding</span><span class="pun">;</span><span class="pln"> </span><span class="com">// bits per pixel. only 0x08 is seen in the wild.</span><span class="pln">
+                    </span><span class="com">// only 0x04 and 0x08 seem to render anything</span><span class="pln">
+    </span><span class="typ">glyph_entry_t</span><span class="pln"> glyphs</span><span class="pun">[</span><span class="pln">num_glyphs</span><span class="pun">];</span><span class="pln">
+</span><span class="pun">};</span></pre>
+  </div>
+  <script src="./glyph_files/jquery.min.js.Download"></script>
+  <script src="./glyph_files/bootstrap.min.js.Download"></script>
+  <script src="./glyph_files/prettify.js.Download"></script>
+  
+
+
+</body></html>

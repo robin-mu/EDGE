@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)http://will.kirk.by/labs/tt/ttdev/misc -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>misc | Two Tribes File Formats</title>
+  <link href="./misc_files/bootstrap.min.css" rel="stylesheet">
+  <link href="./misc_files/prettify.css" rel="stylesheet">
+  <style>
+    pre.prettyprint{
+      padding: 9.5px !important;
+      border: 1px solid #ccc !important;
+    }
+  </style>
+  <meta name="viewport" content="width=device-width">
+<link rel="stylesheet" type="text/css" href="./misc_files/prettify(1).css"></head>
+<body style="">
+  <div class="container">
+    <h1><small>Two Tribes Engine ~</small> misc</h1>
+    <h3>Generic Structures</h3>
+    <pre class="prettyprint lang-cpp prettyprinted" style=""><span class="com">// this is found at the start of all hashed asset files (ean, ema, eso, etx)</span><span class="pln">
+</span><span class="kwd">struct</span><span class="pln"> </span><span class="typ">asset_header_t</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+    u32 engine_version_a</span><span class="pun">;</span><span class="pln">
+    u32 engine_version_b</span><span class="pun">;</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> resource_name</span><span class="pun">[</span><span class="lit">64</span><span class="pun">];</span><span class="pln">       </span><span class="com">// null-padded ASCII</span><span class="pln">
+    </span><span class="kwd">char</span><span class="pln"> resource_namespace</span><span class="pun">[</span><span class="lit">64</span><span class="pun">];</span><span class="pln">  </span><span class="com">// null-padded ASCII.</span><span class="pln">
+    
+    </span><span class="com">// Sub-namespaces are denoted with a period '.' rather than a slash '/'</span><span class="pln">
+</span><span class="pun">};</span><span class="pln">
+
+</span><span class="kwd">struct</span><span class="pln"> </span><span class="typ">asset_hash_t</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+    u32 hash_name</span><span class="pun">;</span><span class="pln">
+    u32 hash_namespace</span><span class="pun">;</span><span class="pln">
+</span><span class="pun">};</span><span class="pln">
+
+</span><span class="kwd">struct</span><span class="pln"> </span><span class="typ">keyframe_t</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+    </span><span class="typ">float</span><span class="pln"> time</span><span class="pun">;</span><span class="pln">
+    </span><span class="typ">float</span><span class="pln"> value</span><span class="pun">;</span><span class="pln">
+    </span><span class="typ">float</span><span class="pln"> delta</span><span class="pun">;</span><span class="pln">    </span><span class="com">// used for interpolation?</span><span class="pln">
+</span><span class="pun">};</span><span class="pln">
+
+</span><span class="kwd">struct</span><span class="pln"> </span><span class="typ">keyframe_block_t</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+    </span><span class="typ">float</span><span class="pln"> zero1</span><span class="pun">;</span><span class="pln">    </span><span class="com">// always zero?</span><span class="pln">
+    </span><span class="typ">float</span><span class="pln"> default_value</span><span class="pun">;</span><span class="pln">
+    </span><span class="typ">int</span><span class="pln"> num_keyframes</span><span class="pun">;</span><span class="pln">
+    </span><span class="typ">keyframe_t</span><span class="pln"> keyframes</span><span class="pun">[</span><span class="pln">num_keyframes</span><span class="pun">];</span><span class="pln">
+</span><span class="pun">};</span><span class="pln">
+</span></pre>
+  </div>
+  <script src="./misc_files/jquery.min.js.Download"></script>
+  <script src="./misc_files/bootstrap.min.js.Download"></script>
+  <script src="./misc_files/prettify.js.Download"></script>
+  
+
+
+</body></html>
