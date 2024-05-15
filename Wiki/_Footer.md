@@ -1,0 +1,1 @@
+If you want to add new pages or edit existing ones, you can either create an [issue](https://github.com/robin-mu/EDGE/issues) or message me on Discord (robin.mu). All wiki pages are also uploaded in the [Wiki folder](https://github.com/robin-mu/EDGE/tree/main/Wiki).

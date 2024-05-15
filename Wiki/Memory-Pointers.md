@@ -1,45 +1,15 @@
 This page lists all currently known memory pointers to relevant game variables. 
-- Unless otherwise specified, all variables are signed 4 Bytes variables. 
+- Unless otherwise specified, all variables are signed 4 Byte variables. 
 - The values of all timing related variables are in ticks.
-- All offsets are notated as hexadecimal numbers
+- All offsets are notated as hexadecimal numbers.
 
-# Menu
-
-| Variable Name               | Pointer and Offsets             | Comment                                                                                                                                                                          |
-|-----------------------------|---------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Menu screen                 | `edge.exe+1F9080, 50`           | See [Menu screens table](#Menu-screens) for values                                                                                                                               |
-| Start screen selection      | `edge.exe+1F91B4, 54, 10`       | 0 if the "edge challenge" button is highlighted, 1 if "scores" etc.                                                                                                              |
-| Level pack selection        | `edge.exe+1F91B4, 5C, 10`       |                                                                                                                                                                                  |
-| Scores selection            | `edge.exe+1F91B4, 9C, 10`       |                                                                                                                                                                                  |
-| Options selection           | `edge.exe+1F91B4, 8C, 10`       |                                                                                                                                                                                  |
-| Level select back/go button | `edge.exe+1F91B4, 64/6C/74, 10` | Normal/Bonus/Extended level select. Is set to 1 if "back" is pressed, 2 if "go" is pressed, -1 if either was pressed but the mouse was moved away, 0 when level select is loaded |
-| Scores back button          | `edge.exe+1F91B4, A4/AC/B4, 10` | Normal/Bonus/Extended scores screen                                                                                                                                              |
-| Exit game selection         | `edge.exe+1F91B4, BC, 10`       |                                                                                                                                                                                  |
-| Pause menu selection        | `edge.exe+1F91B4, D4, 10`       |                                                                                                                                                                                  |
-| Clear screen selection      | `edge.exe+1F91B4, DC, 10`       |                                                                                                                                                                                  |
-
-## Menu screens
-| Value | Screen                                |
-|-------|---------------------------------------|
-| 2     | Start screen ("hi [name]")            |
-| 3     | Level pack select ("edge challenge")  |
-| 4     | Normal level select                   |
-| 5     | Bonus level select                    |
-| 6     | Extended level select                 |
-| 9     | Options                               |
-| 10    | Credits                               |
-| 11    | Scores select                         |
-| 12    | Normal scores                         |
-| 13    | Bonus scores                          |
-| 14    | Extended scores                       |
-| 15    | Exit game                             |
-| 16    | Level loading screen                  |
-| 17    | Ingame                                |
-| 18    | Pause screen                          |
-| 19    | Level clear screen                    |
-| 20    | Normal all clear screen and credits   |
-| 21    | Bonus all clear screen and credits    |
-| 22    | Extended all clear screen and credits |
+# [Menu Screens and Game State](Menu-Screens-and-Game-State)
+| Variable Name                        | Pointer and Offsets                           | Comment                                                                                                                                                                          |
+|--------------------------------------|-----------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Menu screen                          | `edge.exe+1F9080, 50`                         | See [Menu screens table](Menu-Screens-and-Game-State#menu-screens) for values                                                                                                                               |
+| Button selection                     | `edge.exe+1F91B4, 8*[value of screen]+44, 10` | Number of the button currently selected or pressed                                                                                                                               |
+| Pause options selection              | `edge.exe+1F91B4, D4, 50`                     |                                                                                                                                                                                  |
+| Pause main menu selection            | `edge.exe+1F91B4, D4, 54`                     |                                                                                                                                                                                  |
 
 ## Level select
 
@@ -51,7 +21,6 @@ This page lists all currently known memory pointers to relevant game variables.
 | Best time          | `edge.exe+1F91B4, 64, 40, 4`  |                                        |
 | Collected Prisms   | `edge.exe+1F91B4, 64, 40, 8`  |                                        |       
 | Rank               | `edge.exe+1F91B4, 64, 40, C`  | 0 (D) to 5 (S+)                        |
-| Time spent in menu | `edge.exe+1F91B4, 64, 68`     |                                        |
 
 These offsets only apply to the Normal level select screen. Change the first offset to `6C` or `74` for the Bonus or Extended menu variables respectively.
 
@@ -66,7 +35,7 @@ For many of the variables here, their behavior is known, but it is not always cl
 | Level clear   | `edge.exe+1F9064, B5`      | 1 Byte. Set to 1 when touching the exit point of a level, set to 0 when exiting the clear screen |
 
 
-## [Timing](https://github.com/robin-mu/EDGE/wiki/The-In-Game-Timer-and-Ranking)
+## [Timing](The-In-Game-Timer-and-Ranking)
 
 | Variable Name                        | Pointer and Offsets    | Comment                                                  |
 |--------------------------------------|------------------------|----------------------------------------------------------|
@@ -100,14 +69,14 @@ All variables with the second offset between `28` and `12C` probably have someth
 | Cube size        | `edge.exe+1F9064, 34, 138` | 1: Normal, 3: Minicube; When set to 1, the cube will slowly accelerate, otherwise it will be at max speed instantly                      |
 | Step size        | `edge.exe+1F9064, 34, 13C` | 30: Normal, 10: Minicube; The number of 30ths of a block that the cube will move with each step                                          |
 
-## [Speed and acceleration](https://github.com/robin-mu/EDGE/wiki/Speed-and-Acceleration)
+## [Speed and acceleration](Speed-and-Acceleration)
 
-| Variable Name | Pointer and Offsets        | Comment                        |
-|---------------|----------------------------|--------------------------------|
-| Angle         | `edge.exe+1F9064, 34, 140` |                                |
-| Angle Speed   | `edge.exe+1F9064, 34, 144` |                                |
-| Speed         | `edge.exe+1F9064, 34, 148` |                                |
-| GRAVITY       | `edge.exe+1F9064, 34, 14C` | Gravity constant (always 4505) |
+| Variable Name  | Pointer and Offsets        | Comment     |
+|----------------|----------------------------|-------------|
+| Angle          | `edge.exe+1F9064, 34, 140` |             |
+| Angle Speed    | `edge.exe+1F9064, 34, 144` |             |
+| Speed          | `edge.exe+1F9064, 34, 148` |             |
+| Starting Speed | `edge.exe+1F9064, 34, 14C` | Always 4505 |
 
 ## Prisms
 
@@ -128,10 +97,10 @@ All variables with the second offset between `28` and `12C` probably have someth
 | Prisms at checkpoint                 | `edge.exe+1F9064, 130`     | Value of prisms when the last checkpoint was activated                                                                                                      |
 
 ## Other cube
-Changing the first offset from `34` to `38` yields the equivalent variables for other cubes (Holocube and darkcube).
+Changing the first offset from `34` to `38` yields the equivalent variables for other cubes (holocube and darkcube).
 
 # Inputs
-Keyboard inputs are managed in the memory region around `edge.exe+1F8BEB`. Here each **byte** corresponds to a button. If its value is set to anything but 0, the corresponding button will be registered as being pressed. The most important buttons are:
+Keyboard inputs are managed in the memory region around `edge.exe+1F8BEB`. Here, each **byte** corresponds to a button. If its value is set to anything but 0, the corresponding button will be registered as being pressed. The most important buttons are:
 
 | Button | Pointer           |
 |--------|-------------------|

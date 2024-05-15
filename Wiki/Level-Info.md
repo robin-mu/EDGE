@@ -1,3 +1,5 @@
+This table is taken from the "Browse levels" tab of [EdgeTool](https://github.com/Mygod/EDGE/releases/tag/9.2.0).
+
 |     | Name                         | ID     | Filename                      | S+    | S     | A     | B      | C      | Java Music         | Music                 | Size      | Start       | Exit     |
 |-----|------------------------------|--------|-------------------------------|-------|-------|-------|--------|--------|--------------------|-----------------------|-----------|-------------|----------|
 | N01 | 1st contact                  | 309    | level309                      | 9"    | 25"   | 55"   | 1'25"  | 2'25"  | 05_test            | 06_Kakkoi             | 14x26x4   | 3,22,62     | 11,12,1  |

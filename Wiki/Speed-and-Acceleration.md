@@ -74,7 +74,7 @@ When climbing, the cube moves one block upwards and one block in its moving dire
 
 When moving as a minicube, `speed` is instantly set to 16384 with no acceleration. With such a high speed, it is possible that `angle_speed` becomes greater than 45056* (`0xB000`), in which case it is not increased by `speed` anymore.
 
-Minicube movement also shows that `speed` is not proportional to the amount of steps per seconds: Normal cube movement at 8192 speed takes 6 ticks per step, while minicube movement at 16384 speed takes 4 ticks per step.
+Minicube movement also shows that `speed` is not proportional to the number of steps per second: Normal cube movement at 8192 speed takes 6 ticks per step, while minicube movement at 16384 speed takes 4 ticks per step.
 Since the minicube has to complete three steps per block, moving as a normal cube with fullspeed is twice as fast as moving as a minicube:
 
 |                 | Normal Cube | Minicube |
@@ -170,7 +170,7 @@ def simulate(ticks, steps_since_last_prism, const_speed=None, climbing=False, mi
 ```
 
 ## Ticks per Step
-With this script, we can calculate the number of ticks it takes to move any amount of steps depending on `steps_since_last_prism`:
+With this script, we can calculate the number of ticks it takes to move any number of steps depending on `steps_since_last_prism`:
 
 | Steps since last prism | Ticks per step                             |
 |------------------------|--------------------------------------------|
@@ -301,7 +301,7 @@ Some interesting observations with this data:
 
 - Although movement always starts with a speed of 4505, the lowest possible speed that still results in any movement is 2458 since for all lower values `angle_speed` would become negative after `GRAVITY` is subtracted.
 - Without any acceleration, movement with the starting speed of 4505 leads to an `angle_speed` of 2048, which could be a reason why the respective values for the starting speed and `GRAVITY` have been chosen.
-- Since the first step of any movement starts with an `angle_speed` of 0, but every other step starts with a higher value (1/10 of the value before the previous step was finished), the first step can take significantly longer than all other steps for small speeds. E.g. with a speed of 2458, the first step takes 330 ticks, the second step 28, the third 27, and all other steps 26 ticks. These higher values are excluded when calculating the average ticks per step, but are mentioned in the "First ticks per step" column in the full table.
+- Since the first step of any movement starts with an `angle_speed` of 0, but every other step starts with a higher value (1/10 of the value before the previous step was finished), the first step can take significantly longer than all other steps for small speeds. E.g., with a speed of 2458, the first step takes 330 ticks, the second step 28, the third 27, and all other steps take 26 ticks. These higher values are excluded when calculating the average ticks per step, but are mentioned in the "First ticks per step" column in the full table.
 - Sometimes, the ticks per step cycles periodically through two or more values.
 - For some speeds between 2510 and 2580, a higher speed leads to a higher ticks per step, even though it should be lower:
 
@@ -313,7 +313,7 @@ And here are two graphs with the highest angle values reached before `angle` sur
 [[/images/SpeedAndAcceleration/max_angle_reset.png]]
 
 ## Other cubes
-Because of the slightly higher acceleration of other cubes, their ticks per step is also a bit different:
+Because of the slightly higher acceleration of other cubes, their ticks per step are also a bit different:
 
 | Step  | Ticks per Step |
 |-------|----------------|
@@ -326,7 +326,7 @@ Because of the slightly higher acceleration of other cubes, their ticks per step
 | 28-53 | 5              |
 | ...   |                |
 
-Because of the missing speed limit, other cubes accelerate indefinitely. However, because of all the failsafes the fastest they get is 2 ticks per block. Also, at a speed of 66463 (after 650 steps) the cube stops moving because failsafe 2 prevents `speed` from being added to `angle_speed`.
+Because of the missing speed limit, other cubes accelerate indefinitely. However, because of all the failsafes, the fastest they get is 2 ticks per block. Also, at a speed of 66463 (after 650 steps) the cube stops moving because failsafe 2 prevents `speed` from being added to `angle_speed`.
 
 # Memory Pointers and Offsets
 
@@ -338,4 +338,4 @@ Because of the missing speed limit, other cubes accelerate indefinitely. However
 | `angle_speed`            | 4 Bytes | `edge.exe+1F9064, 34, 144` |
 | `angle`                  | 4 Bytes | `edge.exe+1F9064, 34, 140` |
 
-(Changing the first offset of all variables to `0x38` yields the corresponding variables for other cube movement.)
+Changing the first offset of all variables to `0x38` yields the corresponding variables for other cube movement.
