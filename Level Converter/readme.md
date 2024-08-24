@@ -2,7 +2,8 @@
 
 This is a tool to convert Minecraft structure files to EDGE levels. See [CatLooks’s level documentation](https://catlooks.github.io/edge/doc) for additional info on all used terms.
 
-Because of different structure file formats, the tool only works for .nbt structure files created on Minecraft Java Edition. 
+> [!IMPORTANT]
+> Because of different structure file formats, the tool only works for .nbt structure files created on Minecraft **Java Edition 1.20**. 
 
 ## Table of Contents
 1. [Level Parameters](#level-parameters)
@@ -42,8 +43,9 @@ To create a block with a custom RGB value, place a **sign** with the desired val
 
 # Dynamic Level Parts
 
-Most dynamic level parts have so many parameters that **containers** (Shulker Boxes, Barrels, Chests) have to be used as their representation. The position of the part corresponds to the position of the container. Parameters are represented either by items or a book inside the container. The book contains `key=value` pairs separated by new lines, just as done for the level parameters.
-Note: If preferred, every parameter that is represented by items in containers can also be written inside a book. Parameters from the book overwrite parameters from items in the container.
+Most dynamic level parts have so many parameters that **containers** (Shulker Boxes, Barrels, Chests) have to be used as their representation. The position of the part corresponds to the position of the container. Parameters are represented either by items or a book inside the container. The book contains `key=value` pairs separated by new lines, just as done for the level parameters.  
+> [!NOTE]
+> If preferred, every parameter that is represented by items in containers can also be written inside a book. Parameters from the book overwrite parameters from items in the container.
 
 ## Common parameter items
 
@@ -77,7 +79,8 @@ Some parts have a `Radius="[x],[y]"` parameter:
 | `x`  | Amount of **Prismarine Shard** | ![Untitled](images/prismarine_shard.png) |
 | `y`  | Amount of **Stick**            | ![Untitled](images/stick.png)            |
 
-Note that the orientation of the items matches the orientation of the corresponding axis.
+> [!NOTE]
+> The orientation of the items matches the orientation of the corresponding axis.
 
 ## [MovingPlatform](https://catlooks.github.io/edge/doc/#tag-mp)
 
@@ -224,7 +227,10 @@ If you don't have Python, download [structure_to_level.exe](https://github.com/r
 
 `[world folder]` is the name displayed in gray under your world name in the world select screen.
 
-`[structure name]` in the name you wrote into the structure block (without `minecraft:`).
+`[structure name]` in the name you wrote into the structure block (without `minecraft:`). 
+
+> [!IMPORTANT]
+> The structure has to be generated in Minecraft Java 1.20.
 
 If you specify no `[world folder]`, the script will look for the structure files in your current working directory.
 
