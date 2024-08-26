@@ -91,7 +91,7 @@ Some parts have a `Radius="[x],[y]"` parameter:
     - `TravelTime` (**iron Nugget/Ingot**) and `PauseTime` (**Gold Nugget/Ingot**) for the first waypoint which is the position of the MovingPlatform.
     - `FullBlock = False`: **Quartz Slab**
     - `AutoStart = False`: **Red Wool**
-- Book: `ID`, `RelatedTo`, `Offset`
+- Book: `ID`, `RelatedTo`, `Offset` (`Offset` is written in Minecraft coordinates X,Y,Z, where Y is the height)
 
 ### [Waypoint](https://catlooks.github.io/edge/doc/#tag-wp)
 

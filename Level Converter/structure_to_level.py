@@ -26,7 +26,8 @@ else:
                                          world_folder, 'generated', 'minecraft', 'structures') if world_folder else os.getcwd()
     structure_name = input('Enter the name of your structure: ')
     # debug
-    # world_folder = 'EDGE Level Editor'
+    # world_folder_path = os.path.join(os.path.expanduser('~'), 'AppData', 'Roaming', '.minecraft', 'saves',
+    #                                      'EDGE Level Editor', 'generated', 'minecraft', 'structures')
     # structure_name = 'test'
 
 
@@ -100,12 +101,16 @@ class DynamicPart:
 
             if 'PauseTime' in params:
                 waypoint['PauseTime'] = params.pop('PauseTime')
+            
+            if 'Offset' in params:
+                params['Offset'] = v3d([int(e) for e in params['Offset'].split(',')])
 
             moving_platforms[waypoint_item] = et.Element(self.name, params)
-            if waypoint_item in waypoints:
-                waypoints[waypoint_item][0] = et.Element('Waypoint', waypoint)
-            else:
-                waypoints[waypoint_item] = {0: et.Element('Waypoint', waypoint)}
+            if not 'RelatedTo' in params:
+                if waypoint_item in waypoints:
+                    waypoints[waypoint_item][0] = et.Element('Waypoint', waypoint)
+                else:
+                    waypoints[waypoint_item] = {0: et.Element('Waypoint', waypoint)}
         elif self.name == 'Waypoint':
             first_item = container[0]
             waypoint_item = first_item['id'].value
@@ -289,9 +294,14 @@ if 'ExitPoint' not in level_settings:
 print('Writing XML')
 root = et.Element('Level', level_settings)
 
-for item, e in moving_platforms.items():
+# Main platforms first
+for item, e in {k: v for k, v in moving_platforms.items() if 'RelatedTo' not in v.attrib}.items():
     for waypoint in dict(sorted(waypoints[item].items())).values():
         e.append(waypoint)
+    root.append(e)
+
+# Related platforms second
+for e in {k: v for k, v in moving_platforms.items() if 'RelatedTo' in v.attrib}.values():
     root.append(e)
 
 for elem in elements.get('Button', []):
