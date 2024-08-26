@@ -301,7 +301,10 @@ for item, e in {k: v for k, v in moving_platforms.items() if 'RelatedTo' not in 
     root.append(e)
 
 # Related platforms second
-for e in {k: v for k, v in moving_platforms.items() if 'RelatedTo' in v.attrib}.values():
+for item, e in {k: v for k, v in moving_platforms.items() if 'RelatedTo' in v.attrib}.items():
+    if item in waypoints:
+        for waypoint in dict(sorted(waypoints[item].items())).values():
+            e.append(waypoint)
     root.append(e)
 
 for elem in elements.get('Button', []):
