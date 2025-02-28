@@ -1,0 +1,2000 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="31">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>43</ID>
+      <Description>"Level ID"</Description>
+      <LastState Value="309" RealAddress="08E22668"/>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9040</Address>
+      <Offsets>
+        <Offset>78</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>19</ID>
+      <Description>"Time"</Description>
+      <LastState Value="482" RealAddress="08E232E4"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>10C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>88</ID>
+      <Description>"Edging"</Description>
+      <LastState Value="573308928" RealAddress="08E23244"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>6C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>38</ID>
+      <Description>"Current EDGE Time"</Description>
+      <LastState Value="8" RealAddress="08E23250"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>78</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>39</ID>
+      <Description>"Total EDGE Time"</Description>
+      <LastState Value="0" RealAddress="08E232E0"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>108</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>6</ID>
+      <Description>"Final Time with EDGE Time subtracted"</Description>
+      <LastState Value="482" RealAddress="08E232E8"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>110</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>237</ID>
+      <Description>"Cube action"</Description>
+      <LastState Value="0" RealAddress="08E1E9CC"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>4</Offset>
+        <Offset>34</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>238</ID>
+      <Description>"Last action"</Description>
+      <LastState Value="1" RealAddress="08E1E9D0"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>8</Offset>
+        <Offset>34</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>239</ID>
+      <Description>"Cube moving direction"</Description>
+      <LastState Value="0" RealAddress="08E1E9D4"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>C</Offset>
+        <Offset>34</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>240</ID>
+      <Description>"Last moving direction"</Description>
+      <LastState Value="2" RealAddress="08E1E9D8"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>10</Offset>
+        <Offset>34</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>241</ID>
+      <Description>"Step progress"</Description>
+      <LastState Value="0" RealAddress="08E1E9DC"/>
+      <VariableType>2 Bytes</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>14</Offset>
+        <Offset>34</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>172</ID>
+      <Description>"X Coordinate"</Description>
+      <LastState Value="11" RealAddress="08E1E9F0"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>28</Offset>
+        <Offset>34</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>252</ID>
+      <Description>"X Coordinate"</Description>
+      <LastState Value="11" RealAddress="08E1E9FC"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>34</Offset>
+        <Offset>34</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>242</ID>
+      <Description>"X Subcoordinate"</Description>
+      <LastState Value="330" RealAddress="08E1EA14"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>4C</Offset>
+        <Offset>34</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>245</ID>
+      <Description>"X Subcoordinate Delta"</Description>
+      <LastState Value="0" RealAddress="08E1EA20"/>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>58</Offset>
+        <Offset>34</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>33</ID>
+      <Description>"Y Coordinate"</Description>
+      <LastState Value="12" RealAddress="08E1E9F4"/>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>2C</Offset>
+        <Offset>34</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>253</ID>
+      <Description>"Y Coordinate"</Description>
+      <LastState Value="12" RealAddress="08E1EA00"/>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>38</Offset>
+        <Offset>34</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>243</ID>
+      <Description>"Y Subcoordinate"</Description>
+      <LastState Value="360" RealAddress="08E1EA18"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>50</Offset>
+        <Offset>34</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>246</ID>
+      <Description>"Y Subcoordinate Delta"</Description>
+      <LastState Value="0" RealAddress="08E1EA24"/>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>5C</Offset>
+        <Offset>34</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>32</ID>
+      <Description>"Z Coordinate"</Description>
+      <LastState Value="1" RealAddress="08E1E9F8"/>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>30</Offset>
+        <Offset>34</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>254</ID>
+      <Description>"Z Coordinate"</Description>
+      <LastState Value="1" RealAddress="08E1EA04"/>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>3C</Offset>
+        <Offset>34</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>248</ID>
+      <Description>"Last Z Coordinate with completed step"</Description>
+      <LastState Value="1" RealAddress="08E1EA2C"/>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>64</Offset>
+        <Offset>34</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>244</ID>
+      <Description>"Z Subcoordinate"</Description>
+      <LastState Value="30" RealAddress="08E1EA1C"/>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>54</Offset>
+        <Offset>34</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>247</ID>
+      <Description>"Z Subcoordinate Delta / Falling Speed"</Description>
+      <LastState Value="0" RealAddress="08E1EA28"/>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>60</Offset>
+        <Offset>34</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>300</ID>
+      <Description>"Cube Vertices"</Description>
+      <Options moManualExpandCollapse="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>249</ID>
+          <Description>"000 X"</Description>
+          <LastState Value="330" RealAddress="08E1EA38"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>70</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>250</ID>
+          <Description>"000 Y"</Description>
+          <LastState Value="360" RealAddress="08E1EA3C"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>74</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>251</ID>
+          <Description>"000 Z"</Description>
+          <LastState Value="30" RealAddress="08E1EA40"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>78</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>255</ID>
+          <Description>"100 X"</Description>
+          <LastState Value="359" RealAddress="08E1EA44"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>7C</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>256</ID>
+          <Description>"100 Y"</Description>
+          <LastState Value="360" RealAddress="08E1EA48"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>80</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>257</ID>
+          <Description>"100 Z"</Description>
+          <LastState Value="30" RealAddress="08E1EA4C"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>84</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>258</ID>
+          <Description>"110 X"</Description>
+          <LastState Value="359" RealAddress="08E1EA50"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>88</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>259</ID>
+          <Description>"110 Y"</Description>
+          <LastState Value="389" RealAddress="08E1EA54"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>8C</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>260</ID>
+          <Description>"110 Z"</Description>
+          <LastState Value="30" RealAddress="08E1EA58"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>90</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>261</ID>
+          <Description>"010 X"</Description>
+          <LastState Value="330" RealAddress="08E1EA5C"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>94</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>262</ID>
+          <Description>"010 Y"</Description>
+          <LastState Value="389" RealAddress="08E1EA60"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>98</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>263</ID>
+          <Description>"010 Z"</Description>
+          <LastState Value="30" RealAddress="08E1EA64"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>9C</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>264</ID>
+          <Description>"001 X"</Description>
+          <LastState Value="330" RealAddress="08E1EA68"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>A0</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>265</ID>
+          <Description>"001 Y"</Description>
+          <LastState Value="360" RealAddress="08E1EA6C"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>A4</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>266</ID>
+          <Description>"001 Z"</Description>
+          <LastState Value="59" RealAddress="08E1EA70"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>A8</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>267</ID>
+          <Description>"101 X"</Description>
+          <LastState Value="359" RealAddress="08E1EA74"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>AC</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>268</ID>
+          <Description>"101 Y"</Description>
+          <LastState Value="360" RealAddress="08E1EA78"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>B0</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>269</ID>
+          <Description>"101 Z"</Description>
+          <LastState Value="59" RealAddress="08E1EA7C"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>B4</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>270</ID>
+          <Description>"111 X"</Description>
+          <LastState Value="359" RealAddress="08E1EA80"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>B8</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>271</ID>
+          <Description>"111 Y"</Description>
+          <LastState Value="389" RealAddress="08E1EA84"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>BC</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>272</ID>
+          <Description>"111 Z"</Description>
+          <LastState Value="59" RealAddress="08E1EA88"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>C0</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>273</ID>
+          <Description>"011 X"</Description>
+          <LastState Value="330" RealAddress="08E1EA8C"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>C4</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>274</ID>
+          <Description>"011 Y"</Description>
+          <LastState Value="389" RealAddress="08E1EA90"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>C8</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>275</ID>
+          <Description>"011 Z"</Description>
+          <LastState Value="59" RealAddress="08E1EA94"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>CC</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>276</ID>
+          <Description>"000 X Push"</Description>
+          <LastState Value="330" RealAddress="08E1EA98"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>D0</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>277</ID>
+          <Description>"000 Y Push"</Description>
+          <LastState Value="330" RealAddress="08E1EA9C"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>D4</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>278</ID>
+          <Description>"000 Z Push"</Description>
+          <LastState Value="30" RealAddress="08E1EAA0"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>D8</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>279</ID>
+          <Description>"100 X Push"</Description>
+          <LastState Value="359" RealAddress="08E1EAA4"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>DC</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>280</ID>
+          <Description>"100 Y Push"</Description>
+          <LastState Value="330" RealAddress="08E1EAA8"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>E0</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>281</ID>
+          <Description>"100 Z Push"</Description>
+          <LastState Value="30" RealAddress="08E1EAAC"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>E4</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>282</ID>
+          <Description>"110 X Push"</Description>
+          <LastState Value="359" RealAddress="08E1EAB0"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>E8</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>283</ID>
+          <Description>"110 Y Push"</Description>
+          <LastState Value="359" RealAddress="08E1EAB4"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>EC</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>284</ID>
+          <Description>"110 Z Push"</Description>
+          <LastState Value="30" RealAddress="08E1EAB8"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>F0</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>285</ID>
+          <Description>"010 X Push"</Description>
+          <LastState Value="330" RealAddress="08E1EABC"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>F4</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>286</ID>
+          <Description>"010 Y Push"</Description>
+          <LastState Value="359" RealAddress="08E1EAC0"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>F8</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>287</ID>
+          <Description>"010 Z Push"</Description>
+          <LastState Value="30" RealAddress="08E1EAC4"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>FC</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>288</ID>
+          <Description>"001 X Push"</Description>
+          <LastState Value="330" RealAddress="08E1EAC8"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>100</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>289</ID>
+          <Description>"001 Y Push"</Description>
+          <LastState Value="330" RealAddress="08E1EACC"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>104</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>290</ID>
+          <Description>"001 Z Push"</Description>
+          <LastState Value="59" RealAddress="08E1EAD0"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>108</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>291</ID>
+          <Description>"101 X Push"</Description>
+          <LastState Value="359" RealAddress="08E1EAD4"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>10C</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>292</ID>
+          <Description>"101 Y Push"</Description>
+          <LastState Value="330" RealAddress="08E1EAD8"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>110</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>293</ID>
+          <Description>"101 Z Push"</Description>
+          <LastState Value="59" RealAddress="08E1EADC"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>114</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>294</ID>
+          <Description>"111 X Push"</Description>
+          <LastState Value="359" RealAddress="08E1EAE0"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>118</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>295</ID>
+          <Description>"111 Y Push"</Description>
+          <LastState Value="359" RealAddress="08E1EAE4"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>11C</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>296</ID>
+          <Description>"111 Z Push"</Description>
+          <LastState Value="59" RealAddress="08E1EAE8"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>120</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>297</ID>
+          <Description>"011 X Push"</Description>
+          <LastState Value="330" RealAddress="08E1EAEC"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>124</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>298</ID>
+          <Description>"011 Y Push"</Description>
+          <LastState Value="359" RealAddress="08E1EAF0"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>128</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>299</ID>
+          <Description>"011 Z Push"</Description>
+          <LastState Value="59" RealAddress="08E1EAF4"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>12C</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>216</ID>
+      <Description>"Cube render size"</Description>
+      <LastState Value="4096" RealAddress="08E1EAFC"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>134</Offset>
+        <Offset>34</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>214</ID>
+      <Description>"Cube size"</Description>
+      <LastState Value="1" RealAddress="08E1EB00"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>138</Offset>
+        <Offset>34</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>218</ID>
+      <Description>"Step size"</Description>
+      <LastState Value="30" RealAddress="08E1EB04"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>13C</Offset>
+        <Offset>34</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>323</ID>
+      <Description>"Angle"</Description>
+      <LastState Value="0" RealAddress="08E1EB08"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>140</Offset>
+        <Offset>34</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>322</ID>
+      <Description>"Angle Speed"</Description>
+      <LastState Value="0" RealAddress="08E1EB0C"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>144</Offset>
+        <Offset>34</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>321</ID>
+      <Description>"Speed"</Description>
+      <LastState Value="0" RealAddress="08E1EB10"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>148</Offset>
+        <Offset>34</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>320</ID>
+      <Description>"Starting speed"</Description>
+      <LastState Value="4505" RealAddress="08E1EB14"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>14C</Offset>
+        <Offset>34</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>301</ID>
+      <Description>"Edgaholic"</Description>
+      <LastState Value="0" RealAddress="08E1EB24"/>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>15C</Offset>
+        <Offset>34</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>35</ID>
+      <Description>"Prisms"</Description>
+      <LastState Value="3" RealAddress="08E232F4"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>11C</Offset>
+      </Offsets>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>41</ID>
+          <Description>"Total Prisms in current level"</Description>
+          <LastState Value="5" RealAddress="08E22620"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9040</Address>
+          <Offsets>
+            <Offset>30</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>131</ID>
+          <Description>"Steps since last prism"</Description>
+          <LastState Value="0" RealAddress="08E1EB28"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>160</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>132</ID>
+          <Description>"Total steps"</Description>
+          <LastState Value="33" RealAddress="08E1EB2C"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>164</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>130</ID>
+          <Description>"Prism boost timer"</Description>
+          <LastState Value="52" RealAddress="08E1EB30"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>168</Offset>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>302</ID>
+      <Description>"Block diagonally above"</Description>
+      <LastState Value="0" RealAddress="08E1EB3C"/>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>174</Offset>
+        <Offset>34</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>309</ID>
+      <Description>"Block diagonally behind (no moving platform)"</Description>
+      <LastState Value="0" RealAddress="08E1EB3D"/>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>175</Offset>
+        <Offset>34</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>308</ID>
+      <Description>"No block in front"</Description>
+      <LastState Value="1" RealAddress="08E1EB3E"/>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>176</Offset>
+        <Offset>34</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>307</ID>
+      <Description>"Block in front or diagonally above"</Description>
+      <LastState Value="0" RealAddress="08E1EB3F"/>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>177</Offset>
+        <Offset>34</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>306</ID>
+      <Description>"Moving platform in front or diagonally above"</Description>
+      <LastState Value="0" RealAddress="08E1EB40"/>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>178</Offset>
+        <Offset>34</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>304</ID>
+      <Description>"No block behind (can climb)"</Description>
+      <LastState Value="1" RealAddress="08E1EB42"/>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>17A</Offset>
+        <Offset>34</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>303</ID>
+      <Description>"Block under"</Description>
+      <LastState Value="1" RealAddress="08E1EB43"/>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>17B</Offset>
+        <Offset>34</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>310</ID>
+      <Description>"Movement axis input"</Description>
+      <LastState Value="0" RealAddress="08E1EB4C"/>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>184</Offset>
+        <Offset>34</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>311</ID>
+      <Description>"Movement direction input"</Description>
+      <LastState Value="-1" RealAddress="08E1EB50"/>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>188</Offset>
+        <Offset>34</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>312</ID>
+      <Description>"Movement axis result"</Description>
+      <LastState Value="0" RealAddress="08E1EB54"/>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>18C</Offset>
+        <Offset>34</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>313</ID>
+      <Description>"Movement direction result"</Description>
+      <LastState Value="-1" RealAddress="08E1EB58"/>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>190</Offset>
+        <Offset>34</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>314</ID>
+      <Description>"GRAVITY"</Description>
+      <LastState Value="2457" RealAddress="08E1EB5C"/>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>194</Offset>
+        <Offset>34</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>315</ID>
+      <Description>"Starting height for last fall"</Description>
+      <LastState Value="60" RealAddress="08E1EB60"/>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>198</Offset>
+        <Offset>34</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>316</ID>
+      <Description>"Cube finished animation timer"</Description>
+      <LastState Value="0" RealAddress="08E1EB68"/>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>1A0</Offset>
+        <Offset>34</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>317</ID>
+      <Description>"Balance time"</Description>
+      <LastState Value="0" RealAddress="08E1EB70"/>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>1A8</Offset>
+        <Offset>34</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>318</ID>
+      <Description>"Climb time"</Description>
+      <LastState Value="0" RealAddress="08E1EB7C"/>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>1B4</Offset>
+        <Offset>34</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>319</ID>
+      <Description>"Falling from level spawn"</Description>
+      <LastState Value="0" RealAddress="08E1EB89"/>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>1C1</Offset>
+        <Offset>34</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>59</ID>
+      <Description>"Checkpoint"</Description>
+      <LastState Value="1" RealAddress="08E232F8"/>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>120</Offset>
+      </Offsets>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>176</ID>
+          <Description>"Steps since last prism at checkpoint"</Description>
+          <LastState Value="4" RealAddress="08E232FC"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>124</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>177</ID>
+          <Description>"Total steps at checkpoint"</Description>
+          <LastState Value="20" RealAddress="08E23300"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>128</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>178</ID>
+          <Description>"Cube size at checkpoint"</Description>
+          <LastState Value="1" RealAddress="08E23304"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>12C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>174</ID>
+          <Description>"Prisms at checkpoint"</Description>
+          <LastState Value="2" RealAddress="08E23308"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>130</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>27</ID>
+      <Description>"Deaths"</Description>
+      <LastState Value="0" RealAddress="08E232DC"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>104</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>54</ID>
+      <Description>"Level Clear Byte"</Description>
+      <LastState Value="1" RealAddress="08E2328D"/>
+      <VariableType>Byte</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>B5</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>164</ID>
+      <Description>"Menu screen"</Description>
+      <Options moManualExpandCollapse="1"/>
+      <LastState Value="19" RealAddress="08DF8BC0"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9080</Address>
+      <Offsets>
+        <Offset>50</Offset>
+      </Offsets>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>209</ID>
+          <Description>""hi [player]" screen selection"</Description>
+          <LastState Value="0" RealAddress="08E13568"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F91B4</Address>
+          <Offsets>
+            <Offset>10</Offset>
+            <Offset>54</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>169</ID>
+          <Description>""edge challenge" screen selection"</Description>
+          <LastState Value="1" RealAddress="08EAC5A8"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F91B4</Address>
+          <Offsets>
+            <Offset>10</Offset>
+            <Offset>5C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>210</ID>
+          <Description>""scores" screen selection"</Description>
+          <LastState Value="0" RealAddress="08EAC648"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F91B4</Address>
+          <Offsets>
+            <Offset>10</Offset>
+            <Offset>9C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>211</ID>
+          <Description>""options" screen selection"</Description>
+          <LastState Value="0" RealAddress="08EAC6E8"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F91B4</Address>
+          <Offsets>
+            <Offset>10</Offset>
+            <Offset>8C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>149</ID>
+          <Description>"Pause menu selection"</Description>
+          <LastState Value="4" RealAddress="08E16A00"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F91B4</Address>
+          <Offsets>
+            <Offset>10</Offset>
+            <Offset>D4</Offset>
+          </Offsets>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>159</ID>
+              <Description>"Pause menu animation"</Description>
+              <LastState Value="5" RealAddress="08E169F4"/>
+              <VariableType>4 Bytes</VariableType>
+              <Address>edge.exe+1F91B4</Address>
+              <Offsets>
+                <Offset>4</Offset>
+                <Offset>D4</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>150</ID>
+              <Description>"Pause menu animation"</Description>
+              <LastState Value="-1" RealAddress="08E169F8"/>
+              <ShowAsSigned>1</ShowAsSigned>
+              <VariableType>4 Bytes</VariableType>
+              <Address>edge.exe+1F91B4</Address>
+              <Offsets>
+                <Offset>8</Offset>
+                <Offset>D4</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>152</ID>
+          <Description>"Clear screen selection"</Description>
+          <LastState Value="0" RealAddress="08EA8A38"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F91B4</Address>
+          <Offsets>
+            <Offset>10</Offset>
+            <Offset>DC</Offset>
+          </Offsets>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>157</ID>
+              <Description>"Clear screen animation"</Description>
+              <LastState Value="6" RealAddress="08EA8A64"/>
+              <VariableType>4 Bytes</VariableType>
+              <Address>edge.exe+1F91B4</Address>
+              <Offsets>
+                <Offset>3C</Offset>
+                <Offset>DC</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>158</ID>
+              <Description>"Clear screen animation"</Description>
+              <LastState Value="8" RealAddress="08EA8A68"/>
+              <VariableType>4 Bytes</VariableType>
+              <Address>edge.exe+1F91B4</Address>
+              <Offsets>
+                <Offset>40</Offset>
+                <Offset>DC</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>118</ID>
+      <Description>"Normal Menu"</Description>
+      <Options moManualExpandCollapse="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>69</ID>
+          <Description>"Level Number"</Description>
+          <LastState Value="0" RealAddress="08E27CC0"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F91B4</Address>
+          <Offsets>
+            <Offset>38</Offset>
+            <Offset>64</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>108</ID>
+          <Description>"Level ID"</Description>
+          <LastState Value="309" RealAddress="08E277D4"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F91B4</Address>
+          <Offsets>
+            <Offset>-4</Offset>
+            <Offset>40</Offset>
+            <Offset>64</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>109</ID>
+          <Description>"Beaten"</Description>
+          <LastState Value="1" RealAddress="08E277D8"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F91B4</Address>
+          <Offsets>
+            <Offset>0</Offset>
+            <Offset>40</Offset>
+            <Offset>64</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>107</ID>
+          <Description>"Best Time"</Description>
+          <LastState Value="158" RealAddress="08E277DC"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F91B4</Address>
+          <Offsets>
+            <Offset>4</Offset>
+            <Offset>40</Offset>
+            <Offset>64</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>111</ID>
+          <Description>"Prisms"</Description>
+          <LastState Value="5" RealAddress="08E277E0"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F91B4</Address>
+          <Offsets>
+            <Offset>8</Offset>
+            <Offset>40</Offset>
+            <Offset>64</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>112</ID>
+          <Description>"Rank"</Description>
+          <LastState Value="5" RealAddress="08E277E4"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F91B4</Address>
+          <Offsets>
+            <Offset>C</Offset>
+            <Offset>40</Offset>
+            <Offset>64</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>72</ID>
+          <Description>"Back/Go"</Description>
+          <LastState Value="2" RealAddress="08E27C98"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>edge.exe+1F91B4</Address>
+          <Offsets>
+            <Offset>10</Offset>
+            <Offset>64</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>74</ID>
+          <Description>"Time Spent in Menu"</Description>
+          <LastState Value="3705" RealAddress="08E27CF0"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F91B4</Address>
+          <Offsets>
+            <Offset>68</Offset>
+            <Offset>64</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>125</ID>
+      <Description>"Extended Menu"</Description>
+      <Options moManualExpandCollapse="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>79</ID>
+          <Description>"Level Number"</Description>
+          <LastState Value="0" RealAddress="08E171E0"/>
+          <VariableType>Byte</VariableType>
+          <Address>edge.exe+1F91B4</Address>
+          <Offsets>
+            <Offset>38</Offset>
+            <Offset>74</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>124</ID>
+          <Description>"Level ID"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F91B4</Address>
+          <Offsets>
+            <Offset>-4</Offset>
+            <Offset>40</Offset>
+            <Offset>74</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>126</ID>
+          <Description>"Beaten"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F91B4</Address>
+          <Offsets>
+            <Offset>0</Offset>
+            <Offset>40</Offset>
+            <Offset>74</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>127</ID>
+          <Description>"Best Time"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F91B4</Address>
+          <Offsets>
+            <Offset>4</Offset>
+            <Offset>40</Offset>
+            <Offset>74</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>128</ID>
+          <Description>"Prisms"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F91B4</Address>
+          <Offsets>
+            <Offset>8</Offset>
+            <Offset>40</Offset>
+            <Offset>74</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>129</ID>
+          <Description>"Rank"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F91B4</Address>
+          <Offsets>
+            <Offset>C</Offset>
+            <Offset>40</Offset>
+            <Offset>74</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>80</ID>
+          <Description>"Time Spent in Menu"</Description>
+          <LastState Value="0" RealAddress="08E17210"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F91B4</Address>
+          <Offsets>
+            <Offset>68</Offset>
+            <Offset>74</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>81</ID>
+          <Description>"Back/Go"</Description>
+          <LastState Value="0" RealAddress="08E171B8"/>
+          <VariableType>Byte</VariableType>
+          <Address>edge.exe+1F91B4</Address>
+          <Offsets>
+            <Offset>10</Offset>
+            <Offset>74</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>119</ID>
+      <Description>"Bonus Menu"</Description>
+      <Options moManualExpandCollapse="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>84</ID>
+          <Description>"Level Number"</Description>
+          <LastState Value="0" RealAddress="08E13228"/>
+          <VariableType>Byte</VariableType>
+          <Address>edge.exe+1F91B4</Address>
+          <Offsets>
+            <Offset>38</Offset>
+            <Offset>6C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>120</ID>
+          <Description>"Level ID"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F91B4</Address>
+          <Offsets>
+            <Offset>-4</Offset>
+            <Offset>40</Offset>
+            <Offset>6C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>121</ID>
+          <Description>"Beaten"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F91B4</Address>
+          <Offsets>
+            <Offset>0</Offset>
+            <Offset>40</Offset>
+            <Offset>6C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>116</ID>
+          <Description>"Best Time"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F91B4</Address>
+          <Offsets>
+            <Offset>4</Offset>
+            <Offset>40</Offset>
+            <Offset>6C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>122</ID>
+          <Description>"Prisms"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F91B4</Address>
+          <Offsets>
+            <Offset>8</Offset>
+            <Offset>40</Offset>
+            <Offset>6C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>123</ID>
+          <Description>"Rank"</Description>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F91B4</Address>
+          <Offsets>
+            <Offset>C</Offset>
+            <Offset>40</Offset>
+            <Offset>6C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>85</ID>
+          <Description>"Back/Go"</Description>
+          <LastState Value="0" RealAddress="08E13200"/>
+          <VariableType>Byte</VariableType>
+          <Address>edge.exe+1F91B4</Address>
+          <Offsets>
+            <Offset>10</Offset>
+            <Offset>6C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>86</ID>
+          <Description>"Time Spent in menu"</Description>
+          <LastState Value="0" RealAddress="08E13258"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F91B4</Address>
+          <Offsets>
+            <Offset>68</Offset>
+            <Offset>6C</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>212</ID>
+      <Description>"Inputs"</Description>
+      <Options moManualExpandCollapse="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>91</ID>
+          <Description>"W"</Description>
+          <LastState Value="0" RealAddress="005F8C27"/>
+          <VariableType>Byte</VariableType>
+          <Address>edge.exe+1F8C27</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>93</ID>
+          <Description>"A"</Description>
+          <LastState Value="0" RealAddress="005F8C11"/>
+          <VariableType>Byte</VariableType>
+          <Address>edge.exe+1F8C11</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>92</ID>
+          <Description>"S"</Description>
+          <LastState Value="0" RealAddress="005F8C23"/>
+          <VariableType>Byte</VariableType>
+          <Address>edge.exe+1F8C23</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>94</ID>
+          <Description>"D"</Description>
+          <LastState Value="0" RealAddress="005F8C14"/>
+          <VariableType>Byte</VariableType>
+          <Address>edge.exe+1F8C14</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>142</ID>
+          <Description>"Esc"</Description>
+          <LastState Value="0" RealAddress="005F8BEB"/>
+          <VariableType>Byte</VariableType>
+          <Address>edge.exe+1F8BEB</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>143</ID>
+          <Description>"Space"</Description>
+          <LastState Value="0" RealAddress="005F8BF0"/>
+          <VariableType>Byte</VariableType>
+          <Address>edge.exe+1F8BF0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>144</ID>
+          <Description>"Enter"</Description>
+          <LastState Value="0" RealAddress="005F8BDD"/>
+          <VariableType>Byte</VariableType>
+          <Address>edge.exe+1F8BDD</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>160</ID>
+          <Description>"Shift"</Description>
+          <LastState Value="0" RealAddress="005F8BE0"/>
+          <VariableType>Byte</VariableType>
+          <Address>edge.exe+1F8BE0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>221</ID>
+          <Description>"Mouse X"</Description>
+          <LastState Value="1512" RealAddress="005F8AE8"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F8AE8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>222</ID>
+          <Description>"Mouse Y"</Description>
+          <LastState Value="719" RealAddress="005F8AEC"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F8AEC</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>225</ID>
+      <Description>"Total time spent in menu"</Description>
+      <LastState Value="11552" RealAddress="08E143AC"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F91B4</Address>
+      <Offsets>
+        <Offset>4</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>133</ID>
+      <Description>"Total time spent in levels"</Description>
+      <LastState Value="23170" RealAddress="08E231DC"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>4</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>173</ID>
+      <Description>"No description"</Description>
+      <LastState Value="0" RealAddress="08DF8C44"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9080</Address>
+      <Offsets>
+        <Offset>D4</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>188</ID>
+      <Description>"Objects on screen"</Description>
+      <LastState Value="326" RealAddress="08E252DC"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>2104</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>234</ID>
+      <Description>"Music"</Description>
+      <LastState Value="13" RealAddress="08DF8C00"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F9080</Address>
+      <Offsets>
+        <Offset>90</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>191</ID>
+      <Description>"Other Cube"</Description>
+      <Options moManualExpandCollapse="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>195</ID>
+          <Description>"X"</Description>
+          <LastState Value="0" RealAddress="08EACC38"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>28</Offset>
+            <Offset>38</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>196</ID>
+          <Description>"Y"</Description>
+          <LastState Value="0" RealAddress="08EACC3C"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>2c</Offset>
+            <Offset>38</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>197</ID>
+          <Description>"Z"</Description>
+          <LastState Value="0" RealAddress="08EACC40"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>30</Offset>
+            <Offset>38</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>198</ID>
+          <Description>"Prism boost timer"</Description>
+          <LastState Value="0" RealAddress="08EACD78"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>168</Offset>
+            <Offset>38</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>199</ID>
+          <Description>"Steps since last prism"</Description>
+          <LastState Value="0" RealAddress="08EACD70"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>160</Offset>
+            <Offset>38</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>200</ID>
+          <Description>"Speed"</Description>
+          <LastState Value="0" RealAddress="08EACD58"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>148</Offset>
+            <Offset>38</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>201</ID>
+          <Description>"Angle Speed"</Description>
+          <LastState Value="0" RealAddress="08EACD54"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>144</Offset>
+            <Offset>38</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>202</ID>
+          <Description>"Angle"</Description>
+          <LastState Value="0" RealAddress="08EACD50"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>140</Offset>
+            <Offset>38</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>203</ID>
+          <Description>"Total Steps"</Description>
+          <LastState Value="0" RealAddress="08EACD74"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>edge.exe+1F9064</Address>
+          <Offsets>
+            <Offset>164</Offset>
+            <Offset>38</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>223</ID>
+      <Description>"No description"</Description>
+      <LastState Value="0" RealAddress="08E16E20"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F91B4</Address>
+      <Offsets>
+        <Offset>10</Offset>
+        <Offset>94</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>229</ID>
+      <Description>"Credits progress"</Description>
+      <LastState Value="0" RealAddress="08E16E5C"/>
+      <VariableType>Float</VariableType>
+      <Address>edge.exe+1F91B4</Address>
+      <Offsets>
+        <Offset>4C</Offset>
+        <Offset>94</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>232</ID>
+      <Description>"Scores scroll"</Description>
+      <LastState Value="0" RealAddress="08EAB9A4"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>edge.exe+1F91B4</Address>
+      <Offsets>
+        <Offset>6C</Offset>
+        <Offset>A4</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>235</ID>
+      <Description>"No description"</Description>
+      <LastState Value="0" RealAddress="08E169DC"/>
+      <VariableType>Float</VariableType>
+      <Address>edge.exe+1F91B4</Address>
+      <Offsets>
+        <Offset>4C</Offset>
+        <Offset>E4</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>236</ID>
+      <Description>"No description"</Description>
+      <LastState Value="0" RealAddress="08E1E9DC"/>
+      <VariableType>2 Bytes</VariableType>
+      <Address>edge.exe+1F9064</Address>
+      <Offsets>
+        <Offset>14</Offset>
+        <Offset>34</Offset>
+      </Offsets>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>
